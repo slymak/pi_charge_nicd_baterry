@@ -1,0 +1,50 @@
+#!/usr/bin/python3
+import time
+vin = 13
+vbat1 = 12
+# global charging
+# charging = True
+global cycle
+grid_on = True
+
+try:
+    while grid_on:
+        if vbat1 < 15:
+            charging = True
+            print("sit jeste nema senzor, vstupni je ", vin)
+            time.sleep(2)
+            cycle = 1
+            print("rele_in ON", cycle)
+            while charging:
+                print("nabijim opakuje", cycle)
+                if vbat1 <15:
+                    time.sleep(3)
+                    cycle +=1
+                    if cycle == 4:
+                        charging = False
+                        vin = 15
+                        discharging = True
+                        discharging_rele = True
+                        print("rele_in OFF", cycle)
+            # charge1("True")
+
+            while discharging:
+                print("rele_bat ON", cycle)
+                while discharging_rele:
+                    print("vybijim", vin, cycle)
+                    time.sleep(2)
+                    cycle +=1
+                    if cycle == 7:
+                        discharging_rele = False
+                        discharging = False
+                        vbat1 = 11
+
+            discharging = False
+            print("rele_bat OFF", cycle)
+
+    else:
+        print("tohle je else", cycle)
+        time.sleep(2)
+
+except:
+    print("tohle je vyjimka")
