@@ -1,4 +1,4 @@
-#re!/usr/bin/python3
+#!/usr/bin/python3
 from ina219 import INA219
 from ina219 import DeviceRangeError
 from time import sleep
@@ -7,6 +7,7 @@ SHUNT_OHMS = 0.1
 
 import RPi.GPIO as GPIO
 pinrele1 = 16
+global pinrele4
 pinrele4 = 21
 pinregulv= 12
 pinred = 26
@@ -21,11 +22,11 @@ GPIO.setup(pinrele4, GPIO.OUT)
 GPIO.output(pinrele4, GPIO.HIGH)
 # PWM regulace
 GPIO.setup(pinregulv, GPIO.OUT)
-regulacev = GPIO.PWM(pinregulv,2000)
+regulacev = GPIO.PWM(pinregulv,9000)
 #LEDky
 GPIO.setup(pinred, GPIO.OUT)
 redpwm = GPIO.PWM(pinred, 60)
-#redpwm.start(0)
+redpwm.start(0)
 GPIO.setup(pinwhite, GPIO.OUT)
 whitepwm = GPIO.PWM(pinwhite, 60)
 
@@ -51,17 +52,17 @@ def rele2power():
     regulacev.start(0)
     GPIO.output(pinrele4, GPIO.LOW)
     sleep(4)
-    if a1 < 400:
+    if a1 < 200:
         vykon = 100
         regulacev.ChangeDutyCycle(vykon)
         print("regulacev is: ", vykon)
-        whitepwm.ChangeDutyCycle(vykon)
-        sleep(12)
-    elif a1 > 500:    
+        redpwm.ChangeFrequency(vykon/100)
+        sleep(32)
+    elif a1 > 200:    
         vykon = 40
         regulacev.ChangeDutyCycle(vykon)
         print("regulacev is ", vykon)
-        whitepwm.ChangeDutyCycle(vykon)
+        redpwm.ChangeFrequency(vykon/100)
         sleep(22)
     else:
         GPIO.output(pinrele4, GPIO.HIGH)
@@ -83,7 +84,7 @@ def rele2bat():
 try:
   read_ina()
     
-  while v2 > 1.0:
+  while v1 > 10:
     read_ina()
     sleep(2)
     if v2 > 11:
@@ -92,10 +93,12 @@ try:
       print("baterka ma: ", v2 )
       rele2power()
     
+
       
 
 
 except KeyboardInterrupt:
     regulacev.stop()
     GPIO.cleanup()
- 
+    GPIO.setmode(GPIO.BCM)
+    GPIO.output(pinrele4, GPIO.HIGH)     
