@@ -12,7 +12,8 @@ def inabat():
   print("---ina2: ", v)
   print("---Curr: ", ina2.current())
   print("---Power: ", ina2.power())
-  
+
+#now is there ina3221
 def read_ina():
     ina = INA219(SHUNT_OHMS)
     ina.configure()
@@ -27,6 +28,6 @@ def read_ina():
 
 
 #for x in range(14):
-read_ina()
+#read_ina()
 inabat()
 #	sleep(2)

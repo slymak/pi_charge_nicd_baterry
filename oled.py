@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 from board import SCL, SDA
 import busio
 from oled_text import OledText
