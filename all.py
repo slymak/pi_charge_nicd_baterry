@@ -1,4 +1,4 @@
- #!/usr/bin/python3
+#!/usr/bin/python3
 from ina219 import INA219
 #from ina219 import DeviceRangeError
 import time
@@ -73,7 +73,6 @@ def read_ina():
     
     vinoled = 'vin: ',vin
     oled.text(vinoled, 1)
-    print("ina3221 vin ", vin,"ina3221 ain ", ain)
     vbat1oled = "vbat1 ",vbat1
     oled.text(vbat1oled,2)
     vbat2oled = "vbat2 ",vbat2
@@ -85,7 +84,7 @@ def read_ina():
     aout = float("{:.2f}".format(ina2.current()))
     aoutoled = "aout: ", aout
     oled.text(aoutoled, 5)
-    print("ina219 vout: ", vout, " aout: ", aout)
+    print(f"ina vin: {vin} vout: {vout} ain: {ain} aout: {aout}")    
     status = GPIO.input(pinrele3)
     if status:
         rbat1 = 0
@@ -106,7 +105,7 @@ def read_ina():
         rin = 0
     else:
         rin = 1
-    print("rele bat1-2 ", rbat1, rbat2, " in out ", rin, rout)
+    print(f"rele bat1-2 {rbat1} {rbat2} in out {rin} {rout}")
 
 def charging(status, cycle):
     start_charg = time.time()
@@ -114,20 +113,18 @@ def charging(status, cycle):
     GPIO.output(pinrele4, GPIO.LOW)
     GPIO.output(pinrele3, GPIO.LOW)
     print("_rele_in ON rele_bat1 ON", cycle)
-    
+    read_ina()
     while vbat1 <12.6:
         read_ina()
-        print("nabijim opakuje", cycle, vin, vbat1)
-        if vin == vbat1:      #dojde stava
-            status = False
-            print("nabijim a dosla stava", type(vin))
+        print("1N nabijim opakuje", cycle, vin, vbat1)
+        if int(vin) <= int(vbat1):      #dojde stava
+            grid_on = False
+            grid_off = True
             GPIO.output(pinrele3, GPIO.HIGH)
             GPIO.output(pinrele4, GPIO.HIGH)
             GPIO.output(pinrele2, GPIO.LOW)
-            print("_rele2_bat1 OFF")
-            print("_rele4_vin OFF")
-            print("_rele2_bat2 ON")
-            break 
+            break            
+        
         else:    
             time.sleep(5)
             cycle +=1
@@ -145,14 +142,6 @@ def charging(status, cycle):
                 redpwm.ChangeFrequency(vykon/100)
                 time.sleep(22)
 
-#            if vbat2 > 10.2:
-#                status = GPIO.input(pinrele2)
-#                if status:
-#                    print("rele_bat2 offon")
-#                else:
-#                    print("_rele_bat2 offoff")
-#                    GPIO.output(pinrele2, GPIO.HIGH)
-
     end_charg = (start_charg - time.time())/60
     logg = "suma minutpro bat1", end_charg
     logging.warning(logg)
@@ -165,14 +154,20 @@ def discharging(status, cycle):
     GPIO.output(pinrele1, GPIO.LOW)
     GPIO.output(pinrele2, GPIO.LOW)
     print("_rele_out ON", cycle)
-    print("_rele_bat2 ON", cycle)    
+    print("_rele_bat2 ON", cycle)
+    read_ina()
     while vbat1 > 9.5:
-        read_ina()
-        print("vybijim bat1", vin, vbat1, cycle)
+        if int(vin) <= int(vbat1):      #dojde stava
+            grid_on = False
+            grid_off = True
+            GPIO.output(pinrele3, GPIO.HIGH)
+            GPIO.output(pinrele4, GPIO.HIGH)
+            GPIO.output(pinrele2, GPIO.LOW)
+            break            
+                
+        print("1VV vybijim bat1", vout, aout, vbat1, cycle)
         time.sleep(15)
-#        if vbat2 < 8.2:
-#            GPIO.output(pinrele2, GPIO.HIGH)
-#            print("__rele_bat2 OFF")
+
     status = False
     end_discharg = (start_discharg - time.time())/60    
     logg = "suma minut vybiti pro bat1", end_discharg
@@ -185,22 +180,22 @@ def charging2(status, cycle):
     regulacev.start(0)
     GPIO.output(pinrele4, GPIO.LOW)
     GPIO.output(pinrele2, GPIO.LOW)
-    print("_rele_in ON", cycle)
-    print("_rele_bat2 ON", cycle)
+    print("_rele_in, bat2 ON", cycle)
     
     while vbat2 <13.9:
         read_ina()
-        print("nabijim2 opakuje", cycle, vin, vbat2)
-        if vin == vbat2:      #dojde stava
+        celyint = int(vin)
+        print(f"nabijim2 opakuje {cycle} {vin} {celyint} {vbat2}")
+        if int(vin) == int(vbat2):      #dojde stava
             status = False
-            print("nabijim2 a dosla stava", type(vin))
+            print(f"nabijim2 a dosla stava {celyint}")
             GPIO.output(pinrele2, GPIO.HIGH)
             GPIO.output(pinrele4, GPIO.HIGH)
             GPIO.output(pinrele3, GPIO.LOW)
-            print("_rele2_bat2 OFF")
-            print("_rele4_vin OFF")
-            print("_rele3_bat1 ON")
-            break 
+            grid_on = False
+            grid_off = True
+            break
+            break
         else:    
             time.sleep(5)
             cycle +=1
@@ -222,7 +217,7 @@ def charging2(status, cycle):
     logg = "bat2 nabiti", end_charg
     logging.warning(logg)
     status = False
-    print("konec nabiti bat2 je v: ", end_charg)
+    print("2NN konec nabiti bat2 je v: ", end_charg)
 
 
 def discharging2(status, cycle):
@@ -231,11 +226,15 @@ def discharging2(status, cycle):
     GPIO.output(pinrele3, GPIO.LOW)
     GPIO.output(pinrele2, GPIO.HIGH)
     GPIO.output(pinrele4, GPIO.HIGH)
-    print("_rele_out ON", cycle)
-    print("_rele_bat1 ON", cycle)    
+    print("_rele_out bat1 ON, vin,bat2 OFF ", cycle)
+
     while vbat2 > 9.2:
+        if int(vin) == int(vbat2):      #dojde stava
+            status = False
+            break
+    
         read_ina()
-        print("vybijim bat2", vin, vbat2, cycle)
+        print("2VV vybijim bat2", vin, vbat2, cycle)
         time.sleep(3)
         
     status = False
@@ -246,13 +245,13 @@ def discharging2(status, cycle):
 
 ###############################
 def grid_check():
+    read_ina()
     global grid_on
     global grid_off
-
-    if vin < 10:
+    if int(vin) <= int(vbat1):      #dojde stava
         grid_on = False
         grid_off = True
-        print("grid je off on", grid_off, grid_on)
+        print("grid je na tom takle", grid_off, grid_on)
     else:
         grid_on = True
         grid_off = False
@@ -270,21 +269,22 @@ try:
         time.sleep(1)
 
         charging2(True, 1)
-        print("konci nabijeni2, vin ", vin, vbat1, vbat2, vout)
+        print("2N konci nabijeni2, vin ", vin, vbat1, vbat2, vout)
         GPIO.output(pinrele2, GPIO.HIGH)
         GPIO.output(pinrele4, GPIO.HIGH)
         GPIO.output(pinrele3, GPIO.LOW)
         time.sleep(1)
         cycle = 1
 
+        grid_check()
         discharging2(True, 1)
-        print("vybito2 vin", vin, vbat1, vbat2, vout)
+        print("2V vybito2 vin", vin, vbat1, vbat2, vout)
         GPIO.output(pinrele1, GPIO.HIGH)
         GPIO.output(pinrele3, GPIO.HIGH)
         GPIO.output(pinrele2, GPIO.HIGH)
 
         charging(True, 1)
-        print("konci nabijeni, vin ", vin, vbat1, vbat2, vout)
+        print("1N konci nabijeni, vin ", vin, vbat1, vbat2, vout)
         GPIO.output(pinrele3, GPIO.HIGH)
         GPIO.output(pinrele4, GPIO.HIGH)
         GPIO.output(pinrele2, GPIO.LOW)
@@ -292,7 +292,7 @@ try:
         cycle = 1
 
         discharging(True, 1)
-        print("vybito vin ", vin, vbat1, vbat2, vout)
+        print("1V vybito vin ", vin, vbat1, vbat2, vout)
         GPIO.output(pinrele1, GPIO.HIGH)
         GPIO.output(pinrele2, GPIO.HIGH)
         GPIO.output(pinrele3, GPIO.HIGH)        
@@ -311,21 +311,20 @@ try:
 
 
 except KeyboardInterrupt:
-    print("huhuhu")
+    print("intentionaly interrupted ")
     regulacev.stop()
     GPIO.cleanup()
     GPIO.setmode(GPIO.BCM)
-    GPIO.output(pinrele4, GPIO.HIGH)     
+    GPIO.setup(pinrele4, GPIO.OUT)
+    GPIO.output(pinrele4, GPIO.HIGH)
+    GPIO.setup(pinrele2, GPIO.OUT)
     GPIO.output(pinrele2, GPIO.HIGH)
+    GPIO.setup(pinrele3, GPIO.OUT)
     GPIO.output(pinrele3, GPIO.HIGH)
+    GPIO.setup(pinrele1, GPIO.OUT)
     GPIO.output(pinrele1, GPIO.HIGH)
-    print("tohle je vyjimka", vin)
 
-
-print("KDE JSEM", vin)
-status = GPIO.input(pinrele2)
-if status:
-    print("rele_bat2 offon")
 else:
-    print("_rele_bat2 offoff")
-    GPIO.output(pinrele2, GPIO.HIGH)
+    print("KDE JSEM out ot try", vin)
+
+
