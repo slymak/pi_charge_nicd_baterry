@@ -16,8 +16,6 @@ from barbudor_ina3221.lite import INA3221
 i2c_bus = board.I2C()
 ina3221 = INA3221(i2c_bus)
 
-import matplotlib.pyplot as plt
-
 grid_on = True
 grid_off = False
 SHUNT_OHMS = 0.1
@@ -117,9 +115,9 @@ def charging():
     GPIO.output(pinrele3, GPIO.LOW)
     print("_rele_in ON rele_bat1 ON", cycle)
     read_ina()
-    while vbat1 < 14.3 and vin > vbat1:
+    while vbat1 <12.3 and int(vin) > int(vbat1):
         read_ina()
-        print(f"1N vin {vin} vbat1 {vbat1} nabijim opakuje {cycle}")
+        print("1N in while nabijim opakuje", cycle, vin, vbat1)
         time.sleep(5)
         cycle +=1
         time.sleep(4)
@@ -153,7 +151,7 @@ def discharging():
     print(f"_rele_out and bat2 ON bat1 OFF")
     
     read_ina()
-    while vbat1 > 8.5 and vin > vbat1:                
+    while vbat1 > 10.5 and int(vin) > int(vbat1):                
         read_ina()
         print("1VV vybijim bat1", vout, aout, vbat1, cycle)
         time.sleep(15)
@@ -172,40 +170,28 @@ def charging2():
     regulacev.start(0)
     GPIO.output(pinrele4, GPIO.LOW)
     GPIO.output(pinrele2, GPIO.LOW)
-    cycle = 1
-    print(f"_rele_in, bat2 ON  vbat {vbat1} cycle {cycle}")
+    print("_rele_in, bat2 ON", cycle)
     
-    x = [cycle]
-    y = [vbat2]
-    while vbat2 <17  and int(vin) >= int(vbat2):
+    while vbat2 <13.9  and int(vin) > int(vbat1):
         read_ina()
-        print(f"nabijim2 vin {vin} vbat2 {vbat2} vbat1 {vbat1}")
-        cycle += 1
-        x.append(cycle)
-        y.append(vbat2)	
+        print(f"nabijim2 opakuje {cycle} {vin} {vout} {vbat2}")
         if ain < 230:
-            vykon = 20
+            vykon = 100
             regulacev.ChangeDutyCycle(vykon)
             print("regulacev is: ", vykon)
             redpwm.ChangeFrequency(vykon/100)
-            time.sleep(3)
+            time.sleep(12)
         else:
-            vykon = 10
+            vykon = 20
             regulacev.ChangeDutyCycle(vykon)
             print("regulacev is ", vykon)
             redpwm.ChangeFrequency(vykon/100)
-            time.sleep(4)
+            time.sleep(12)
 
     end_charg = (start_charg - time.time())/60
     logg = "bat2 nabiti", end_charg
     logging.warning(logg)
-    plt.plot(x,y)
-    plt.xlabel('prubeh')
-    plt.ylabel('napeti')
-    plt.title('nabijeni bat1 bila')
-    plt.savefig('bat1_nabijeni.png')
-    print(x)
-    print(y)
+    status = False
     print("2NN konec nabiti bat2 je v: ", end_charg)
     GPIO.output(pinrele2, GPIO.HIGH)
     GPIO.output(pinrele4, GPIO.HIGH)
@@ -220,7 +206,7 @@ def discharging2():
     GPIO.output(pinrele4, GPIO.HIGH)
     print("_rele_out bat1 ON, vin,bat2 OFF ", cycle)
 
-    while vbat2 > 8.2  and vin > vbat2:                
+    while vbat2 > 9.2  and int(vin) > int(vbat1):                
         read_ina()
         print("2VV vybijim bat2", vin, vbat2, cycle)
         time.sleep(3)
@@ -232,67 +218,59 @@ def discharging2():
     print("konec vybiti bat2 je v: ", end_discharg)
 
 ###############################
-def grid_check(vbat):
+def grid_check():
     read_ina()
     global grid_on
     global grid_off
-    if vin < vbat:      #dojde stava
+    if int(vin) <= int(vbat1):      #dojde stava
         grid_on = False
         grid_off = True
-        print(f"grid NENI  off ma {grid_off} on ma {grid_on}")
+        print("grid je na tom takle", grid_off, grid_on)
     else:
         grid_on = True
         grid_off = False
-        print(f"grid  je off ma {grid_off} on ma {grid_on}")
+        print("grid kontrola je stava", grid_off, grid_on)
 
 
 try:
     read_ina()
+    grid_check()
     cycle = 1
-    while True:    
-        while grid_on:
-            print(f"     zaciname vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
-            grid_check(vbat2)
-            if grid_off == True:
-                break
-        ## cycle baterry 2 white
-#            charging2()
-            charging2()
-            grid_check(vbat2)
-            if grid_off == True:
-                break
-            print(f"2N konci nabijeni2, vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
+    
+    while grid_on:
+        print("sit jede vin vbat1", vin, vbat1)
+        grid_check()
+        time.sleep(1)
+## cycle baterry 2
+        charging2()
+        grid_check()
+        print("2N konci nabijeni2, vin ", vin, vbat1, vbat2, vout)
 
-            discharging2()
-            grid_check(vbat2)
-            if grid_off == True:
-                break
-            print(f"2V vybito2 vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
-        ## cycle baterrry 1
-            charging()
-            print("1N konci nabito, vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
-            if grid_off == True:
-                break
-            print(f"1N uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
+        discharging2()
+        grid_check()
+        print("2V vybito2 vin", vin, vbat1, vbat2, vout)
+## cycle baterrry 1
+        charging()
+        print("1N konci nabito, vin ", vin, vbat1, vbat2, vout)
+        grid_check()
+        print(f"1N uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
 
-            discharging()
-            print("1V konci vybito vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
-            if grid_off == True:
-                break
-            print(f"1V uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
+        discharging()
+        print("1V konci vybito vin ", vin, vbat1, vbat2, vout)
+        grid_check()
+        print(f"1V uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
 
-        while grid_off:
-            print(f"neni stava", vin)
-            print("overujeme stavu", vin)
-            time.sleep(1)
-            print("rele_230 OFF", vin)
-            time.sleep(1)
-            grid_check(13)
-            if grid_off == False:
-                break
-            time.sleep(11)
+    while grid_off:
+        print(f"neni stava", vin)
+        time.sleep(1)
+        print("overujeme stavu", vin)
+        time.sleep(1)
+        print("rele_230 ON", vin)
+        time.sleep(1)
+        print("rele_dcac ON", vin)
+        print("rele_bat ON", vin)
+        time.sleep(1)
+        grid_off = False
 
 
 except KeyboardInterrupt:
