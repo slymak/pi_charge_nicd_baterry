@@ -144,39 +144,59 @@ def charging(baterry, pinrelebat, pinrelebat2, maxvbat, vbat, maxain):
             time.sleep(14)
 
     td = datetime.datetime.now()
+    datum = dt.strftime("%y%m%d-%H:%M")
     end_charg = (start_charg - time.time())/60
-    logging.warning(f"nabiti baterky {baterry} za {logg} casu")
+    logging.warning(f"nabiti baterky {baterry} za {end_charg} casu")
     plt.plot(x,y)
-    plt.xlabel('prubeh')
+    plt.xlabel('prubeh po 14s')
     plt.ylabel('napeti')
     plt.title(f"nabijeni baterky {baterry} pocet cyklu {cycle}")
-    plt.savefig(f"nabiti_{baterry}.png")   #need add datetime
-    print(x)
-    print(y)
+    #plt.savefig(f"nabiti_{baterry}.png")   #need add datetime like 
+    plt.savefig(f"nabiti_{baterry}_{datum}.png")   
+#    print(x)
+#    print(y)
     print("2NN konec nabiti bat2 je v: ", end_charg)
     GPIO.output(pinrelebat, GPIO.HIGH)
+    GPIO.output(pinrelebat2, GPIO.LOW)
     GPIO.output(pinrele4, GPIO.HIGH)
-    GPIO.output(pinrele3, GPIO.LOW)
+    GPIO.output(pinrele1, GPIO.HIGH)
 
 
-def discharging2():
+def discharging(baterry, pinrelebat, pinrelebat2, minvbat, vbat):
     start_discharg = time.time()
     GPIO.output(pinrele1, GPIO.LOW)
-    GPIO.output(pinrele3, GPIO.LOW)
-    GPIO.output(pinrele2, GPIO.HIGH)
+    GPIO.output(pinrelbat2, GPIO.LOW)
+    GPIO.output(pinrelbat, GPIO.HIGH)
     GPIO.output(pinrele4, GPIO.HIGH)
     print("_rele_out bat1 ON, vin,bat2 OFF ", cycle)
-
-    while vbat2 > 8.2  and vin > vbat2:                
+    cycle = 1
+    x = [cycle]
+    y = [vbat]
+    while vbat > minvbat  and vin > vbat:
         read_ina()
-        print("2VV vybijim bat2", vin, vbat2, cycle)
-        time.sleep(3)
+        print("2VV vybijim bat", vin, vbat, cycle)
+        cycle += 1
+        x.append(cycle)
+        y.append(vbat)	
+        time.sleep(14)
         
+    td = datetime.datetime.now()
+    datum = dt.strftime("%y%m%d-%H:%M")
     end_discharg = (start_discharg - time.time())/60    
-    logg = "bat2 vybiti", end_discharg
-    logging.warning(logg)
+    logging.warning(f"vybiti baterky {baterry} za {end_discharg} minuty")
+
+    plt.plot(x,y)
+    plt.xlabel('prubeh po 14s')
+    plt.ylabel('napeti')
+    plt.title(f"vybijeni baterky {baterry} pocet cyklu {cycle}")
+    #plt.savefig(f"nabiti_{baterry}.png")   #need add datetime like 
+    plt.savefig(f"vybiti_{baterry}_{datum}.png")   
+
     GPIO.output(pinrele1, GPIO.HIGH)
-    print("konec vybiti bat2 je v: ", end_discharg)
+    GPIO.output(pinrelbat2, GPIO.HIGH)
+    GPIO.output(pinrelbat, GPIO.HIGH)
+    GPIO.output(pinrele4, GPIO.HIGH)
+    print(f"konec vybiti {baterry} je v: {end_discharg}")
 
 ###############################
 def grid_check(vbat):
@@ -209,18 +229,19 @@ try:
             maxvbat = 14.3
             maxain = 430
             pinrelebat = pinrele3
+            pinrelebat2 = pinrele2
             minvbat = 8.5
             # cycle baterry 
-            charging(pinrelebat, maxvbat, maxain)
+            charging(baterry, pinrelebat, pinrelebat2, maxvbat, vbat, maxain)
             print("1N konci nabito, vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
+            grid_check(vbat)
             if grid_off == True:
                 break
             print(f"1N uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
 
-            discharging(pinrelebat, minvbat)
+            discharging(baterry, pinrelebat, pinrelebat2, minvbat, vbat)
             print("1V konci vybito vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
+            grid_check(vbat)
             if grid_off == True:
                 break
             print(f"1V uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
