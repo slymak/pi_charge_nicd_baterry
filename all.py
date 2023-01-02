@@ -177,7 +177,7 @@ def charging2():
     
     x = [cycle]
     y = [vbat2]
-    while vbat2 <17  and int(vin) >= int(vbat2):
+    while vbat2 <17  and int(vin) > int(vbat2):
         read_ina()
         print(f"nabijim2 vin {vin} vbat2 {vbat2} vbat1 {vbat1}")
         cycle += 1
