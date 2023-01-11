@@ -2,6 +2,7 @@
 from ina219 import INA219
 #from ina219 import DeviceRangeError
 import time
+import datetime
 import logging
 logging.basicConfig(format='%(asctime)s - %(message)s',filename='logall.log')
 from board import SCL, SDA
@@ -32,7 +33,7 @@ pinregulv= 12
 pinred = 26
 pinwhite = 19
 
-#rele
+#reley
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(pinrele1, GPIO.OUT)
@@ -54,13 +55,8 @@ GPIO.setup(pinwhite, GPIO.OUT)
 whitepwm = GPIO.PWM(pinwhite, 60)
 
 
+
 def read_ina():
-    global vout
-    global aout
-    global vin
-    global ain
-    global vbat1
-    global vbat2
     ina3221.enable_channel(1)
     ina3221.enable_channel(2)
     ina3221.enable_channel(3)
@@ -73,20 +69,22 @@ def read_ina():
     ina2 = INA219(SHUNT_OHMS,3, address=0x44)
     ina2.configure()
     
+    #display values    
     vinoled = 'vin: ',vin
     oled.text(vinoled, 1)
     vbat1oled = "vbat1 ",vbat1
     oled.text(vbat1oled,2)
     vbat2oled = "vbat2 ",vbat2
     oled.text(vbat2oled,3)
-    print("----vbat1 dole",vbat1, "vbat2 bila",vbat2)
     vout = float("{:.2f}".format(ina2.voltage()))
     voutoled = 'vout ',vout
     oled.text(voutoled, 4)
     aout = float("{:.2f}".format(ina2.current()))
     aoutoled = "aout: ", aout
     oled.text(aoutoled, 5)
-    print(f"   ina vin: {vin} vout: {vout} ain: {ain} aout: {aout}")    
+    print(f"----vbat1 dole {vbat1} vbat2 bila {vbat2} vin: {vin} vout: {vout} ain: {ain} aout: {aout}")
+    
+    #collect reley status
     status = GPIO.input(pinrele3)
     if status:
         rbat1 = 0
@@ -107,192 +105,203 @@ def read_ina():
         rin = 0
     else:
         rin = 1
-    print(f"   rele bat1-2 || {rbat1} {rbat2} in out {rin} {rout}")
+    #print(f"   RELE bat1 {rbat1} bat2 {rbat2} in {rin} out {rout}")
 
-def charging():
-    cycle = 1
-    start_charg = time.time()
-    regulacev.start(0)
-    GPIO.output(pinrele4, GPIO.LOW)
-    GPIO.output(pinrele3, GPIO.LOW)
-    print("_rele_in ON rele_bat1 ON", cycle)
-    read_ina()
-    while vbat1 < 14.3 and vin > vbat1:
-        read_ina()
-        print(f"1N vin {vin} vbat1 {vbat1} nabijim opakuje {cycle}")
-        time.sleep(5)
-        cycle +=1
-        time.sleep(4)
-        if ain < 430:
-            vykon = 100
-            regulacev.ChangeDutyCycle(vykon)
-            print("regulacev is: ", vykon)
-            redpwm.ChangeFrequency(vykon/100)
-            time.sleep(32)
-        else:
-            vykon = 40
-            regulacev.ChangeDutyCycle(vykon)
-            print("regulacev is ", vykon)
-            redpwm.ChangeFrequency(vykon/100)
-            time.sleep(22)
-
-    end_charg = (start_charg - time.time())/60
-    logg = "suma minutpro bat1", end_charg
-    logging.warning(logg)
-    print("konec nabiti bat1 je v: ", end_charg)
-    GPIO.output(pinrele4, GPIO.HIGH)
-    GPIO.output(pinrele3, GPIO.HIGH)
-    GPIO.output(pinrele2, GPIO.LOW)
-    
-
-def discharging():
-    start_discharg = time.time()
-    GPIO.output(pinrele3, GPIO.HIGH)
-    GPIO.output(pinrele2, GPIO.LOW)
-    GPIO.output(pinrele1, GPIO.LOW)
-    print(f"_rele_out and bat2 ON bat1 OFF")
-    
-    read_ina()
-    while vbat1 > 8.5 and vin > vbat1:                
-        read_ina()
-        print("1VV vybijim bat1", vout, aout, vbat1, cycle)
-        time.sleep(15)
-
-    
-    end_discharg = (start_discharg - time.time())/60    
-    logg = "suma minut vybiti pro bat1", end_discharg
-    logging.warning(logg)
-    print("konec vybiti bat1 je v: ", end_discharg)
-    GPIO.output(pinrele1, GPIO.HIGH)
-    
-    
-######################################
-def charging2():
-    start_charg = time.time()
-    regulacev.start(0)
-    GPIO.output(pinrele4, GPIO.LOW)
-    GPIO.output(pinrele2, GPIO.LOW)
-    cycle = 1
-    print(f"_rele_in, bat2 ON  vbat {vbat1} cycle {cycle}")
-    
-    x = [cycle]
-    y = [vbat2]
-    while vbat2 <17  and int(vin) > int(vbat2):
-        read_ina()
-        print(f"nabijim2 vin {vin} vbat2 {vbat2} vbat1 {vbat1}")
-        cycle += 1
-        x.append(cycle)
-        y.append(vbat2)	
-        if ain < 230:
-            vykon = 20
-            regulacev.ChangeDutyCycle(vykon)
-            print("regulacev is: ", vykon)
-            redpwm.ChangeFrequency(vykon/100)
-            time.sleep(3)
-        else:
-            vykon = 10
-            regulacev.ChangeDutyCycle(vykon)
-            print("regulacev is ", vykon)
-            redpwm.ChangeFrequency(vykon/100)
-            time.sleep(4)
-
-    end_charg = (start_charg - time.time())/60
-    logg = "bat2 nabiti", end_charg
-    logging.warning(logg)
-    plt.plot(x,y)
-    plt.xlabel('prubeh')
-    plt.ylabel('napeti')
-    plt.title('nabijeni bat1 bila')
-    plt.savefig('bat1_nabijeni.png')
-    print(x)
-    print(y)
-    print("2NN konec nabiti bat2 je v: ", end_charg)
-    GPIO.output(pinrele2, GPIO.HIGH)
-    GPIO.output(pinrele4, GPIO.HIGH)
-    GPIO.output(pinrele3, GPIO.LOW)
-
-
-def discharging2():
-    start_discharg = time.time()
-    GPIO.output(pinrele1, GPIO.LOW)
-    GPIO.output(pinrele3, GPIO.LOW)
-    GPIO.output(pinrele2, GPIO.HIGH)
-    GPIO.output(pinrele4, GPIO.HIGH)
-    print("_rele_out bat1 ON, vin,bat2 OFF ", cycle)
-
-    while vbat2 > 8.2  and vin > vbat2:                
-        read_ina()
-        print("2VV vybijim bat2", vin, vbat2, cycle)
-        time.sleep(3)
-        
-    end_discharg = (start_discharg - time.time())/60    
-    logg = "bat2 vybiti", end_discharg
-    logging.warning(logg)
-    GPIO.output(pinrele1, GPIO.HIGH)
-    print("konec vybiti bat2 je v: ", end_discharg)
-
-###############################
-def grid_check(vbat):
-    read_ina()
-    global grid_on
-    global grid_off
+    #grid check 
+    if baterry == "horni":
+        vbat = vbat2
+    elif baterry == "dolni":
+        vbat = vbat1
     if vin < vbat:      #dojde stava
         grid_on = False
         grid_off = True
-        print(f"grid NENI  off ma {grid_off} on ma {grid_on}")
+#        print(f"grid NENI  off ma {grid_off} on ma {grid_on}")
     else:
         grid_on = True
         grid_off = False
-        print(f"grid  je off ma {grid_off} on ma {grid_on}")
+#        print(f"grid off ma {grid_off} on ma {grid_on}")
 
-
-try:
+    
+    ina = dict()
+    ina['vout'] = vout
+    ina['vin'] = vin
+    ina['vbat'] = vbat
+    ina['vbat1'] = vbat1
+    ina['vbat2'] = vbat2
+    ina['aout'] = aout
+    ina['ain'] = ain
+    ina['grid_on'] = grid_on
+    ina['grid_off'] = grid_off
+    return ina
+    
+######################################
+def charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain):
+    start_charg = time.time()
+    regulacev.start(0)
+    GPIO.output(pinrele1, GPIO.HIGH)
+    GPIO.output(pinrelebat, GPIO.LOW)
+    GPIO.output(pinrelebat2, GPIO.HIGH)
+    GPIO.output(pinrele4, GPIO.LOW)
+        
     read_ina()
+    ina = read_ina()
+    xcycle = 1
+    x = [1]
+    y = [ina['vbat']]
+    
+    #loop till 
+    while ina['vbat'] < maxvbat  and ina['vin'] > ina['vbat']:
+        read_ina()
+        ina = read_ina()
+            
+        print(f"{xcycle} charging xcycle baterry {baterry} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
+        xcycle += 1
+        x.append(xcycle)
+        y.append(ina['vbat'])	
+        #PWM regulation
+        if ina['ain'] < maxain:
+            vykon = 100
+            regulacev.ChangeDutyCycle(vykon)
+            print("PWM regulation is: ", vykon)
+            redpwm.ChangeFrequency(vykon/100)
+            time.sleep(6)
+        else:
+            vykon = 60
+            regulacev.ChangeDutyCycle(vykon)
+            print("regulacev is ", vykon)
+            redpwm.ChangeFrequency(vykon/100)
+            time.sleep(14)
+
+    #creating plot
+    dt = datetime.datetime.now()
+    datum = dt.strftime("%y%m%d-%H:%M")
+    end_charg = (start_charg - time.time())/60
+    logging.warning(f" baterry {baterry} charged in {end_charg} minut")
+    plt.plot(x,y)
+    plt.xlabel('time period  6s')
+    plt.ylabel('voltage')
+    plt.title(f"charging baterry {baterry} took {xcycle} period")
+    plt.savefig(f"charge_{baterry}_{datum}.png")   
+    plt.clf()
+    print (*x)
+    print (*y)
+    x = []
+    y = []
+    
+    GPIO.output(pinrelebat, GPIO.HIGH)
+    GPIO.output(pinrelebat2, GPIO.LOW)
+    GPIO.output(pinrele4, GPIO.HIGH)
+    GPIO.output(pinrele1, GPIO.HIGH)
+
+######################################
+def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
+    start_discharg = time.time()
+    GPIO.output(pinrele1, GPIO.LOW)
+    GPIO.output(pinrelebat2, GPIO.LOW)
+    GPIO.output(pinrelebat, GPIO.HIGH)
+    GPIO.output(pinrele4, GPIO.HIGH)
+
+    read_ina()
+    ina = read_ina()
+    xcycle = 1
+    x = [1]
+    y = [ina['vbat']]
+
+    while ina['vbat'] > minvbat  and ina['vin'] > ina['vbat']:
+        read_ina()
+        ina = read_ina()
+        print(f"{xcycle} DIScharging xcycle baterry {baterry} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
+        xcycle += 1
+        x.append(xcycle)
+        y.append(ina['vbat'])	
+        time.sleep(6)
+        
+    dt = datetime.datetime.now()
+    datum = dt.strftime("%y%m%d-%H:%M")
+    end_discharg = (start_discharg - time.time())/60    
+    logging.warning(f" baterry {baterry} DIScharged in {end_discharg} minutes")
+    
+    #creating plot
+    plt.figure
+    plt.plot(x,y)
+    #for i in range(len(x)):
+    #    plt.annotate(str(y[i]), xy=(x[i], y[i]))
+    plt.xlabel('time period 6s')
+    plt.ylabel('voltage')
+    plt.title(f"discharging baterry {baterry} took {xcycle} period")
+    plt.savefig(f"discharge_{baterry}_{datum}.png")
+    plt.clf()
+    print (*x, sep = ", ")
+    print (*y, sep = ", ")
+    x = []
+    y = []
+    
+    GPIO.output(pinrele1, GPIO.HIGH)
+    GPIO.output(pinrelebat2, GPIO.HIGH)
+    GPIO.output(pinrelebat, GPIO.HIGH)
+    GPIO.output(pinrele4, GPIO.HIGH)
+    
+#------------ main ------------------
+try:
     cycle = 1
-    while True:    
-        while grid_on:
-            print(f"     zaciname vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
-            grid_check(vbat2)
-            if grid_off == True:
-                break
-        ## cycle baterry 2 white
-#            charging2()
-            charging2()
-            grid_check(vbat2)
-            if grid_off == True:
-                break
-            print(f"2N konci nabijeni2, vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
+    while cycle < 5:
+        baterry = "horni"
+        read_ina()
+        ina = read_ina()
+        print(f"{cycle} CYCLE begining vin {ina['vin']} vbat1 {ina['vbat1']} vbat2 {ina['vbat2']}")
 
-            discharging2()
-            grid_check(vbat2)
-            if grid_off == True:
+#grid is on ----------------------
+        while ina['grid_on'] and cycle < 5:
+            if ina['grid_off'] == True:
                 break
-            print(f"2V vybito2 vin {vin} vbat1 {vbat1} vbat2 {vbat2}")
-        ## cycle baterrry 1
-            charging()
-            print("1N konci nabito, vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
-            if grid_off == True:
-                break
-            print(f"1N uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
+            if (cycle % 2) == 0:        
+                # dolni baterka
+                baterry = "dolni"
+                maxvbat = 12.05
+                maxain = 730
+                pinrelebat = pinrele3
+                pinrelebat2 = pinrele2
+                minvbat = 8.5
+            else:
+                # horni baterka
+                baterry = "horni"
+                maxvbat = 16.1
+                maxain = 230
+                pinrelebat = pinrele2
+                pinrelebat2 = pinrele3
+                minvbat = 9.1
 
-            discharging()
-            print("1V konci vybito vin ", vin, vbat1, vbat2, vout)
-            grid_check(vbat1)
-            if grid_off == True:
+            
+            # charging ---------------------------------
+            charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain)
+            
+            read_ina()
+            ina = read_ina()
+            if ina['grid_off'] == True:
                 break
-            print(f"1V uplne na konci gridy jsou {grid_on}  a OFF ma {grid_off}") 
+            time.sleep(4)
+            
+            # discharging ------------------------------
+            discharging(baterry, pinrelebat, pinrelebat2, minvbat)
 
-        while grid_off:
-            print(f"neni stava", vin)
-            print("overujeme stavu", vin)
-            time.sleep(1)
-            print("rele_230 OFF", vin)
-            time.sleep(1)
-            grid_check(13)
-            if grid_off == False:
+            read_ina()
+            ina = read_ina()
+            if ina['grid_off'] == True:
                 break
+            cycle += 1
+            time.sleep(2)
+            print(f"{cycle} cycle for baterry {baterry} VYBITO ")            
+            
+# grid off waiting for grid    
+        while ina['grid_off']:
+            print(f"         no input grid ")
             time.sleep(11)
+            
+            read_ina()
+            ina = read_ina()
+            time.sleep(4)
+            if ina['grid_off'] == True:
+                break
 
 
 except KeyboardInterrupt:
@@ -310,6 +319,5 @@ except KeyboardInterrupt:
     GPIO.output(pinrele1, GPIO.HIGH)
 
 else:
-    print("KDE JSEM out ot try", vin)
-
+    print(f" charging / discharging period {cycle} is done")
 
