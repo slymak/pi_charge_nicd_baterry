@@ -18,7 +18,7 @@ i2c_bus = board.I2C()
 ina3221 = INA3221(i2c_bus)
 
 import matplotlib.pyplot as plt
-#editable  valus -- baterry setting is below while
+#editable  valus -- battery setting is below while
 num_period = 5		#how many times charge and discharge
 waiting = 5			# delay interval for next measurement
 
@@ -45,7 +45,7 @@ GPIO.output(pinrele4, GPIO.HIGH)
 # PWM regulace
 GPIO.setup(pinregulv, GPIO.OUT)
 regulacev = GPIO.PWM(pinregulv,9000)
-#LEDky
+#LEDky doesn't use
 GPIO.setup(pinred, GPIO.OUT)
 redpwm = GPIO.PWM(pinred, 60)
 redpwm.start(0)
@@ -106,9 +106,9 @@ def read_ina():
     #print(f"   RELE bat1 {rbat1} bat2 {rbat2} in {rin} out {rout}")
 
     #grid check 
-    if baterry == "bat_top":
+    if battery == "bat_top":
         vbat = vbat2
-    elif baterry == "bat_down":
+    elif battery == "bat_down":
         vbat = vbat1
     if vin < vbat:      #dojde stava
         grid_on = False
@@ -133,7 +133,7 @@ def read_ina():
     return ina
     
 ######################################
-def charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain):
+def charging(battery, pinrelebat, pinrelebat2, maxvbat, maxain):
     start_charg = time.time()
     regulacev.start(0)
     GPIO.output(pinrele1, GPIO.HIGH)
@@ -152,7 +152,7 @@ def charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain):
         read_ina()
         ina = read_ina()
             
-        print(f"{xcycle} charging xcycle baterry {baterry} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
+        print(f"{xcycle} charging xcycle battery {battery} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
         xcycle += 1
         x.append(xcycle)
         y.append(ina['vbat'])	
@@ -174,12 +174,12 @@ def charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain):
     dt = datetime.datetime.now()
     datum = dt.strftime("%y%m%d-%H:%M")
     end_charg = (start_charg - time.time())/60
-    logging.warning(f" baterry {baterry} charged in {end_charg} minutes took {xcycle} period")
+    logging.warning(f" battery {battery} charged in {end_charg} minutes took {xcycle} period")
     plt.plot(x,y)
     plt.xlabel(f"time period {waiting} sec")
     plt.ylabel('voltage')
-    plt.title(f"charging baterry {baterry} took {xcycle} period")
-    plt.savefig(f"charge_{baterry}_{datum}.png")   
+    plt.title(f"charging battery {battery} took {xcycle} period")
+    plt.savefig(f"charge_{battery}_{datum}.png")   
     plt.clf()
     print (*x)
     print (*y)
@@ -192,7 +192,7 @@ def charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain):
     GPIO.output(pinrele1, GPIO.HIGH)
 
 ######################################
-def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
+def discharging(battery, pinrelebat, pinrelebat2, minvbat):
     start_discharg = time.time()
     GPIO.output(pinrele1, GPIO.LOW)
     GPIO.output(pinrelebat2, GPIO.LOW)
@@ -208,7 +208,7 @@ def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
     while ina['vbat'] > minvbat  and ina['vin'] > ina['vbat']:
         read_ina()
         ina = read_ina()
-        print(f"{xcycle} DIScharging xcycle baterry {baterry} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
+        print(f"{xcycle} DIScharging xcycle battery {battery} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
         xcycle += 1
         x.append(xcycle)
         y.append(ina['vbat'])	
@@ -217,7 +217,7 @@ def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
     dt = datetime.datetime.now()
     datum = dt.strftime("%y%m%d-%H:%M")
     end_discharg = (start_discharg - time.time())/60    
-    logging.warning(f" baterry {baterry} DIScharged in {end_discharg} minutes took {xcycle} period")
+    logging.warning(f" battery {battery} DIScharged in {end_discharg} minutes took {xcycle} period")
     
     #creating plot
     plt.figure
@@ -226,8 +226,8 @@ def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
     #    plt.annotate(str(y[i]), xy=(x[i], y[i]))
     plt.xlabel(f"time period {waiting} sec")
     plt.ylabel('voltage')
-    plt.title(f"discharging baterry {baterry} took {xcycle} period")
-    plt.savefig(f"discharge_{baterry}_{datum}.png")
+    plt.title(f"discharging battery {battery} took {xcycle} period")
+    plt.savefig(f"discharge_{battery}_{datum}.png")
     plt.clf()
     print (*x, sep = ", ")
     print (*y, sep = ", ")
@@ -243,7 +243,7 @@ def discharging(baterry, pinrelebat, pinrelebat2, minvbat):
 try:
     cycle = 1
     while cycle < num_period:
-        baterry = "bat_top"
+        battery = "bat_top"
         read_ina()
         ina = read_ina()
         print(f"{cycle} CYCLE begining vin {ina['vin']} vbat1 {ina['vbat1']} vbat2 {ina['vbat2']}")
@@ -254,16 +254,16 @@ try:
                 break
             if (cycle % 2) == 0:        
 # -------------- editing fields -----------------------          
-                # bat_down baterry
-                baterry = "bat_down"
+                # bat_down battery
+                battery = "bat_down"
                 maxvbat = 12.05
                 maxain = 730
                 pinrelebat = pinrele3
                 pinrelebat2 = pinrele2
                 minvbat = 8.5
             else:
-                # bat_top baterry
-                baterry = "bat_top"
+                # bat_top battery
+                battery = "bat_top"
                 maxvbat = 16.1
                 maxain = 230
                 pinrelebat = pinrele2
@@ -272,7 +272,7 @@ try:
 # -------------- editing fields -----------------------
             
             # charging ---------------------------------
-            charging(baterry, pinrelebat, pinrelebat2, maxvbat, maxain)
+            charging(battery, pinrelebat, pinrelebat2, maxvbat, maxain)
             
             read_ina()
             ina = read_ina()
@@ -281,7 +281,7 @@ try:
             time.sleep(4)
             
             # discharging ------------------------------
-            discharging(baterry, pinrelebat, pinrelebat2, minvbat)
+            discharging(battery, pinrelebat, pinrelebat2, minvbat)
 
             read_ina()
             ina = read_ina()
@@ -289,7 +289,7 @@ try:
                 break
             cycle += 1
             time.sleep(2)
-            print(f"{cycle} cycle for baterry {baterry} DISCHARGED ")            
+            print(f"{cycle} cycle for battery {battery} DISCHARGED ")            
             
 # grid off waiting for grid    
         while ina['grid_off']:
