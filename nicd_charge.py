@@ -152,7 +152,7 @@ def charging(battery, pinrelebat, pinrelebat2, maxvbat, maxain):
         read_ina()
         ina = read_ina()
             
-        print(f"{xcycle} charging xcycle battery {battery} Vbat = {ina['vbat']}, Vin = {ina['vin']}  Ain {ina['ain']}")
+        print(f"{xcycle} CHARGING xcycle battery {battery} Vbat = {ina['vbat']}, Vin = {ina['vin']}  maxvbat je {maxvbat} vbat1 je {ina['vbat1']} vbat2 je {ina['vbat2']}")
         xcycle += 1
         x.append(xcycle)
         y.append(ina['vbat'])	
@@ -243,7 +243,7 @@ def discharging(battery, pinrelebat, pinrelebat2, minvbat):
 try:
     cycle = 1
     while cycle < num_period:
-        battery = "bat_top"
+        battery = "bat_down"
         read_ina()
         ina = read_ina()
         print(f"{cycle} CYCLE begining vin {ina['vin']} vbat1 {ina['vbat1']} vbat2 {ina['vbat2']}")
@@ -256,7 +256,7 @@ try:
 # -------------- editing fields -----------------------          
                 # bat_down battery
                 battery = "bat_down"
-                maxvbat = 16.6
+                maxvbat = 14.6
                 maxain = 730
                 pinrelebat = pinrele3
                 pinrelebat2 = pinrele2
@@ -264,7 +264,7 @@ try:
             else:
                 # bat_top battery
                 battery = "bat_top"
-                maxvbat = 16.6
+                maxvbat = 14.6
                 maxain = 230
                 pinrelebat = pinrele2
                 pinrelebat2 = pinrele3
@@ -281,15 +281,16 @@ try:
             time.sleep(4)
             
             # discharging ------------------------------
-            discharging(battery, pinrelebat, pinrelebat2, minvbat)
-
-            read_ina()
-            ina = read_ina()
-            if ina['grid_off'] == True:
-                break
+#            discharging(battery, pinrelebat, pinrelebat2, minvbat)
+#
+#            read_ina()
+#            ina = read_ina()
+#            if ina['grid_off'] == True:
+#                break
             cycle += 1
+            print(cycle)
             time.sleep(2)
-            print(f"{cycle} cycle for battery {battery} DISCHARGED ")            
+#            print(f"{cycle} cycle for battery {battery} DISCHARGED ")            
             
 # grid off waiting for grid    
         while ina['grid_off']:
