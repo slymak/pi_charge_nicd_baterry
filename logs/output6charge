@@ -1,0 +1,2272 @@
+----vbat1 bat_down 12.98 vbat2 bat_top 12.98 vin: 18.98 vout: 13.0 ain: 2.8 aout: 0.09
+----vbat1 bat_down 12.98 vbat2 bat_top 12.98 vin: 18.98 vout: 13.0 ain: 2.8 aout: -0.09
+1 CYCLE begining vin 18.98 vbat1 12.98 vbat2 12.98
+----vbat1 bat_down 12.98 vbat2 bat_top 12.98 vin: 18.98 vout: 13.27 ain: 2.8 aout: 0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 13.67 vin: 13.89 vout: 13.3 ain: 2.0 aout: -0.46
+----vbat1 bat_down 13.29 vbat2 bat_top 13.69 vin: 13.91 vout: 13.3 ain: 2.0 aout: -0.37
+----vbat1 bat_down 13.29 vbat2 bat_top 13.73 vin: 13.95 vout: 13.33 ain: 2.0 aout: -0.09
+1 charging xcycle battery bat_top Vbat = 13.73, Vin = 13.95  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.0 vin: 14.24 vout: 13.31 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.0 vin: 14.23 vout: 13.16 ain: 2.0 aout: -0.09
+2 charging xcycle battery bat_top Vbat = 14.0, Vin = 14.23  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.03 vin: 14.24 vout: 13.29 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.01 vin: 14.24 vout: 13.28 ain: 2.0 aout: 0.0
+3 charging xcycle battery bat_top Vbat = 14.01, Vin = 14.24  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.03 vin: 14.24 vout: 13.33 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.03 vin: 14.26 vout: 13.33 ain: 2.4 aout: -0.09
+4 charging xcycle battery bat_top Vbat = 14.03, Vin = 14.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.03 vin: 14.27 vout: 13.33 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.3 vbat2 bat_top 14.02 vin: 14.26 vout: 13.34 ain: 2.4 aout: -0.27
+5 charging xcycle battery bat_top Vbat = 14.02, Vin = 14.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.03 vin: 14.27 vout: 13.39 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.05 vin: 14.26 vout: 13.33 ain: 2.4 aout: 0.18
+6 charging xcycle battery bat_top Vbat = 14.05, Vin = 14.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.06 vin: 14.27 vout: 13.33 ain: 2.0 aout: -0.18
+----vbat1 bat_down 13.3 vbat2 bat_top 14.05 vin: 14.28 vout: 13.3 ain: 2.4 aout: -0.37
+7 charging xcycle battery bat_top Vbat = 14.05, Vin = 14.28  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.06 vin: 14.28 vout: 13.39 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.06 vin: 14.28 vout: 13.23 ain: 2.4 aout: -0.27
+8 charging xcycle battery bat_top Vbat = 14.06, Vin = 14.28  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.07 vin: 14.3 vout: 13.33 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.29 vbat2 bat_top 14.07 vin: 14.3 vout: 13.25 ain: 2.4 aout: -0.27
+9 charging xcycle battery bat_top Vbat = 14.07, Vin = 14.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.09 vin: 14.3 vout: 13.26 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.06 vin: 14.3 vout: 13.35 ain: 2.0 aout: -0.09
+10 charging xcycle battery bat_top Vbat = 14.06, Vin = 14.3  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.1 vin: 14.31 vout: 13.24 ain: 2.0 aout: -0.18
+----vbat1 bat_down 13.29 vbat2 bat_top 14.1 vin: 14.3 vout: 13.32 ain: 2.0 aout: 0.09
+11 charging xcycle battery bat_top Vbat = 14.1, Vin = 14.3  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.1 vin: 14.31 vout: 13.17 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.1 vin: 14.2 vout: 13.14 ain: 2.0 aout: -0.09
+12 charging xcycle battery bat_top Vbat = 14.1, Vin = 14.2  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.1 vin: 14.34 vout: 13.2 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.12 vin: 14.32 vout: 13.38 ain: 2.0 aout: -0.18
+13 charging xcycle battery bat_top Vbat = 14.12, Vin = 14.32  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.14 vin: 14.34 vout: 13.34 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.13 vin: 14.33 vout: 13.15 ain: 2.4 aout: -0.18
+14 charging xcycle battery bat_top Vbat = 14.13, Vin = 14.33  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.14 vin: 14.37 vout: 13.31 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.16 vin: 14.38 vout: 13.32 ain: 2.0 aout: -0.09
+15 charging xcycle battery bat_top Vbat = 14.16, Vin = 14.38  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.16 vin: 14.37 vout: 13.32 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.16 vin: 14.35 vout: 13.16 ain: 2.0 aout: 0.18
+16 charging xcycle battery bat_top Vbat = 14.16, Vin = 14.35  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.18 vin: 14.41 vout: 13.36 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.29 vbat2 bat_top 14.16 vin: 14.36 vout: 13.34 ain: 2.0 aout: 0.09
+17 charging xcycle battery bat_top Vbat = 14.16, Vin = 14.36  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.16 vin: 14.4 vout: 13.33 ain: 2.0 aout: 0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 14.18 vin: 14.4 vout: 13.32 ain: 2.0 aout: -0.09
+18 charging xcycle battery bat_top Vbat = 14.18, Vin = 14.4  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.19 vin: 14.42 vout: 13.28 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.18 vin: 14.41 vout: 13.26 ain: 2.4 aout: -0.27
+19 charging xcycle battery bat_top Vbat = 14.18, Vin = 14.41  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.22 vin: 14.44 vout: 13.34 ain: 2.0 aout: -0.27
+----vbat1 bat_down 13.3 vbat2 bat_top 14.22 vin: 14.43 vout: 13.32 ain: 2.0 aout: -0.18
+20 charging xcycle battery bat_top Vbat = 14.22, Vin = 14.43  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.23 vin: 14.44 vout: 13.37 ain: 2.0 aout: 0.0
+----vbat1 bat_down 13.3 vbat2 bat_top 14.23 vin: 14.45 vout: 13.38 ain: 2.0 aout: 0.09
+21 charging xcycle battery bat_top Vbat = 14.23, Vin = 14.45  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.26 vin: 14.46 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.24 vin: 14.48 vout: 13.19 ain: 2.0 aout: -0.27
+22 charging xcycle battery bat_top Vbat = 14.24, Vin = 14.48  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.26 vin: 14.49 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.25 vin: 14.48 vout: 13.33 ain: 2.0 aout: -0.09
+23 charging xcycle battery bat_top Vbat = 14.25, Vin = 14.48  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.29 vin: 14.49 vout: 13.36 ain: 2.0 aout: -0.18
+----vbat1 bat_down 13.3 vbat2 bat_top 14.29 vin: 14.49 vout: 13.23 ain: 2.4 aout: -0.18
+24 charging xcycle battery bat_top Vbat = 14.29, Vin = 14.49  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.28 vin: 14.47 vout: 13.34 ain: 2.0 aout: -0.37
+----vbat1 bat_down 13.28 vbat2 bat_top 14.27 vin: 14.48 vout: 13.18 ain: 2.0 aout: 0.18
+25 charging xcycle battery bat_top Vbat = 14.27, Vin = 14.48  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.3 vin: 14.26 vout: 13.33 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.3 vin: 14.48 vout: 13.25 ain: 2.4 aout: 0.27
+26 charging xcycle battery bat_top Vbat = 14.3, Vin = 14.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.3 vin: 14.5 vout: 13.33 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.29 vbat2 bat_top 14.31 vin: 14.53 vout: 13.34 ain: 2.4 aout: 0.09
+27 charging xcycle battery bat_top Vbat = 14.31, Vin = 14.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.32 vin: 14.58 vout: 13.33 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.32 vin: 14.51 vout: 13.28 ain: 2.0 aout: -0.09
+28 charging xcycle battery bat_top Vbat = 14.32, Vin = 14.51  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.34 vin: 14.57 vout: 13.35 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.36 vin: 14.58 vout: 13.26 ain: 2.4 aout: 0.09
+29 charging xcycle battery bat_top Vbat = 14.36, Vin = 14.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.37 vin: 14.56 vout: 13.29 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 14.38 vin: 14.58 vout: 13.38 ain: 2.4 aout: -0.09
+30 charging xcycle battery bat_top Vbat = 14.38, Vin = 14.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.38 vin: 14.6 vout: 13.32 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.29 vbat2 bat_top 14.38 vin: 14.59 vout: 13.17 ain: 2.4 aout: -0.09
+31 charging xcycle battery bat_top Vbat = 14.38, Vin = 14.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.42 vin: 14.59 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.39 vin: 14.59 vout: 13.35 ain: 2.4 aout: -0.09
+32 charging xcycle battery bat_top Vbat = 14.39, Vin = 14.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.43 vin: 14.64 vout: 13.15 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.4 vin: 14.63 vout: 13.29 ain: 2.4 aout: -0.09
+33 charging xcycle battery bat_top Vbat = 14.4, Vin = 14.63  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.42 vin: 14.66 vout: 13.39 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.42 vin: 14.63 vout: 13.32 ain: 2.0 aout: -0.09
+34 charging xcycle battery bat_top Vbat = 14.42, Vin = 14.63  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.41 vin: 14.66 vout: 13.33 ain: 2.0 aout: -0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 14.43 vin: 14.65 vout: 13.19 ain: 2.4 aout: -0.09
+35 charging xcycle battery bat_top Vbat = 14.43, Vin = 14.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.46 vin: 14.66 vout: 13.32 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.3 vbat2 bat_top 14.46 vin: 14.66 vout: 13.16 ain: 2.4 aout: 0.09
+36 charging xcycle battery bat_top Vbat = 14.46, Vin = 14.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.49 vin: 14.67 vout: 13.39 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.5 vin: 14.71 vout: 13.16 ain: 2.4 aout: -0.09
+37 charging xcycle battery bat_top Vbat = 14.5, Vin = 14.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.48 vin: 14.74 vout: 13.26 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.47 vin: 14.7 vout: 13.19 ain: 2.0 aout: -0.18
+38 charging xcycle battery bat_top Vbat = 14.47, Vin = 14.7  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.49 vin: 14.71 vout: 13.26 ain: 2.0 aout: -0.18
+----vbat1 bat_down 13.3 vbat2 bat_top 14.48 vin: 14.7 vout: 13.33 ain: 2.4 aout: -0.18
+39 charging xcycle battery bat_top Vbat = 14.48, Vin = 14.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.56 vin: 14.71 vout: 13.32 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.49 vin: 14.75 vout: 13.25 ain: 2.4 aout: -0.09
+40 charging xcycle battery bat_top Vbat = 14.49, Vin = 14.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.57 vin: 14.74 vout: 13.38 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.28 vbat2 bat_top 14.54 vin: 14.74 vout: 13.32 ain: 2.4 aout: -0.27
+41 charging xcycle battery bat_top Vbat = 14.54, Vin = 14.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.52 vin: 14.77 vout: 13.3 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.54 vin: 14.75 vout: 13.16 ain: 2.4 aout: -0.09
+42 charging xcycle battery bat_top Vbat = 14.54, Vin = 14.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.55 vin: 14.8 vout: 13.26 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.56 vin: 14.79 vout: 13.34 ain: 2.4 aout: 0.09
+43 charging xcycle battery bat_top Vbat = 14.56, Vin = 14.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.6 vin: 14.78 vout: 13.33 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 14.58 vin: 14.81 vout: 13.32 ain: 2.4 aout: -0.18
+44 charging xcycle battery bat_top Vbat = 14.58, Vin = 14.81  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.27 vbat2 bat_top 14.59 vin: 14.82 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.61 vin: 14.76 vout: 13.26 ain: 2.4 aout: 0.18
+45 charging xcycle battery bat_top Vbat = 14.61, Vin = 14.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.59 vin: 14.83 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.61 vin: 14.8 vout: 13.26 ain: 2.4 aout: 0.27
+46 charging xcycle battery bat_top Vbat = 14.61, Vin = 14.8  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.6 vin: 14.81 vout: 13.38 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.3 vbat2 bat_top 14.62 vin: 14.8 vout: 13.3 ain: 2.4 aout: 0.18
+47 charging xcycle battery bat_top Vbat = 14.62, Vin = 14.8  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.61 vin: 14.86 vout: 13.37 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.6 vin: 14.82 vout: 13.29 ain: 2.4 aout: -0.09
+48 charging xcycle battery bat_top Vbat = 14.6, Vin = 14.82  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.62 vin: 14.82 vout: 13.33 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.3 vbat2 bat_top 14.63 vin: 14.82 vout: 13.32 ain: 2.0 aout: 0.09
+49 charging xcycle battery bat_top Vbat = 14.63, Vin = 14.82  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.62 vin: 14.85 vout: 13.31 ain: 2.0 aout: 0.0
+----vbat1 bat_down 13.3 vbat2 bat_top 14.63 vin: 14.83 vout: 13.32 ain: 2.4 aout: -0.09
+50 charging xcycle battery bat_top Vbat = 14.63, Vin = 14.83  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.66 vin: 14.85 vout: 13.3 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.62 vin: 14.87 vout: 13.38 ain: 2.0 aout: 0.18
+51 charging xcycle battery bat_top Vbat = 14.62, Vin = 14.87  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.68 vin: 14.86 vout: 13.31 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.29 vbat2 bat_top 14.67 vin: 14.85 vout: 13.21 ain: 2.4 aout: 0.09
+52 charging xcycle battery bat_top Vbat = 14.67, Vin = 14.85  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.69 vin: 14.88 vout: 13.3 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.28 vbat2 bat_top 14.68 vin: 14.9 vout: 13.25 ain: 2.4 aout: 0.18
+53 charging xcycle battery bat_top Vbat = 14.68, Vin = 14.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.29 vbat2 bat_top 14.7 vin: 14.88 vout: 13.32 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.68 vin: 14.92 vout: 13.34 ain: 2.4 aout: -0.18
+54 charging xcycle battery bat_top Vbat = 14.68, Vin = 14.92  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.28 vbat2 bat_top 14.7 vin: 14.92 vout: 13.37 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.28 vbat2 bat_top 14.7 vin: 14.9 vout: 13.35 ain: 2.4 aout: -0.09
+55 charging xcycle battery bat_top Vbat = 14.7, Vin = 14.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.68 vin: 14.9 vout: 13.38 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.72 vin: 14.9 vout: 13.32 ain: 2.4 aout: -0.09
+56 charging xcycle battery bat_top Vbat = 14.72, Vin = 14.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.71 vin: 14.91 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.72 vin: 14.94 vout: 13.33 ain: 2.4 aout: -0.18
+57 charging xcycle battery bat_top Vbat = 14.72, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.72 vin: 14.92 vout: 13.26 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.29 vbat2 bat_top 14.7 vin: 14.94 vout: 13.36 ain: 2.4 aout: -0.09
+58 charging xcycle battery bat_top Vbat = 14.7, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.63 vin: 14.8 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.28 vbat2 bat_top 14.65 vin: 14.85 vout: 13.2 ain: 2.4 aout: -0.09
+59 charging xcycle battery bat_top Vbat = 14.65, Vin = 14.85  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.27 vbat2 bat_top 14.7 vin: 14.9 vout: 13.22 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.29 vbat2 bat_top 14.68 vin: 14.89 vout: 13.26 ain: 2.4 aout: 0.0
+60 charging xcycle battery bat_top Vbat = 14.68, Vin = 14.89  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.3 vbat2 bat_top 14.68 vin: 14.9 vout: 13.33 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.28 vbat2 bat_top 14.71 vin: 14.89 vout: 13.34 ain: 2.4 aout: 0.18
+61 charging xcycle battery bat_top Vbat = 14.71, Vin = 14.89  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.24 vbat2 bat_top 14.67 vin: 14.9 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.24 vbat2 bat_top 14.69 vin: 14.9 vout: 13.26 ain: 2.4 aout: -0.18
+62 charging xcycle battery bat_top Vbat = 14.69, Vin = 14.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.23 vbat2 bat_top 14.7 vin: 14.92 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.24 vbat2 bat_top 14.7 vin: 14.91 vout: 13.3 ain: 2.0 aout: -0.09
+63 charging xcycle battery bat_top Vbat = 14.7, Vin = 14.91  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.7 vin: 14.9 vout: 13.28 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.69 vin: 14.94 vout: 13.29 ain: 2.4 aout: 0.27
+64 charging xcycle battery bat_top Vbat = 14.69, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.24 vbat2 bat_top 14.7 vin: 14.94 vout: 13.27 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 14.7 vin: 14.93 vout: 13.28 ain: 2.4 aout: -0.18
+65 charging xcycle battery bat_top Vbat = 14.7, Vin = 14.93  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.71 vin: 14.93 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.73 vin: 14.94 vout: 13.12 ain: 2.4 aout: 0.09
+66 charging xcycle battery bat_top Vbat = 14.73, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.74 vin: 14.94 vout: 13.28 ain: 2.0 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 14.75 vin: 14.94 vout: 13.24 ain: 2.4 aout: -0.09
+67 charging xcycle battery bat_top Vbat = 14.75, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.77 vin: 14.95 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 14.75 vin: 14.97 vout: 13.28 ain: 2.4 aout: 0.18
+68 charging xcycle battery bat_top Vbat = 14.75, Vin = 14.97  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.76 vin: 14.98 vout: 13.24 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.77 vin: 14.96 vout: 13.19 ain: 2.4 aout: 0.0
+69 charging xcycle battery bat_top Vbat = 14.77, Vin = 14.96  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.77 vin: 14.98 vout: 13.29 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 14.76 vin: 14.97 vout: 13.3 ain: 2.4 aout: 0.18
+70 charging xcycle battery bat_top Vbat = 14.76, Vin = 14.97  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.78 vin: 15.02 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 14.78 vin: 14.97 vout: 13.34 ain: 2.4 aout: 0.09
+71 charging xcycle battery bat_top Vbat = 14.78, Vin = 14.97  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.82 vin: 14.98 vout: 13.14 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.8 vin: 15.02 vout: 13.24 ain: 2.4 aout: -0.27
+72 charging xcycle battery bat_top Vbat = 14.8, Vin = 15.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.8 vin: 15.0 vout: 13.25 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.8 vin: 15.02 vout: 13.3 ain: 2.4 aout: 0.09
+73 charging xcycle battery bat_top Vbat = 14.8, Vin = 15.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.81 vin: 15.02 vout: 13.3 ain: 2.4 aout: 0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 14.81 vin: 15.03 vout: 13.28 ain: 2.4 aout: -0.09
+74 charging xcycle battery bat_top Vbat = 14.81, Vin = 15.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.24 vbat2 bat_top 14.84 vin: 15.07 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.82 vin: 15.03 vout: 13.3 ain: 2.4 aout: -0.09
+75 charging xcycle battery bat_top Vbat = 14.82, Vin = 15.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.85 vin: 15.06 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.86 vin: 15.03 vout: 13.28 ain: 2.4 aout: 0.0
+76 charging xcycle battery bat_top Vbat = 14.86, Vin = 15.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.85 vin: 15.06 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 14.84 vin: 15.08 vout: 13.29 ain: 2.4 aout: -0.27
+77 charging xcycle battery bat_top Vbat = 14.84, Vin = 15.08  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.24 vbat2 bat_top 14.88 vin: 15.1 vout: 13.3 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 14.85 vin: 15.09 vout: 13.27 ain: 2.4 aout: -0.09
+78 charging xcycle battery bat_top Vbat = 14.85, Vin = 15.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.24 vbat2 bat_top 14.89 vin: 15.1 vout: 13.28 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 14.88 vin: 15.07 vout: 13.29 ain: 2.4 aout: -0.09
+79 charging xcycle battery bat_top Vbat = 14.88, Vin = 15.07  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.9 vin: 15.11 vout: 13.28 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 14.91 vin: 15.09 vout: 13.28 ain: 2.4 aout: -0.09
+80 charging xcycle battery bat_top Vbat = 14.91, Vin = 15.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.91 vin: 15.1 vout: 13.14 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 14.9 vin: 15.1 vout: 13.29 ain: 2.4 aout: 0.09
+81 charging xcycle battery bat_top Vbat = 14.9, Vin = 15.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 14.9 vin: 15.16 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 14.9 vin: 15.18 vout: 13.3 ain: 2.4 aout: -0.09
+82 charging xcycle battery bat_top Vbat = 14.9, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.93 vin: 15.17 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 14.94 vin: 15.12 vout: 13.28 ain: 2.4 aout: -0.09
+83 charging xcycle battery bat_top Vbat = 14.94, Vin = 15.12  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.96 vin: 15.14 vout: 13.18 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.24 vbat2 bat_top 14.96 vin: 15.18 vout: 13.29 ain: 2.4 aout: -0.18
+84 charging xcycle battery bat_top Vbat = 14.96, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.94 vin: 15.22 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.98 vin: 15.18 vout: 13.3 ain: 2.4 aout: -0.27
+85 charging xcycle battery bat_top Vbat = 14.98, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.27 vbat2 bat_top 14.98 vin: 15.15 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 14.97 vin: 15.22 vout: 13.29 ain: 2.4 aout: 0.18
+86 charging xcycle battery bat_top Vbat = 14.97, Vin = 15.22  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 14.99 vin: 15.22 vout: 13.26 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.27 vbat2 bat_top 15.0 vin: 15.18 vout: 13.14 ain: 2.4 aout: -0.09
+87 charging xcycle battery bat_top Vbat = 15.0, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.02 vin: 15.22 vout: 13.34 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.0 vin: 15.23 vout: 13.3 ain: 2.4 aout: -0.09
+88 charging xcycle battery bat_top Vbat = 15.0, Vin = 15.23  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.02 vin: 15.26 vout: 13.34 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.02 vin: 15.26 vout: 13.33 ain: 2.4 aout: -0.18
+89 charging xcycle battery bat_top Vbat = 15.02, Vin = 15.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.06 vin: 15.25 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.04 vin: 15.25 vout: 13.27 ain: 2.4 aout: 0.37
+90 charging xcycle battery bat_top Vbat = 15.04, Vin = 15.25  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.06 vin: 15.26 vout: 13.22 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.08 vin: 15.26 vout: 13.3 ain: 2.4 aout: -0.09
+91 charging xcycle battery bat_top Vbat = 15.08, Vin = 15.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.09 vin: 15.3 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.06 vin: 15.3 vout: 13.28 ain: 2.4 aout: -0.18
+92 charging xcycle battery bat_top Vbat = 15.06, Vin = 15.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.11 vin: 15.3 vout: 13.14 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.09 vin: 15.32 vout: 13.24 ain: 2.4 aout: -0.09
+93 charging xcycle battery bat_top Vbat = 15.09, Vin = 15.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.13 vin: 15.32 vout: 13.34 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.12 vin: 15.31 vout: 13.3 ain: 2.4 aout: -0.09
+94 charging xcycle battery bat_top Vbat = 15.12, Vin = 15.31  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.12 vin: 15.35 vout: 13.14 ain: 2.4 aout: 0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.14 vin: 15.33 vout: 13.23 ain: 2.4 aout: -0.18
+95 charging xcycle battery bat_top Vbat = 15.14, Vin = 15.33  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.14 vin: 15.34 vout: 13.34 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.13 vin: 15.38 vout: 13.3 ain: 2.4 aout: -0.18
+96 charging xcycle battery bat_top Vbat = 15.13, Vin = 15.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.15 vin: 15.39 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.18 vin: 15.36 vout: 13.29 ain: 2.4 aout: -0.27
+97 charging xcycle battery bat_top Vbat = 15.18, Vin = 15.36  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.16 vin: 15.41 vout: 13.3 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.18 vin: 15.38 vout: 13.32 ain: 2.4 aout: -0.09
+98 charging xcycle battery bat_top Vbat = 15.18, Vin = 15.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.18 vin: 15.41 vout: 13.3 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.18 vin: 15.42 vout: 13.27 ain: 2.4 aout: 0.09
+99 charging xcycle battery bat_top Vbat = 15.18, Vin = 15.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.22 vin: 15.41 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.22 vin: 15.4 vout: 13.24 ain: 2.4 aout: -0.09
+100 charging xcycle battery bat_top Vbat = 15.22, Vin = 15.4  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.22 vin: 15.45 vout: 13.24 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.24 vin: 15.42 vout: 13.27 ain: 2.4 aout: 0.09
+101 charging xcycle battery bat_top Vbat = 15.24, Vin = 15.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.22 vin: 15.47 vout: 13.25 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.23 vin: 15.46 vout: 13.29 ain: 2.4 aout: 0.09
+102 charging xcycle battery bat_top Vbat = 15.23, Vin = 15.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.25 vin: 15.49 vout: 13.3 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.25 vin: 15.45 vout: 13.32 ain: 2.4 aout: 0.0
+103 charging xcycle battery bat_top Vbat = 15.25, Vin = 15.45  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.29 vin: 15.47 vout: 13.29 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.29 vin: 15.48 vout: 13.35 ain: 2.4 aout: 0.27
+104 charging xcycle battery bat_top Vbat = 15.29, Vin = 15.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.31 vin: 15.5 vout: 13.29 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.3 vin: 15.5 vout: 13.29 ain: 2.4 aout: -0.27
+105 charging xcycle battery bat_top Vbat = 15.3, Vin = 15.5  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.32 vin: 15.5 vout: 13.3 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.3 vin: 15.54 vout: 13.25 ain: 2.4 aout: 0.27
+106 charging xcycle battery bat_top Vbat = 15.3, Vin = 15.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.3 vin: 15.54 vout: 13.21 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.34 vin: 15.52 vout: 13.2 ain: 2.4 aout: -0.18
+107 charging xcycle battery bat_top Vbat = 15.34, Vin = 15.52  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.34 vin: 15.54 vout: 13.18 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.33 vin: 15.56 vout: 13.29 ain: 2.4 aout: -0.09
+108 charging xcycle battery bat_top Vbat = 15.33, Vin = 15.56  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.37 vin: 15.55 vout: 13.22 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.37 vin: 15.55 vout: 13.18 ain: 2.4 aout: 0.09
+109 charging xcycle battery bat_top Vbat = 15.37, Vin = 15.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.38 vin: 15.58 vout: 13.24 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.36 vin: 15.57 vout: 13.34 ain: 2.4 aout: 0.09
+110 charging xcycle battery bat_top Vbat = 15.36, Vin = 15.57  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.38 vin: 15.61 vout: 13.28 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.4 vin: 15.58 vout: 13.31 ain: 2.4 aout: -0.09
+111 charging xcycle battery bat_top Vbat = 15.4, Vin = 15.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.39 vin: 15.6 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.41 vin: 15.6 vout: 13.21 ain: 2.4 aout: 0.09
+112 charging xcycle battery bat_top Vbat = 15.41, Vin = 15.6  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.4 vin: 15.64 vout: 13.31 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.4 vin: 15.63 vout: 13.3 ain: 2.4 aout: 0.09
+113 charging xcycle battery bat_top Vbat = 15.4, Vin = 15.63  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.42 vin: 15.62 vout: 13.28 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.41 vin: 15.65 vout: 13.3 ain: 2.4 aout: 0.0
+114 charging xcycle battery bat_top Vbat = 15.41, Vin = 15.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.46 vin: 15.64 vout: 13.18 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.25 vbat2 bat_top 15.45 vin: 15.66 vout: 13.2 ain: 2.4 aout: -0.09
+115 charging xcycle battery bat_top Vbat = 15.45, Vin = 15.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.47 vin: 15.66 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 15.46 vin: 15.66 vout: 13.28 ain: 2.4 aout: -0.37
+116 charging xcycle battery bat_top Vbat = 15.46, Vin = 15.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.48 vin: 15.7 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.46 vin: 15.67 vout: 13.3 ain: 2.4 aout: 0.0
+117 charging xcycle battery bat_top Vbat = 15.46, Vin = 15.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.48 vin: 15.69 vout: 13.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.5 vin: 15.68 vout: 13.31 ain: 2.4 aout: 0.18
+118 charging xcycle battery bat_top Vbat = 15.5, Vin = 15.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.51 vin: 15.7 vout: 13.22 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.51 vin: 15.71 vout: 13.18 ain: 2.4 aout: 0.09
+119 charging xcycle battery bat_top Vbat = 15.51, Vin = 15.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.53 vin: 15.71 vout: 13.19 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.5 vin: 15.73 vout: 13.17 ain: 2.4 aout: -0.09
+120 charging xcycle battery bat_top Vbat = 15.5, Vin = 15.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.52 vin: 15.76 vout: 13.24 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 15.54 vin: 15.75 vout: 13.29 ain: 2.4 aout: -0.09
+121 charging xcycle battery bat_top Vbat = 15.54, Vin = 15.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.54 vin: 15.78 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.52 vin: 15.76 vout: 13.3 ain: 2.4 aout: -0.09
+122 charging xcycle battery bat_top Vbat = 15.52, Vin = 15.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.55 vin: 15.78 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.54 vin: 15.78 vout: 13.34 ain: 2.4 aout: 0.0
+123 charging xcycle battery bat_top Vbat = 15.54, Vin = 15.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.56 vin: 15.8 vout: 13.31 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.58 vin: 15.78 vout: 13.32 ain: 2.4 aout: -0.18
+124 charging xcycle battery bat_top Vbat = 15.58, Vin = 15.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.6 vin: 15.78 vout: 13.28 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.59 vin: 15.81 vout: 13.27 ain: 2.4 aout: 0.09
+125 charging xcycle battery bat_top Vbat = 15.59, Vin = 15.81  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.61 vin: 15.82 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.61 vin: 15.81 vout: 13.3 ain: 2.4 aout: 0.09
+126 charging xcycle battery bat_top Vbat = 15.61, Vin = 15.81  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.62 vin: 15.8 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.61 vin: 15.82 vout: 13.34 ain: 2.4 aout: 0.18
+127 charging xcycle battery bat_top Vbat = 15.61, Vin = 15.82  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.65 vin: 15.83 vout: 13.29 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.66 vin: 15.84 vout: 13.34 ain: 2.4 aout: 0.09
+128 charging xcycle battery bat_top Vbat = 15.66, Vin = 15.84  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.27 vbat2 bat_top 15.62 vin: 15.84 vout: 13.29 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 15.64 vin: 15.87 vout: 13.3 ain: 2.4 aout: 0.09
+129 charging xcycle battery bat_top Vbat = 15.64, Vin = 15.87  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.27 vbat2 bat_top 15.66 vin: 15.85 vout: 13.34 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.69 vin: 15.84 vout: 13.33 ain: 2.4 aout: 0.09
+130 charging xcycle battery bat_top Vbat = 15.69, Vin = 15.84  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.69 vin: 15.87 vout: 13.16 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.66 vin: 15.89 vout: 13.22 ain: 2.4 aout: -0.27
+131 charging xcycle battery bat_top Vbat = 15.66, Vin = 15.89  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.68 vin: 15.9 vout: 13.27 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.67 vin: 15.9 vout: 13.16 ain: 2.4 aout: -0.27
+132 charging xcycle battery bat_top Vbat = 15.67, Vin = 15.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.72 vin: 15.91 vout: 13.29 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.7 vin: 15.92 vout: 13.18 ain: 2.4 aout: -0.18
+133 charging xcycle battery bat_top Vbat = 15.7, Vin = 15.92  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.68 vin: 15.94 vout: 13.26 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.7 vin: 15.94 vout: 13.31 ain: 2.4 aout: 0.09
+134 charging xcycle battery bat_top Vbat = 15.7, Vin = 15.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.73 vin: 15.93 vout: 13.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.74 vin: 15.9 vout: 13.35 ain: 2.4 aout: 0.09
+135 charging xcycle battery bat_top Vbat = 15.74, Vin = 15.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.74 vin: 15.94 vout: 13.22 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.25 vbat2 bat_top 15.77 vin: 15.92 vout: 13.29 ain: 2.4 aout: -0.27
+136 charging xcycle battery bat_top Vbat = 15.77, Vin = 15.92  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.74 vin: 15.95 vout: 13.29 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.74 vin: 15.95 vout: 13.26 ain: 2.4 aout: -0.18
+137 charging xcycle battery bat_top Vbat = 15.74, Vin = 15.95  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.77 vin: 15.96 vout: 13.23 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.78 vin: 15.94 vout: 13.15 ain: 2.4 aout: 0.0
+138 charging xcycle battery bat_top Vbat = 15.78, Vin = 15.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.78 vin: 15.98 vout: 13.34 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.78 vin: 15.99 vout: 13.18 ain: 2.4 aout: -0.09
+139 charging xcycle battery bat_top Vbat = 15.78, Vin = 15.99  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.79 vin: 15.96 vout: 13.33 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.78 vin: 16.01 vout: 13.29 ain: 2.4 aout: -0.09
+140 charging xcycle battery bat_top Vbat = 15.78, Vin = 16.01  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.79 vin: 16.04 vout: 13.3 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 15.78 vin: 16.02 vout: 13.3 ain: 2.4 aout: -0.09
+141 charging xcycle battery bat_top Vbat = 15.78, Vin = 16.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.82 vin: 16.05 vout: 13.27 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.81 vin: 16.02 vout: 13.15 ain: 2.4 aout: 0.18
+142 charging xcycle battery bat_top Vbat = 15.81, Vin = 16.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.83 vin: 16.01 vout: 13.3 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.83 vin: 16.01 vout: 13.19 ain: 2.4 aout: -0.18
+143 charging xcycle battery bat_top Vbat = 15.83, Vin = 16.01  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.82 vin: 16.06 vout: 13.3 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 15.85 vin: 16.04 vout: 13.3 ain: 2.4 aout: 0.0
+144 charging xcycle battery bat_top Vbat = 15.85, Vin = 16.04  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.83 vin: 16.05 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.84 vin: 16.06 vout: 13.22 ain: 2.4 aout: -0.09
+145 charging xcycle battery bat_top Vbat = 15.84, Vin = 16.06  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.86 vin: 16.04 vout: 13.15 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.86 vin: 16.04 vout: 13.28 ain: 2.4 aout: 0.09
+146 charging xcycle battery bat_top Vbat = 15.86, Vin = 16.04  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.85 vin: 16.09 vout: 13.27 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.86 vin: 16.08 vout: 13.3 ain: 2.4 aout: 0.18
+147 charging xcycle battery bat_top Vbat = 15.86, Vin = 16.08  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.88 vin: 16.1 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.87 vin: 16.1 vout: 13.29 ain: 2.4 aout: 0.0
+148 charging xcycle battery bat_top Vbat = 15.87, Vin = 16.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.87 vin: 16.12 vout: 13.24 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 15.9 vin: 16.1 vout: 13.33 ain: 2.4 aout: -0.09
+149 charging xcycle battery bat_top Vbat = 15.9, Vin = 16.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.9 vin: 16.11 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.91 vin: 16.09 vout: 13.26 ain: 2.4 aout: -0.09
+150 charging xcycle battery bat_top Vbat = 15.91, Vin = 16.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.9 vin: 16.14 vout: 13.14 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.9 vin: 16.1 vout: 13.28 ain: 2.4 aout: -0.18
+151 charging xcycle battery bat_top Vbat = 15.9, Vin = 16.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.9 vin: 16.14 vout: 13.33 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.25 vbat2 bat_top 15.91 vin: 16.14 vout: 13.22 ain: 2.4 aout: -0.09
+152 charging xcycle battery bat_top Vbat = 15.91, Vin = 16.14  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.11 vout: 13.26 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.12 vout: 13.15 ain: 2.4 aout: -0.09
+153 charging xcycle battery bat_top Vbat = 15.94, Vin = 16.12  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.13 vout: 13.29 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.91 vin: 16.15 vout: 13.28 ain: 2.4 aout: -0.18
+154 charging xcycle battery bat_top Vbat = 15.91, Vin = 16.15  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.93 vin: 16.14 vout: 13.34 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.13 vout: 13.3 ain: 2.4 aout: 0.09
+155 charging xcycle battery bat_top Vbat = 15.94, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 15.94 vin: 16.18 vout: 13.33 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.18 vout: 13.33 ain: 2.4 aout: -0.09
+156 charging xcycle battery bat_top Vbat = 15.94, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.17 vout: 13.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 15.94 vin: 16.18 vout: 13.27 ain: 2.4 aout: -0.18
+157 charging xcycle battery bat_top Vbat = 15.94, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.97 vin: 16.18 vout: 13.26 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.98 vin: 16.18 vout: 13.31 ain: 2.4 aout: 0.09
+158 charging xcycle battery bat_top Vbat = 15.98, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.97 vin: 16.15 vout: 13.29 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.98 vin: 16.17 vout: 13.28 ain: 2.4 aout: -0.09
+159 charging xcycle battery bat_top Vbat = 15.98, Vin = 16.17  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 15.96 vin: 16.2 vout: 13.3 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 15.99 vin: 16.18 vout: 13.26 ain: 2.4 aout: -0.09
+160 charging xcycle battery bat_top Vbat = 15.99, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.0 vin: 16.19 vout: 13.25 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.99 vin: 16.17 vout: 13.19 ain: 2.4 aout: -0.09
+161 charging xcycle battery bat_top Vbat = 15.99, Vin = 16.17  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.01 vin: 16.18 vout: 13.34 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 15.99 vin: 16.18 vout: 13.27 ain: 2.4 aout: -0.09
+162 charging xcycle battery bat_top Vbat = 15.99, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.02 vin: 16.21 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.02 vin: 16.2 vout: 13.23 ain: 2.4 aout: -0.09
+163 charging xcycle battery bat_top Vbat = 16.02, Vin = 16.2  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.02 vin: 16.22 vout: 13.17 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.0 vin: 16.21 vout: 13.31 ain: 2.4 aout: -0.09
+164 charging xcycle battery bat_top Vbat = 16.0, Vin = 16.21  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.03 vin: 16.22 vout: 13.31 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.02 vin: 16.2 vout: 13.3 ain: 2.4 aout: 0.09
+165 charging xcycle battery bat_top Vbat = 16.02, Vin = 16.2  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.04 vin: 16.24 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.02 vin: 16.26 vout: 13.24 ain: 2.4 aout: 0.0
+166 charging xcycle battery bat_top Vbat = 16.02, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.04 vin: 16.24 vout: 13.34 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.02 vin: 16.26 vout: 13.29 ain: 2.4 aout: -0.09
+167 charging xcycle battery bat_top Vbat = 16.02, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.03 vin: 16.26 vout: 13.2 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.04 vin: 16.26 vout: 13.3 ain: 2.4 aout: 0.18
+168 charging xcycle battery bat_top Vbat = 16.04, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.04 vin: 16.27 vout: 13.22 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.04 vin: 16.28 vout: 13.2 ain: 2.4 aout: -0.18
+169 charging xcycle battery bat_top Vbat = 16.04, Vin = 16.28  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.06 vin: 16.25 vout: 13.34 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.05 vin: 16.27 vout: 13.18 ain: 2.4 aout: 0.27
+170 charging xcycle battery bat_top Vbat = 16.05, Vin = 16.27  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.06 vin: 16.29 vout: 13.24 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.07 vin: 16.25 vout: 13.18 ain: 2.4 aout: 0.0
+171 charging xcycle battery bat_top Vbat = 16.07, Vin = 16.25  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.06 vin: 16.3 vout: 13.18 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.09 vin: 16.26 vout: 13.22 ain: 2.4 aout: -0.18
+172 charging xcycle battery bat_top Vbat = 16.09, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.09 vin: 16.28 vout: 13.19 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.09 vin: 16.3 vout: 13.33 ain: 2.4 aout: 0.09
+173 charging xcycle battery bat_top Vbat = 16.09, Vin = 16.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.07 vin: 16.31 vout: 13.34 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.1 vin: 16.28 vout: 13.3 ain: 2.4 aout: -0.18
+174 charging xcycle battery bat_top Vbat = 16.1, Vin = 16.28  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.09 vin: 16.32 vout: 13.27 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.07 vin: 16.32 vout: 13.26 ain: 2.4 aout: 0.09
+175 charging xcycle battery bat_top Vbat = 16.07, Vin = 16.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.1 vin: 16.33 vout: 13.25 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.11 vin: 16.3 vout: 13.28 ain: 2.4 aout: 0.09
+176 charging xcycle battery bat_top Vbat = 16.11, Vin = 16.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.1 vin: 16.34 vout: 13.34 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.12 vin: 16.31 vout: 13.28 ain: 2.4 aout: 0.09
+177 charging xcycle battery bat_top Vbat = 16.12, Vin = 16.31  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.12 vin: 16.32 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.1 vin: 16.32 vout: 13.29 ain: 2.4 aout: 0.09
+178 charging xcycle battery bat_top Vbat = 16.1, Vin = 16.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.11 vin: 16.34 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.14 vin: 16.34 vout: 13.14 ain: 2.4 aout: 0.09
+179 charging xcycle battery bat_top Vbat = 16.14, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.14 vin: 16.34 vout: 13.14 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.14 vin: 16.36 vout: 13.27 ain: 2.4 aout: 0.09
+180 charging xcycle battery bat_top Vbat = 16.14, Vin = 16.36  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.15 vin: 16.33 vout: 13.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.12 vin: 16.35 vout: 13.18 ain: 2.4 aout: 0.09
+181 charging xcycle battery bat_top Vbat = 16.12, Vin = 16.35  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.14 vin: 16.38 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.16 vin: 16.34 vout: 13.34 ain: 2.4 aout: -0.18
+182 charging xcycle battery bat_top Vbat = 16.16, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.18 vin: 16.37 vout: 13.17 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.16 vin: 16.34 vout: 13.3 ain: 2.4 aout: -0.27
+183 charging xcycle battery bat_top Vbat = 16.16, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.17 vin: 16.36 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.15 vin: 16.4 vout: 13.28 ain: 2.4 aout: -0.09
+184 charging xcycle battery bat_top Vbat = 16.15, Vin = 16.4  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.17 vin: 16.37 vout: 13.28 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.18 vin: 16.39 vout: 13.34 ain: 2.4 aout: 0.0
+185 charging xcycle battery bat_top Vbat = 16.18, Vin = 16.39  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.17 vin: 16.4 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.18 vin: 16.4 vout: 13.22 ain: 2.4 aout: -0.09
+186 charging xcycle battery bat_top Vbat = 16.18, Vin = 16.4  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.2 vin: 16.38 vout: 13.14 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.2 vin: 16.38 vout: 13.3 ain: 2.4 aout: -0.09
+187 charging xcycle battery bat_top Vbat = 16.2, Vin = 16.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.21 vin: 16.41 vout: 13.3 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.19 vin: 16.4 vout: 13.34 ain: 2.4 aout: -0.09
+188 charging xcycle battery bat_top Vbat = 16.19, Vin = 16.4  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.18 vin: 16.42 vout: 13.33 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.22 vin: 16.42 vout: 13.19 ain: 2.4 aout: -0.27
+189 charging xcycle battery bat_top Vbat = 16.22, Vin = 16.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.2 vin: 16.44 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.22 vin: 16.42 vout: 13.33 ain: 2.4 aout: 0.0
+190 charging xcycle battery bat_top Vbat = 16.22, Vin = 16.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.23 vin: 16.42 vout: 13.26 ain: 2.4 aout: 0.27
+----vbat1 bat_down 13.25 vbat2 bat_top 16.23 vin: 16.45 vout: 13.3 ain: 2.8 aout: -0.18
+191 charging xcycle battery bat_top Vbat = 16.23, Vin = 16.45  Ain 2.8
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.22 vin: 16.46 vout: 13.3 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.23 vin: 16.43 vout: 13.3 ain: 2.4 aout: 0.09
+192 charging xcycle battery bat_top Vbat = 16.23, Vin = 16.43  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.26 vin: 16.42 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.24 vin: 16.46 vout: 13.28 ain: 2.4 aout: -0.09
+193 charging xcycle battery bat_top Vbat = 16.24, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.23 vin: 16.47 vout: 13.26 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.25 vin: 16.45 vout: 13.15 ain: 2.4 aout: -0.27
+194 charging xcycle battery bat_top Vbat = 16.25, Vin = 16.45  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.26 vin: 16.46 vout: 13.17 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.27 vin: 16.46 vout: 13.26 ain: 2.4 aout: -0.09
+195 charging xcycle battery bat_top Vbat = 16.27, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.26 vin: 16.46 vout: 13.3 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.26 vin: 16.46 vout: 13.33 ain: 2.4 aout: -0.27
+196 charging xcycle battery bat_top Vbat = 16.26, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.29 vin: 16.47 vout: 13.28 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.27 vin: 16.47 vout: 13.3 ain: 2.4 aout: -0.18
+197 charging xcycle battery bat_top Vbat = 16.27, Vin = 16.47  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.27 vin: 16.5 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.26 vin: 16.5 vout: 13.31 ain: 2.4 aout: -0.37
+198 charging xcycle battery bat_top Vbat = 16.26, Vin = 16.5  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.3 vin: 16.49 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.27 vin: 16.5 vout: 13.3 ain: 2.4 aout: -0.18
+199 charging xcycle battery bat_top Vbat = 16.27, Vin = 16.5  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.31 vin: 16.5 vout: 13.2 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.3 vin: 16.53 vout: 13.27 ain: 2.4 aout: -0.18
+200 charging xcycle battery bat_top Vbat = 16.3, Vin = 16.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.3 vin: 16.5 vout: 13.25 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.29 vin: 16.52 vout: 13.28 ain: 2.4 aout: -0.09
+201 charging xcycle battery bat_top Vbat = 16.29, Vin = 16.52  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.3 vin: 16.53 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.33 vin: 16.52 vout: 13.28 ain: 2.4 aout: 0.18
+202 charging xcycle battery bat_top Vbat = 16.33, Vin = 16.52  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.32 vin: 16.52 vout: 13.34 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.52 vout: 13.23 ain: 2.4 aout: -0.09
+203 charging xcycle battery bat_top Vbat = 16.34, Vin = 16.52  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.56 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.53 vout: 13.31 ain: 2.4 aout: 0.09
+204 charging xcycle battery bat_top Vbat = 16.34, Vin = 16.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.33 vin: 16.55 vout: 13.24 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.34 vin: 16.55 vout: 13.27 ain: 2.4 aout: 0.18
+205 charging xcycle battery bat_top Vbat = 16.34, Vin = 16.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.56 vout: 13.28 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.58 vout: 13.27 ain: 2.4 aout: 0.0
+206 charging xcycle battery bat_top Vbat = 16.34, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.34 vin: 16.58 vout: 13.29 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.37 vin: 16.56 vout: 13.3 ain: 2.4 aout: -0.18
+207 charging xcycle battery bat_top Vbat = 16.37, Vin = 16.56  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.35 vin: 16.58 vout: 13.24 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.36 vin: 16.58 vout: 13.14 ain: 2.4 aout: -0.27
+208 charging xcycle battery bat_top Vbat = 16.36, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.36 vin: 16.6 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.36 vin: 16.6 vout: 13.22 ain: 2.4 aout: -0.18
+209 charging xcycle battery bat_top Vbat = 16.36, Vin = 16.6  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.39 vin: 16.58 vout: 13.34 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.37 vin: 16.59 vout: 13.15 ain: 2.4 aout: -0.09
+210 charging xcycle battery bat_top Vbat = 16.37, Vin = 16.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.39 vin: 16.61 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.4 vin: 16.59 vout: 13.34 ain: 2.4 aout: 0.18
+211 charging xcycle battery bat_top Vbat = 16.4, Vin = 16.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.4 vin: 16.6 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.38 vin: 16.61 vout: 13.28 ain: 2.4 aout: -0.09
+212 charging xcycle battery bat_top Vbat = 16.38, Vin = 16.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.38 vin: 16.61 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.61 vout: 13.24 ain: 2.4 aout: 0.0
+213 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.4 vin: 16.63 vout: 13.29 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.62 vout: 13.32 ain: 2.4 aout: 0.0
+214 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.41 vin: 16.6 vout: 13.25 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.64 vout: 13.2 ain: 2.4 aout: -0.18
+215 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.64  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.61 vout: 13.25 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.61 vout: 13.3 ain: 2.4 aout: 0.09
+216 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.41 vin: 16.63 vout: 13.3 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 16.44 vin: 16.62 vout: 13.23 ain: 2.4 aout: -0.18
+217 charging xcycle battery bat_top Vbat = 16.44, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.65 vout: 13.28 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.66 vout: 13.26 ain: 2.4 aout: 0.18
+218 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.43 vin: 16.66 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.42 vin: 16.65 vout: 13.31 ain: 2.4 aout: -0.18
+219 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.44 vin: 16.68 vout: 13.34 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.45 vin: 16.67 vout: 13.28 ain: 2.4 aout: -0.18
+220 charging xcycle battery bat_top Vbat = 16.45, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.46 vin: 16.68 vout: 13.3 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.45 vin: 16.65 vout: 13.18 ain: 2.4 aout: 0.0
+221 charging xcycle battery bat_top Vbat = 16.45, Vin = 16.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.47 vin: 16.66 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.46 vin: 16.66 vout: 13.34 ain: 2.4 aout: -0.09
+222 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.48 vin: 16.68 vout: 13.31 ain: 2.4 aout: 0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.47 vin: 16.66 vout: 13.21 ain: 2.4 aout: -0.64
+223 charging xcycle battery bat_top Vbat = 16.47, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.48 vin: 16.67 vout: 13.25 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.46 vin: 16.7 vout: 13.32 ain: 2.4 aout: -0.09
+224 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.47 vin: 16.7 vout: 13.28 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.46 vin: 16.68 vout: 13.28 ain: 2.4 aout: -0.27
+225 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.47 vin: 16.7 vout: 13.34 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.48 vin: 16.7 vout: 13.29 ain: 2.4 aout: -0.27
+226 charging xcycle battery bat_top Vbat = 16.48, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.5 vin: 16.68 vout: 13.28 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.46 vin: 16.7 vout: 13.29 ain: 2.4 aout: -0.09
+227 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.5 vin: 16.69 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.48 vin: 16.69 vout: 13.16 ain: 2.4 aout: -0.18
+228 charging xcycle battery bat_top Vbat = 16.48, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.5 vin: 16.7 vout: 13.28 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 16.48 vin: 16.72 vout: 13.29 ain: 2.4 aout: -0.18
+229 charging xcycle battery bat_top Vbat = 16.48, Vin = 16.72  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.51 vin: 16.7 vout: 13.14 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.5 vin: 16.73 vout: 13.3 ain: 2.4 aout: -0.18
+230 charging xcycle battery bat_top Vbat = 16.5, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.72 vout: 13.33 ain: 2.4 aout: -0.37
+----vbat1 bat_down 13.26 vbat2 bat_top 16.49 vin: 16.71 vout: 13.29 ain: 2.4 aout: -0.09
+231 charging xcycle battery bat_top Vbat = 16.49, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.73 vout: 13.16 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.5 vin: 16.7 vout: 13.34 ain: 2.4 aout: -0.27
+232 charging xcycle battery bat_top Vbat = 16.5, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.73 vout: 13.32 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.7 vout: 13.31 ain: 2.4 aout: -0.18
+233 charging xcycle battery bat_top Vbat = 16.52, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.5 vin: 16.75 vout: 13.34 ain: 2.4 aout: -0.64
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.74 vout: 13.34 ain: 2.4 aout: 0.09
+234 charging xcycle battery bat_top Vbat = 16.52, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.72 vout: 13.28 ain: 2.4 aout: 0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.74 vout: 13.3 ain: 2.4 aout: -0.18
+235 charging xcycle battery bat_top Vbat = 16.51, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.74 vout: 13.32 ain: 2.4 aout: -0.27
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.74 vout: 13.26 ain: 2.4 aout: -0.09
+236 charging xcycle battery bat_top Vbat = 16.51, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.51 vin: 16.74 vout: 13.22 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.54 vin: 16.74 vout: 13.26 ain: 2.4 aout: 0.0
+237 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.53 vin: 16.75 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.76 vout: 13.24 ain: 2.4 aout: 0.09
+238 charging xcycle battery bat_top Vbat = 16.52, Vin = 16.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.53 vin: 16.77 vout: 13.3 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.53 vin: 16.76 vout: 13.3 ain: 2.4 aout: -0.09
+239 charging xcycle battery bat_top Vbat = 16.53, Vin = 16.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.75 vout: 13.34 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.25 vbat2 bat_top 16.53 vin: 16.77 vout: 13.28 ain: 2.4 aout: -0.18
+240 charging xcycle battery bat_top Vbat = 16.53, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.53 vin: 16.74 vout: 13.14 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.25 vbat2 bat_top 16.54 vin: 16.77 vout: 13.34 ain: 2.4 aout: -0.09
+241 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.52 vin: 16.76 vout: 13.3 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.53 vin: 16.74 vout: 13.18 ain: 2.4 aout: -0.09
+242 charging xcycle battery bat_top Vbat = 16.53, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.56 vin: 16.74 vout: 13.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.56 vin: 16.74 vout: 13.34 ain: 2.4 aout: -0.09
+243 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.54 vin: 16.78 vout: 13.3 ain: 2.4 aout: -0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.54 vin: 16.74 vout: 13.24 ain: 2.4 aout: 0.0
+244 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.25 vbat2 bat_top 16.56 vin: 16.77 vout: 13.33 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.55 vin: 16.74 vout: 13.2 ain: 2.4 aout: 0.09
+245 charging xcycle battery bat_top Vbat = 16.55, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.74 vout: 13.31 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.56 vin: 16.74 vout: 13.28 ain: 2.4 aout: 0.09
+246 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.55 vin: 16.76 vout: 13.22 ain: 2.8 aout: -0.27
+----vbat1 bat_down 13.25 vbat2 bat_top 16.56 vin: 16.78 vout: 13.28 ain: 2.4 aout: 0.09
+247 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.75 vout: 13.17 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.75 vout: 13.21 ain: 2.4 aout: -0.18
+248 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.74 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.77 vout: 13.29 ain: 2.4 aout: -0.09
+249 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.56 vin: 16.74 vout: 13.31 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.54 vin: 16.78 vout: 13.33 ain: 2.4 aout: -0.09
+250 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.77 vout: 13.27 ain: 2.4 aout: 0.18
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.78 vout: 13.3 ain: 2.4 aout: 0.0
+251 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.77 vout: 13.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.56 vin: 16.8 vout: 13.31 ain: 2.4 aout: -0.09
+252 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.8  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.78 vout: 13.22 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.77 vout: 13.31 ain: 2.4 aout: 0.18
+253 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.8 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.78 vout: 13.21 ain: 2.4 aout: -0.09
+254 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.78 vout: 13.26 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.78 vout: 13.17 ain: 2.4 aout: -0.09
+255 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.78 vout: 13.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.59 vin: 16.77 vout: 13.15 ain: 2.4 aout: -0.18
+256 charging xcycle battery bat_top Vbat = 16.59, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.78 vout: 13.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.79 vout: 13.3 ain: 2.4 aout: -0.18
+257 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.78 vout: 13.32 ain: 2.4 aout: 0.09
+----vbat1 bat_down 13.26 vbat2 bat_top 16.58 vin: 16.79 vout: 13.34 ain: 2.4 aout: -0.37
+258 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.6 vin: 16.78 vout: 13.28 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.57 vin: 16.79 vout: 13.34 ain: 2.4 aout: -0.18
+259 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 13.26 vbat2 bat_top 16.59 vin: 16.78 vout: 13.3 ain: 2.4 aout: 0.0
+----vbat1 bat_down 13.26 vbat2 bat_top 16.6 vin: 16.8 vout: 13.3 ain: 2.4 aout: 0.18
+260 charging xcycle battery bat_top Vbat = 16.6, Vin = 16.8  Ain 2.4
+PWM regulation is:  100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236 237 238 239 240 241 242 243 244 245 246 247 248 249 250 251 252 253 254 255 256 257 258 259 260 261
+13.67 13.73 14.0 14.01 14.03 14.02 14.05 14.05 14.06 14.07 14.06 14.1 14.1 14.12 14.13 14.16 14.16 14.16 14.18 14.18 14.22 14.23 14.24 14.25 14.29 14.27 14.3 14.31 14.32 14.36 14.38 14.38 14.39 14.4 14.42 14.43 14.46 14.5 14.47 14.48 14.49 14.54 14.54 14.56 14.58 14.61 14.61 14.62 14.6 14.63 14.63 14.62 14.67 14.68 14.68 14.7 14.72 14.72 14.7 14.65 14.68 14.71 14.69 14.7 14.69 14.7 14.73 14.75 14.75 14.77 14.76 14.78 14.8 14.8 14.81 14.82 14.86 14.84 14.85 14.88 14.91 14.9 14.9 14.94 14.96 14.98 14.97 15.0 15.0 15.02 15.04 15.08 15.06 15.09 15.12 15.14 15.13 15.18 15.18 15.18 15.22 15.24 15.23 15.25 15.29 15.3 15.3 15.34 15.33 15.37 15.36 15.4 15.41 15.4 15.41 15.45 15.46 15.46 15.5 15.51 15.5 15.54 15.52 15.54 15.58 15.59 15.61 15.61 15.66 15.64 15.69 15.66 15.67 15.7 15.7 15.74 15.77 15.74 15.78 15.78 15.78 15.78 15.81 15.83 15.85 15.84 15.86 15.86 15.87 15.9 15.91 15.9 15.91 15.94 15.91 15.94 15.94 15.94 15.98 15.98 15.99 15.99 15.99 16.02 16.0 16.02 16.02 16.02 16.04 16.04 16.05 16.07 16.09 16.09 16.1 16.07 16.11 16.12 16.1 16.14 16.14 16.12 16.16 16.16 16.15 16.18 16.18 16.2 16.19 16.22 16.22 16.23 16.23 16.24 16.25 16.27 16.26 16.27 16.26 16.27 16.3 16.29 16.33 16.34 16.34 16.34 16.34 16.37 16.36 16.36 16.37 16.4 16.38 16.42 16.42 16.42 16.42 16.44 16.42 16.42 16.45 16.45 16.46 16.47 16.46 16.46 16.48 16.46 16.48 16.48 16.5 16.49 16.5 16.52 16.52 16.51 16.51 16.54 16.52 16.53 16.53 16.54 16.53 16.56 16.54 16.55 16.56 16.56 16.57 16.58 16.54 16.58 16.56 16.58 16.57 16.57 16.59 16.57 16.58 16.57 16.6
+----vbat1 bat_down 13.26 vbat2 bat_top 16.6 vin: 16.78 vout: 16.0 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.02 vbat2 bat_top 15.96 vin: 19.03 vout: 15.88 ain: 2.8 aout: 0.18
+----vbat1 bat_down 13.02 vbat2 bat_top 15.45 vin: 19.04 vout: 15.76 ain: 2.0 aout: 0.0
+----vbat1 bat_down 13.74 vbat2 bat_top 15.67 vin: 13.95 vout: 15.54 ain: 2.0 aout: -0.18
+----vbat1 bat_down 13.75 vbat2 bat_top 15.64 vin: 14.0 vout: 15.67 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.78 vbat2 bat_top 15.61 vin: 14.03 vout: 15.53 ain: 2.0 aout: 0.18
+1 charging xcycle battery bat_down Vbat = 13.78, Vin = 14.03  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.02 vbat2 bat_top 15.06 vin: 14.18 vout: 14.98 ain: 2.0 aout: -0.09
+----vbat1 bat_down 13.98 vbat2 bat_top 15.06 vin: 14.23 vout: 15.04 ain: 2.0 aout: 0.18
+2 charging xcycle battery bat_down Vbat = 13.98, Vin = 14.23  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.08 vbat2 bat_top 14.9 vin: 14.26 vout: 14.89 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.06 vbat2 bat_top 14.9 vin: 14.3 vout: 14.81 ain: 2.0 aout: -0.09
+3 charging xcycle battery bat_down Vbat = 14.06, Vin = 14.3  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.1 vbat2 bat_top 14.78 vin: 14.34 vout: 14.82 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.09 vbat2 bat_top 14.78 vin: 14.34 vout: 14.86 ain: 2.0 aout: 0.18
+4 charging xcycle battery bat_down Vbat = 14.09, Vin = 14.34  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.11 vbat2 bat_top 14.68 vin: 14.37 vout: 14.76 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.13 vbat2 bat_top 14.69 vin: 14.31 vout: 14.57 ain: 2.0 aout: 0.09
+5 charging xcycle battery bat_down Vbat = 14.13, Vin = 14.31  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.12 vbat2 bat_top 14.61 vin: 14.37 vout: 14.64 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.14 vbat2 bat_top 14.59 vin: 14.38 vout: 14.68 ain: 2.0 aout: -0.09
+6 charging xcycle battery bat_down Vbat = 14.14, Vin = 14.38  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.19 vbat2 bat_top 14.54 vin: 14.39 vout: 14.48 ain: 2.0 aout: -0.37
+----vbat1 bat_down 14.2 vbat2 bat_top 14.54 vin: 14.35 vout: 14.48 ain: 2.0 aout: 0.09
+7 charging xcycle battery bat_down Vbat = 14.2, Vin = 14.35  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.18 vbat2 bat_top 14.5 vin: 14.38 vout: 14.57 ain: 2.0 aout: 0.0
+----vbat1 bat_down 14.18 vbat2 bat_top 14.5 vin: 14.38 vout: 14.52 ain: 2.0 aout: -0.18
+8 charging xcycle battery bat_down Vbat = 14.18, Vin = 14.38  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.23 vbat2 bat_top 14.46 vin: 14.4 vout: 14.54 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.18 vbat2 bat_top 14.46 vin: 14.43 vout: 14.55 ain: 2.0 aout: -0.27
+9 charging xcycle battery bat_down Vbat = 14.18, Vin = 14.43  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.23 vbat2 bat_top 14.43 vin: 14.39 vout: 14.44 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.23 vbat2 bat_top 14.42 vin: 14.45 vout: 14.44 ain: 2.0 aout: 0.09
+10 charging xcycle battery bat_down Vbat = 14.23, Vin = 14.45  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.26 vbat2 bat_top 14.39 vin: 14.44 vout: 14.37 ain: 2.0 aout: -0.27
+----vbat1 bat_down 14.22 vbat2 bat_top 14.41 vin: 14.45 vout: 14.45 ain: 2.4 aout: -0.09
+11 charging xcycle battery bat_down Vbat = 14.22, Vin = 14.45  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.23 vbat2 bat_top 14.38 vin: 14.49 vout: 14.44 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.26 vbat2 bat_top 14.38 vin: 14.44 vout: 14.4 ain: 2.0 aout: -0.18
+12 charging xcycle battery bat_down Vbat = 14.26, Vin = 14.44  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.29 vbat2 bat_top 14.34 vin: 14.46 vout: 14.39 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.28 vbat2 bat_top 14.34 vin: 14.48 vout: 14.36 ain: 2.0 aout: -0.18
+13 charging xcycle battery bat_down Vbat = 14.28, Vin = 14.48  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.28 vbat2 bat_top 14.34 vin: 14.46 vout: 14.4 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.26 vbat2 bat_top 14.34 vin: 14.5 vout: 14.24 ain: 2.0 aout: 0.09
+14 charging xcycle battery bat_down Vbat = 14.26, Vin = 14.5  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.32 vbat2 bat_top 14.3 vin: 14.49 vout: 14.21 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.31 vbat2 bat_top 14.31 vin: 14.47 vout: 14.36 ain: 2.0 aout: -0.09
+15 charging xcycle battery bat_down Vbat = 14.31, Vin = 14.47  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.32 vbat2 bat_top 14.3 vin: 14.48 vout: 14.24 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.31 vbat2 bat_top 14.3 vin: 14.48 vout: 14.39 ain: 2.4 aout: -0.09
+16 charging xcycle battery bat_down Vbat = 14.31, Vin = 14.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.3 vbat2 bat_top 14.29 vin: 14.5 vout: 14.26 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.33 vbat2 bat_top 14.28 vin: 14.48 vout: 14.32 ain: 2.0 aout: 0.0
+17 charging xcycle battery bat_down Vbat = 14.33, Vin = 14.48  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.34 vbat2 bat_top 14.26 vin: 14.54 vout: 14.32 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.34 vbat2 bat_top 14.26 vin: 14.54 vout: 14.26 ain: 2.4 aout: -0.18
+18 charging xcycle battery bat_down Vbat = 14.34, Vin = 14.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.32 vbat2 bat_top 14.26 vin: 14.54 vout: 14.33 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.32 vbat2 bat_top 14.25 vin: 14.58 vout: 14.34 ain: 2.0 aout: 0.18
+19 charging xcycle battery bat_down Vbat = 14.32, Vin = 14.58  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.34 vbat2 bat_top 14.24 vin: 14.54 vout: 14.29 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.35 vbat2 bat_top 14.24 vin: 14.54 vout: 14.29 ain: 2.4 aout: 0.18
+20 charging xcycle battery bat_down Vbat = 14.35, Vin = 14.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.35 vbat2 bat_top 14.23 vin: 14.54 vout: 14.25 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.39 vbat2 bat_top 14.22 vin: 14.57 vout: 14.27 ain: 2.0 aout: -0.18
+21 charging xcycle battery bat_down Vbat = 14.39, Vin = 14.57  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.37 vbat2 bat_top 14.22 vin: 14.56 vout: 14.25 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.38 vbat2 bat_top 14.21 vin: 14.62 vout: 14.22 ain: 2.0 aout: -0.18
+22 charging xcycle battery bat_down Vbat = 14.38, Vin = 14.62  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.38 vbat2 bat_top 14.19 vin: 14.62 vout: 14.09 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.37 vbat2 bat_top 14.21 vin: 14.61 vout: 14.19 ain: 2.4 aout: -0.18
+23 charging xcycle battery bat_down Vbat = 14.37, Vin = 14.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.42 vbat2 bat_top 14.18 vin: 14.63 vout: 14.12 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.39 vbat2 bat_top 14.19 vin: 14.62 vout: 14.08 ain: 2.4 aout: 0.18
+24 charging xcycle battery bat_down Vbat = 14.39, Vin = 14.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.44 vbat2 bat_top 14.18 vin: 14.61 vout: 14.06 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.44 vbat2 bat_top 14.17 vin: 14.62 vout: 14.23 ain: 2.0 aout: -0.09
+25 charging xcycle battery bat_down Vbat = 14.44, Vin = 14.62  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.42 vbat2 bat_top 14.17 vin: 14.66 vout: 14.14 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.41 vbat2 bat_top 14.17 vin: 14.66 vout: 14.21 ain: 2.4 aout: 0.09
+26 charging xcycle battery bat_down Vbat = 14.41, Vin = 14.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.42 vbat2 bat_top 14.17 vin: 14.66 vout: 14.21 ain: 2.4 aout: -0.27
+----vbat1 bat_down 14.46 vbat2 bat_top 14.16 vin: 14.62 vout: 14.2 ain: 2.4 aout: 0.09
+27 charging xcycle battery bat_down Vbat = 14.46, Vin = 14.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.47 vbat2 bat_top 14.15 vin: 14.64 vout: 14.18 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.43 vbat2 bat_top 14.15 vin: 14.7 vout: 14.06 ain: 2.4 aout: 0.09
+28 charging xcycle battery bat_down Vbat = 14.43, Vin = 14.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.47 vbat2 bat_top 14.14 vin: 14.67 vout: 14.1 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.54 vbat2 bat_top 14.16 vin: 14.62 vout: 14.05 ain: 2.0 aout: 0.18
+29 charging xcycle battery bat_down Vbat = 14.54, Vin = 14.62  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 14.5 vbat2 bat_top 14.12 vin: 14.72 vout: 14.16 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.51 vbat2 bat_top 14.13 vin: 14.69 vout: 14.12 ain: 2.4 aout: -0.18
+30 charging xcycle battery bat_down Vbat = 14.51, Vin = 14.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.53 vbat2 bat_top 14.13 vin: 14.7 vout: 14.1 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.49 vbat2 bat_top 14.12 vin: 14.74 vout: 14.18 ain: 2.4 aout: -0.09
+31 charging xcycle battery bat_down Vbat = 14.49, Vin = 14.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.54 vbat2 bat_top 14.1 vin: 14.74 vout: 14.15 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.51 vbat2 bat_top 14.12 vin: 14.74 vout: 14.2 ain: 2.4 aout: -0.09
+32 charging xcycle battery bat_down Vbat = 14.51, Vin = 14.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.54 vbat2 bat_top 14.11 vin: 14.77 vout: 14.2 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.57 vbat2 bat_top 14.1 vin: 14.77 vout: 14.16 ain: 2.4 aout: -0.27
+33 charging xcycle battery bat_down Vbat = 14.57, Vin = 14.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.6 vbat2 bat_top 14.1 vin: 14.77 vout: 14.06 ain: 2.0 aout: 0.18
+----vbat1 bat_down 14.6 vbat2 bat_top 14.1 vin: 14.78 vout: 13.99 ain: 2.4 aout: 0.09
+34 charging xcycle battery bat_down Vbat = 14.6, Vin = 14.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.57 vbat2 bat_top 14.1 vin: 14.82 vout: 14.1 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.62 vbat2 bat_top 14.09 vin: 14.78 vout: 14.12 ain: 2.4 aout: 0.09
+35 charging xcycle battery bat_down Vbat = 14.62, Vin = 14.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.61 vbat2 bat_top 14.09 vin: 14.86 vout: 13.98 ain: 2.0 aout: -0.09
+----vbat1 bat_down 14.63 vbat2 bat_top 14.09 vin: 14.8 vout: 14.12 ain: 2.4 aout: -0.18
+36 charging xcycle battery bat_down Vbat = 14.63, Vin = 14.8  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.66 vbat2 bat_top 14.07 vin: 14.87 vout: 14.11 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.66 vbat2 bat_top 14.07 vin: 14.86 vout: 14.16 ain: 2.4 aout: -0.09
+37 charging xcycle battery bat_down Vbat = 14.66, Vin = 14.86  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.69 vbat2 bat_top 14.06 vin: 14.9 vout: 14.09 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.64 vbat2 bat_top 14.07 vin: 14.9 vout: 14.0 ain: 2.4 aout: -0.18
+38 charging xcycle battery bat_down Vbat = 14.64, Vin = 14.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.67 vbat2 bat_top 14.07 vin: 14.9 vout: 14.09 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.7 vbat2 bat_top 14.07 vin: 14.88 vout: 14.03 ain: 2.4 aout: -0.09
+39 charging xcycle battery bat_down Vbat = 14.7, Vin = 14.88  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.7 vbat2 bat_top 14.06 vin: 14.91 vout: 14.11 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.73 vbat2 bat_top 14.06 vin: 14.92 vout: 14.1 ain: 2.4 aout: 0.18
+40 charging xcycle battery bat_down Vbat = 14.73, Vin = 14.92  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.74 vbat2 bat_top 14.05 vin: 14.93 vout: 14.12 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.71 vbat2 bat_top 14.06 vin: 14.91 vout: 14.11 ain: 2.4 aout: 0.0
+41 charging xcycle battery bat_down Vbat = 14.71, Vin = 14.91  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.76 vbat2 bat_top 14.06 vin: 14.92 vout: 14.1 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.73 vbat2 bat_top 14.05 vin: 14.98 vout: 14.08 ain: 2.4 aout: -0.09
+42 charging xcycle battery bat_down Vbat = 14.73, Vin = 14.98  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.74 vbat2 bat_top 14.04 vin: 15.0 vout: 14.08 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.74 vbat2 bat_top 14.04 vin: 14.99 vout: 14.01 ain: 2.4 aout: 0.09
+43 charging xcycle battery bat_down Vbat = 14.74, Vin = 14.99  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.8 vbat2 bat_top 14.04 vin: 14.97 vout: 14.09 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.78 vbat2 bat_top 14.03 vin: 15.0 vout: 14.1 ain: 2.4 aout: -0.18
+44 charging xcycle battery bat_down Vbat = 14.78, Vin = 15.0  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.8 vbat2 bat_top 14.04 vin: 14.97 vout: 13.93 ain: 2.4 aout: 0.27
+----vbat1 bat_down 14.77 vbat2 bat_top 14.03 vin: 15.03 vout: 14.13 ain: 2.4 aout: -0.09
+45 charging xcycle battery bat_down Vbat = 14.77, Vin = 15.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.8 vbat2 bat_top 14.02 vin: 15.04 vout: 13.95 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.81 vbat2 bat_top 14.02 vin: 15.03 vout: 13.98 ain: 2.4 aout: -0.09
+46 charging xcycle battery bat_down Vbat = 14.81, Vin = 15.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.82 vbat2 bat_top 14.03 vin: 14.99 vout: 14.1 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.81 vbat2 bat_top 14.02 vin: 15.06 vout: 14.05 ain: 2.4 aout: -0.27
+47 charging xcycle battery bat_down Vbat = 14.81, Vin = 15.06  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.86 vbat2 bat_top 14.02 vin: 15.02 vout: 14.06 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.8 vbat2 bat_top 14.02 vin: 15.05 vout: 13.92 ain: 2.4 aout: -0.18
+48 charging xcycle battery bat_down Vbat = 14.8, Vin = 15.05  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.84 vbat2 bat_top 14.03 vin: 15.03 vout: 14.06 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.85 vbat2 bat_top 14.02 vin: 15.07 vout: 14.11 ain: 2.4 aout: 0.09
+49 charging xcycle battery bat_down Vbat = 14.85, Vin = 15.07  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.86 vbat2 bat_top 14.02 vin: 15.09 vout: 14.1 ain: 2.4 aout: 0.27
+----vbat1 bat_down 14.88 vbat2 bat_top 14.01 vin: 15.05 vout: 14.07 ain: 2.4 aout: -0.09
+50 charging xcycle battery bat_down Vbat = 14.88, Vin = 15.05  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.85 vbat2 bat_top 14.02 vin: 15.09 vout: 14.0 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.85 vbat2 bat_top 14.01 vin: 15.1 vout: 13.92 ain: 2.4 aout: -0.18
+51 charging xcycle battery bat_down Vbat = 14.85, Vin = 15.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.9 vbat2 bat_top 14.01 vin: 15.09 vout: 14.06 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.86 vbat2 bat_top 14.02 vin: 15.09 vout: 13.99 ain: 2.4 aout: -0.09
+52 charging xcycle battery bat_down Vbat = 14.86, Vin = 15.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.91 vbat2 bat_top 14.01 vin: 15.07 vout: 14.04 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.86 vbat2 bat_top 14.01 vin: 15.12 vout: 14.06 ain: 2.4 aout: 0.37
+53 charging xcycle battery bat_down Vbat = 14.86, Vin = 15.12  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.91 vbat2 bat_top 14.0 vin: 15.13 vout: 14.04 ain: 2.4 aout: 0.27
+----vbat1 bat_down 14.9 vbat2 bat_top 14.02 vin: 15.08 vout: 14.05 ain: 2.4 aout: -0.37
+54 charging xcycle battery bat_down Vbat = 14.9, Vin = 15.08  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.93 vbat2 bat_top 13.99 vin: 15.14 vout: 14.07 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.92 vbat2 bat_top 14.01 vin: 15.1 vout: 14.1 ain: 2.4 aout: 0.09
+55 charging xcycle battery bat_down Vbat = 14.92, Vin = 15.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.89 vbat2 bat_top 14.01 vin: 15.15 vout: 13.9 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.94 vbat2 bat_top 13.99 vin: 15.14 vout: 14.09 ain: 2.4 aout: -0.09
+56 charging xcycle battery bat_down Vbat = 14.94, Vin = 15.14  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.94 vbat2 bat_top 14.01 vin: 15.12 vout: 14.05 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.95 vbat2 bat_top 14.0 vin: 15.1 vout: 14.08 ain: 2.4 aout: -0.18
+57 charging xcycle battery bat_down Vbat = 14.95, Vin = 15.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.97 vbat2 bat_top 13.99 vin: 15.13 vout: 14.04 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.93 vbat2 bat_top 13.99 vin: 15.18 vout: 14.04 ain: 2.4 aout: -0.09
+58 charging xcycle battery bat_down Vbat = 14.93, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.93 vbat2 bat_top 14.0 vin: 15.18 vout: 13.99 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.93 vbat2 bat_top 14.0 vin: 15.19 vout: 13.99 ain: 2.4 aout: 0.0
+59 charging xcycle battery bat_down Vbat = 14.93, Vin = 15.19  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.97 vbat2 bat_top 14.0 vin: 15.15 vout: 14.04 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.98 vbat2 bat_top 14.0 vin: 15.16 vout: 14.01 ain: 2.4 aout: 0.09
+60 charging xcycle battery bat_down Vbat = 14.98, Vin = 15.16  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.95 vbat2 bat_top 13.99 vin: 15.22 vout: 14.08 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.99 vbat2 bat_top 13.98 vin: 15.22 vout: 14.02 ain: 2.4 aout: -0.18
+61 charging xcycle battery bat_down Vbat = 14.99, Vin = 15.22  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.0 vbat2 bat_top 13.98 vin: 15.23 vout: 14.07 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.0 vbat2 bat_top 14.0 vin: 15.18 vout: 14.04 ain: 2.4 aout: 0.18
+62 charging xcycle battery bat_down Vbat = 15.0, Vin = 15.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.04 vbat2 bat_top 13.98 vin: 15.21 vout: 13.91 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.02 vbat2 bat_top 13.99 vin: 15.2 vout: 14.01 ain: 2.4 aout: -0.18
+63 charging xcycle battery bat_down Vbat = 15.02, Vin = 15.2  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.01 vbat2 bat_top 13.99 vin: 15.26 vout: 14.01 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.04 vbat2 bat_top 13.98 vin: 15.25 vout: 14.02 ain: 2.4 aout: 0.0
+64 charging xcycle battery bat_down Vbat = 15.04, Vin = 15.25  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.06 vbat2 bat_top 13.98 vin: 15.24 vout: 13.89 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.06 vbat2 bat_top 13.98 vin: 15.23 vout: 14.01 ain: 2.4 aout: -0.18
+65 charging xcycle battery bat_down Vbat = 15.06, Vin = 15.23  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.04 vbat2 bat_top 13.98 vin: 15.3 vout: 14.02 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.04 vbat2 bat_top 13.98 vin: 15.26 vout: 14.02 ain: 2.4 aout: -0.09
+66 charging xcycle battery bat_down Vbat = 15.04, Vin = 15.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.06 vbat2 bat_top 13.98 vin: 15.3 vout: 14.06 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.07 vbat2 bat_top 13.98 vin: 15.3 vout: 14.03 ain: 2.4 aout: 0.18
+67 charging xcycle battery bat_down Vbat = 15.07, Vin = 15.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.1 vbat2 bat_top 13.99 vin: 15.24 vout: 14.03 ain: 2.4 aout: 0.37
+----vbat1 bat_down 15.05 vbat2 bat_top 13.98 vin: 15.3 vout: 14.04 ain: 2.4 aout: 0.0
+68 charging xcycle battery bat_down Vbat = 15.05, Vin = 15.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.13 vbat2 bat_top 13.97 vin: 15.3 vout: 13.92 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.09 vbat2 bat_top 13.98 vin: 15.34 vout: 14.01 ain: 2.4 aout: 0.0
+69 charging xcycle battery bat_down Vbat = 15.09, Vin = 15.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.14 vbat2 bat_top 13.98 vin: 15.29 vout: 13.88 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.14 vbat2 bat_top 13.98 vin: 15.3 vout: 14.01 ain: 2.4 aout: -0.09
+70 charging xcycle battery bat_down Vbat = 15.14, Vin = 15.3  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.14 vbat2 bat_top 13.97 vin: 15.36 vout: 14.03 ain: 2.4 aout: -0.27
+----vbat1 bat_down 15.1 vbat2 bat_top 13.98 vin: 15.36 vout: 13.86 ain: 2.4 aout: 0.09
+71 charging xcycle battery bat_down Vbat = 15.1, Vin = 15.36  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.17 vbat2 bat_top 13.97 vin: 15.34 vout: 14.01 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.13 vbat2 bat_top 13.98 vin: 15.37 vout: 13.94 ain: 2.4 aout: 0.27
+72 charging xcycle battery bat_down Vbat = 15.13, Vin = 15.37  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.18 vbat2 bat_top 13.97 vin: 15.37 vout: 13.93 ain: 2.4 aout: 0.18
+----vbat1 bat_down 15.16 vbat2 bat_top 13.98 vin: 15.35 vout: 14.06 ain: 2.4 aout: -0.18
+73 charging xcycle battery bat_down Vbat = 15.16, Vin = 15.35  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.16 vbat2 bat_top 13.98 vin: 15.39 vout: 13.92 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.15 vbat2 bat_top 13.98 vin: 15.38 vout: 14.02 ain: 2.4 aout: 0.09
+74 charging xcycle battery bat_down Vbat = 15.15, Vin = 15.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.18 vbat2 bat_top 13.98 vin: 15.38 vout: 14.0 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.18 vbat2 bat_top 13.97 vin: 15.42 vout: 14.01 ain: 2.4 aout: -0.18
+75 charging xcycle battery bat_down Vbat = 15.18, Vin = 15.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.22 vbat2 bat_top 13.96 vin: 15.41 vout: 14.0 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.2 vbat2 bat_top 13.98 vin: 15.37 vout: 13.91 ain: 2.4 aout: -0.18
+76 charging xcycle battery bat_down Vbat = 15.2, Vin = 15.37  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.24 vbat2 bat_top 13.96 vin: 15.4 vout: 13.87 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.2 vbat2 bat_top 13.97 vin: 15.46 vout: 14.01 ain: 2.4 aout: 0.09
+77 charging xcycle battery bat_down Vbat = 15.2, Vin = 15.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.19 vbat2 bat_top 13.98 vin: 15.44 vout: 14.0 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.24 vbat2 bat_top 13.96 vin: 15.43 vout: 13.89 ain: 2.4 aout: 0.0
+78 charging xcycle battery bat_down Vbat = 15.24, Vin = 15.43  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.22 vbat2 bat_top 13.96 vin: 15.47 vout: 13.97 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.25 vbat2 bat_top 13.97 vin: 15.42 vout: 14.03 ain: 2.4 aout: -0.09
+79 charging xcycle battery bat_down Vbat = 15.25, Vin = 15.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.26 vbat2 bat_top 13.96 vin: 15.43 vout: 13.98 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.26 vbat2 bat_top 13.96 vin: 15.48 vout: 13.98 ain: 2.4 aout: 0.0
+80 charging xcycle battery bat_down Vbat = 15.26, Vin = 15.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.23 vbat2 bat_top 13.97 vin: 15.48 vout: 13.86 ain: 2.4 aout: 0.27
+----vbat1 bat_down 15.27 vbat2 bat_top 13.95 vin: 15.48 vout: 14.05 ain: 2.4 aout: 0.18
+81 charging xcycle battery bat_down Vbat = 15.27, Vin = 15.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.26 vbat2 bat_top 13.97 vin: 15.46 vout: 14.0 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.26 vbat2 bat_top 13.96 vin: 15.5 vout: 13.91 ain: 2.4 aout: -0.27
+82 charging xcycle battery bat_down Vbat = 15.26, Vin = 15.5  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.29 vbat2 bat_top 13.97 vin: 15.47 vout: 13.97 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.3 vbat2 bat_top 13.97 vin: 15.47 vout: 13.99 ain: 2.4 aout: 0.18
+83 charging xcycle battery bat_down Vbat = 15.3, Vin = 15.47  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.31 vbat2 bat_top 13.96 vin: 15.47 vout: 13.98 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.28 vbat2 bat_top 13.96 vin: 15.53 vout: 13.99 ain: 2.4 aout: 0.0
+84 charging xcycle battery bat_down Vbat = 15.28, Vin = 15.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.29 vbat2 bat_top 13.96 vin: 15.54 vout: 13.94 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.3 vbat2 bat_top 13.96 vin: 15.54 vout: 13.97 ain: 2.4 aout: -0.18
+85 charging xcycle battery bat_down Vbat = 15.3, Vin = 15.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.3 vbat2 bat_top 13.95 vin: 15.55 vout: 13.92 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.34 vbat2 bat_top 13.95 vin: 15.54 vout: 13.92 ain: 2.4 aout: 0.18
+86 charging xcycle battery bat_down Vbat = 15.34, Vin = 15.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.35 vbat2 bat_top 13.95 vin: 15.51 vout: 13.97 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.31 vbat2 bat_top 13.97 vin: 15.53 vout: 14.0 ain: 2.4 aout: 0.09
+87 charging xcycle battery bat_down Vbat = 15.31, Vin = 15.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.36 vbat2 bat_top 13.95 vin: 15.54 vout: 14.03 ain: 2.4 aout: 0.27
+----vbat1 bat_down 15.31 vbat2 bat_top 13.96 vin: 15.58 vout: 13.91 ain: 2.4 aout: -0.09
+88 charging xcycle battery bat_down Vbat = 15.31, Vin = 15.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.35 vbat2 bat_top 13.95 vin: 15.58 vout: 13.89 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.37 vbat2 bat_top 13.96 vin: 15.53 vout: 13.98 ain: 2.4 aout: -0.18
+89 charging xcycle battery bat_down Vbat = 15.37, Vin = 15.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.38 vbat2 bat_top 13.95 vin: 15.56 vout: 14.0 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.35 vbat2 bat_top 13.95 vin: 15.6 vout: 14.0 ain: 2.4 aout: -0.09
+90 charging xcycle battery bat_down Vbat = 15.35, Vin = 15.6  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.37 vbat2 bat_top 13.96 vin: 15.57 vout: 13.9 ain: 2.4 aout: -0.37
+----vbat1 bat_down 15.36 vbat2 bat_top 13.96 vin: 15.59 vout: 14.02 ain: 2.4 aout: -0.09
+91 charging xcycle battery bat_down Vbat = 15.36, Vin = 15.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.38 vbat2 bat_top 13.96 vin: 15.58 vout: 13.89 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.38 vbat2 bat_top 13.95 vin: 15.62 vout: 14.0 ain: 2.4 aout: 0.09
+92 charging xcycle battery bat_down Vbat = 15.38, Vin = 15.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.41 vbat2 bat_top 13.94 vin: 15.62 vout: 14.0 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.42 vbat2 bat_top 13.95 vin: 15.59 vout: 13.96 ain: 2.4 aout: 0.18
+93 charging xcycle battery bat_down Vbat = 15.42, Vin = 15.59  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.43 vbat2 bat_top 13.94 vin: 15.61 vout: 13.96 ain: 2.4 aout: -0.37
+----vbat1 bat_down 15.42 vbat2 bat_top 13.94 vin: 15.65 vout: 14.0 ain: 2.4 aout: -0.18
+94 charging xcycle battery bat_down Vbat = 15.42, Vin = 15.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.41 vbat2 bat_top 13.95 vin: 15.66 vout: 14.02 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.44 vbat2 bat_top 13.95 vin: 15.61 vout: 13.84 ain: 2.4 aout: -0.18
+95 charging xcycle battery bat_down Vbat = 15.44, Vin = 15.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.46 vbat2 bat_top 13.94 vin: 15.63 vout: 13.95 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.46 vbat2 bat_top 13.94 vin: 15.66 vout: 13.99 ain: 2.4 aout: 0.09
+96 charging xcycle battery bat_down Vbat = 15.46, Vin = 15.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.47 vbat2 bat_top 13.95 vin: 15.64 vout: 14.0 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.43 vbat2 bat_top 13.95 vin: 15.66 vout: 13.97 ain: 2.4 aout: -0.09
+97 charging xcycle battery bat_down Vbat = 15.43, Vin = 15.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.45 vbat2 bat_top 13.95 vin: 15.7 vout: 14.03 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.48 vbat2 bat_top 13.94 vin: 15.68 vout: 13.99 ain: 2.4 aout: 0.09
+98 charging xcycle battery bat_down Vbat = 15.48, Vin = 15.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.45 vbat2 bat_top 13.94 vin: 15.7 vout: 13.89 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.5 vbat2 bat_top 13.94 vin: 15.69 vout: 13.89 ain: 2.4 aout: 0.09
+99 charging xcycle battery bat_down Vbat = 15.5, Vin = 15.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.46 vbat2 bat_top 13.94 vin: 15.72 vout: 13.9 ain: 2.4 aout: 0.18
+----vbat1 bat_down 15.49 vbat2 bat_top 13.94 vin: 15.7 vout: 13.89 ain: 2.4 aout: 0.18
+100 charging xcycle battery bat_down Vbat = 15.49, Vin = 15.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.5 vbat2 bat_top 13.95 vin: 15.66 vout: 13.97 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.49 vbat2 bat_top 13.94 vin: 15.73 vout: 13.98 ain: 2.4 aout: 0.18
+101 charging xcycle battery bat_down Vbat = 15.49, Vin = 15.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.52 vbat2 bat_top 13.94 vin: 15.68 vout: 13.88 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.5 vbat2 bat_top 13.95 vin: 15.68 vout: 13.84 ain: 2.4 aout: -0.09
+102 charging xcycle battery bat_down Vbat = 15.5, Vin = 15.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.53 vbat2 bat_top 13.94 vin: 15.69 vout: 13.93 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.5 vbat2 bat_top 13.94 vin: 15.75 vout: 14.0 ain: 2.4 aout: 0.09
+103 charging xcycle battery bat_down Vbat = 15.5, Vin = 15.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.54 vbat2 bat_top 13.94 vin: 15.74 vout: 13.99 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.53 vbat2 bat_top 13.95 vin: 15.71 vout: 13.96 ain: 2.4 aout: -0.09
+104 charging xcycle battery bat_down Vbat = 15.53, Vin = 15.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.54 vbat2 bat_top 13.94 vin: 15.7 vout: 14.01 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.51 vbat2 bat_top 13.94 vin: 15.76 vout: 13.89 ain: 2.4 aout: -0.09
+105 charging xcycle battery bat_down Vbat = 15.51, Vin = 15.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.54 vbat2 bat_top 13.94 vin: 15.74 vout: 13.91 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.52 vbat2 bat_top 13.94 vin: 15.77 vout: 13.97 ain: 2.4 aout: -0.27
+106 charging xcycle battery bat_down Vbat = 15.52, Vin = 15.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.56 vbat2 bat_top 13.94 vin: 15.78 vout: 14.0 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.55 vbat2 bat_top 13.94 vin: 15.79 vout: 13.84 ain: 2.4 aout: -0.09
+107 charging xcycle battery bat_down Vbat = 15.55, Vin = 15.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.58 vbat2 bat_top 13.93 vin: 15.79 vout: 13.99 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.54 vbat2 bat_top 13.94 vin: 15.78 vout: 13.97 ain: 2.4 aout: -0.37
+108 charging xcycle battery bat_down Vbat = 15.54, Vin = 15.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.56 vbat2 bat_top 13.94 vin: 15.82 vout: 13.92 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.58 vbat2 bat_top 13.94 vin: 15.74 vout: 13.96 ain: 2.4 aout: -0.09
+109 charging xcycle battery bat_down Vbat = 15.58, Vin = 15.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.58 vbat2 bat_top 13.94 vin: 15.78 vout: 13.93 ain: 2.4 aout: 0.37
+----vbat1 bat_down 15.58 vbat2 bat_top 13.94 vin: 15.78 vout: 13.98 ain: 2.4 aout: -0.27
+110 charging xcycle battery bat_down Vbat = 15.58, Vin = 15.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.59 vbat2 bat_top 13.94 vin: 15.78 vout: 14.01 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.62 vbat2 bat_top 13.93 vin: 15.81 vout: 13.83 ain: 2.4 aout: -0.09
+111 charging xcycle battery bat_down Vbat = 15.62, Vin = 15.81  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.59 vbat2 bat_top 13.94 vin: 15.82 vout: 14.01 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.63 vbat2 bat_top 13.94 vin: 15.79 vout: 13.98 ain: 2.4 aout: -0.09
+112 charging xcycle battery bat_down Vbat = 15.63, Vin = 15.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.63 vbat2 bat_top 13.94 vin: 15.78 vout: 14.02 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.64 vbat2 bat_top 13.93 vin: 15.84 vout: 13.87 ain: 2.4 aout: 0.18
+113 charging xcycle battery bat_down Vbat = 15.64, Vin = 15.84  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.61 vbat2 bat_top 13.94 vin: 15.86 vout: 13.95 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.65 vbat2 bat_top 13.93 vin: 15.83 vout: 13.92 ain: 2.4 aout: -0.27
+114 charging xcycle battery bat_down Vbat = 15.65, Vin = 15.83  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.66 vbat2 bat_top 13.94 vin: 15.83 vout: 14.02 ain: 2.4 aout: 0.18
+----vbat1 bat_down 15.63 vbat2 bat_top 13.93 vin: 15.88 vout: 13.96 ain: 2.4 aout: -0.18
+115 charging xcycle battery bat_down Vbat = 15.63, Vin = 15.88  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.63 vbat2 bat_top 13.94 vin: 15.85 vout: 13.89 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.64 vbat2 bat_top 13.94 vin: 15.82 vout: 13.9 ain: 2.4 aout: 0.27
+116 charging xcycle battery bat_down Vbat = 15.64, Vin = 15.82  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.68 vbat2 bat_top 13.93 vin: 15.83 vout: 13.85 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.67 vbat2 bat_top 13.92 vin: 15.89 vout: 13.82 ain: 2.4 aout: 0.0
+117 charging xcycle battery bat_down Vbat = 15.67, Vin = 15.89  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.67 vbat2 bat_top 13.94 vin: 15.85 vout: 13.93 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.7 vbat2 bat_top 13.93 vin: 15.86 vout: 13.99 ain: 2.4 aout: -0.18
+118 charging xcycle battery bat_down Vbat = 15.7, Vin = 15.86  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.69 vbat2 bat_top 13.94 vin: 15.86 vout: 13.94 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.69 vbat2 bat_top 13.92 vin: 15.91 vout: 13.82 ain: 2.4 aout: 0.18
+119 charging xcycle battery bat_down Vbat = 15.69, Vin = 15.91  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.71 vbat2 bat_top 13.93 vin: 15.86 vout: 13.98 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.72 vbat2 bat_top 13.93 vin: 15.89 vout: 13.94 ain: 2.4 aout: -0.09
+120 charging xcycle battery bat_down Vbat = 15.72, Vin = 15.89  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.7 vbat2 bat_top 13.92 vin: 15.94 vout: 13.88 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.72 vbat2 bat_top 13.93 vin: 15.9 vout: 13.84 ain: 2.4 aout: 0.09
+121 charging xcycle battery bat_down Vbat = 15.72, Vin = 15.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.7 vbat2 bat_top 13.93 vin: 15.94 vout: 13.96 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.73 vbat2 bat_top 13.94 vin: 15.9 vout: 13.84 ain: 2.4 aout: 0.0
+122 charging xcycle battery bat_down Vbat = 15.73, Vin = 15.9  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.7 vbat2 bat_top 13.94 vin: 15.95 vout: 13.93 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.72 vbat2 bat_top 13.93 vin: 15.96 vout: 13.97 ain: 2.4 aout: 0.0
+123 charging xcycle battery bat_down Vbat = 15.72, Vin = 15.96  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.75 vbat2 bat_top 13.93 vin: 15.92 vout: 13.82 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.76 vbat2 bat_top 13.92 vin: 15.94 vout: 13.94 ain: 2.4 aout: -0.09
+124 charging xcycle battery bat_down Vbat = 15.76, Vin = 15.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.74 vbat2 bat_top 13.94 vin: 15.94 vout: 13.98 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.77 vbat2 bat_top 13.92 vin: 15.94 vout: 13.93 ain: 2.4 aout: -0.09
+125 charging xcycle battery bat_down Vbat = 15.77, Vin = 15.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.78 vbat2 bat_top 13.92 vin: 15.95 vout: 13.9 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.78 vbat2 bat_top 13.92 vin: 15.98 vout: 13.97 ain: 2.4 aout: -0.18
+126 charging xcycle battery bat_down Vbat = 15.78, Vin = 15.98  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.76 vbat2 bat_top 13.94 vin: 15.95 vout: 13.96 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.75 vbat2 bat_top 13.93 vin: 16.0 vout: 13.85 ain: 2.4 aout: -0.18
+127 charging xcycle battery bat_down Vbat = 15.75, Vin = 16.0  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.78 vbat2 bat_top 13.92 vin: 16.0 vout: 13.86 ain: 2.4 aout: 0.27
+----vbat1 bat_down 15.75 vbat2 bat_top 13.93 vin: 15.98 vout: 13.94 ain: 2.4 aout: -0.09
+128 charging xcycle battery bat_down Vbat = 15.75, Vin = 15.98  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.78 vbat2 bat_top 13.93 vin: 15.96 vout: 13.97 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.77 vbat2 bat_top 13.93 vin: 16.02 vout: 13.82 ain: 2.4 aout: -0.18
+129 charging xcycle battery bat_down Vbat = 15.77, Vin = 16.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.82 vbat2 bat_top 13.92 vin: 15.99 vout: 13.81 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.82 vbat2 bat_top 13.91 vin: 16.02 vout: 13.87 ain: 2.4 aout: -0.09
+130 charging xcycle battery bat_down Vbat = 15.82, Vin = 16.02  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.82 vbat2 bat_top 13.93 vin: 15.98 vout: 13.95 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.82 vbat2 bat_top 13.91 vin: 16.03 vout: 13.98 ain: 2.4 aout: 0.0
+131 charging xcycle battery bat_down Vbat = 15.82, Vin = 16.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.8 vbat2 bat_top 13.92 vin: 16.06 vout: 13.82 ain: 2.4 aout: 0.18
+----vbat1 bat_down 15.8 vbat2 bat_top 13.92 vin: 16.06 vout: 13.99 ain: 2.4 aout: -0.18
+132 charging xcycle battery bat_down Vbat = 15.8, Vin = 16.06  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.82 vbat2 bat_top 13.93 vin: 16.0 vout: 13.98 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.85 vbat2 bat_top 13.92 vin: 16.03 vout: 13.93 ain: 2.4 aout: 0.18
+133 charging xcycle battery bat_down Vbat = 15.85, Vin = 16.03  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.86 vbat2 bat_top 13.91 vin: 16.04 vout: 13.97 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.82 vbat2 bat_top 13.92 vin: 16.07 vout: 13.92 ain: 2.4 aout: 0.0
+134 charging xcycle battery bat_down Vbat = 15.82, Vin = 16.07  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.83 vbat2 bat_top 13.93 vin: 16.03 vout: 13.97 ain: 2.4 aout: -0.27
+----vbat1 bat_down 15.86 vbat2 bat_top 13.93 vin: 16.01 vout: 14.0 ain: 2.4 aout: -0.18
+135 charging xcycle battery bat_down Vbat = 15.86, Vin = 16.01  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.86 vbat2 bat_top 13.93 vin: 16.02 vout: 13.99 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.87 vbat2 bat_top 13.92 vin: 16.05 vout: 13.84 ain: 2.4 aout: 0.18
+136 charging xcycle battery bat_down Vbat = 15.87, Vin = 16.05  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.88 vbat2 bat_top 13.92 vin: 16.06 vout: 13.99 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.87 vbat2 bat_top 13.91 vin: 16.09 vout: 13.87 ain: 2.4 aout: 0.09
+137 charging xcycle battery bat_down Vbat = 15.87, Vin = 16.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.9 vbat2 bat_top 13.91 vin: 16.1 vout: 13.94 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.86 vbat2 bat_top 13.93 vin: 16.09 vout: 13.88 ain: 2.4 aout: -0.09
+138 charging xcycle battery bat_down Vbat = 15.86, Vin = 16.09  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.88 vbat2 bat_top 13.91 vin: 16.12 vout: 13.81 ain: 2.4 aout: -0.27
+----vbat1 bat_down 15.91 vbat2 bat_top 13.91 vin: 16.08 vout: 14.01 ain: 2.4 aout: 0.09
+139 charging xcycle battery bat_down Vbat = 15.91, Vin = 16.08  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.9 vbat2 bat_top 13.93 vin: 16.08 vout: 13.94 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.9 vbat2 bat_top 13.91 vin: 16.13 vout: 13.95 ain: 2.4 aout: -0.27
+140 charging xcycle battery bat_down Vbat = 15.9, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.93 vbat2 bat_top 13.91 vin: 16.09 vout: 13.94 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.91 vbat2 bat_top 13.91 vin: 16.13 vout: 13.97 ain: 2.4 aout: -0.09
+141 charging xcycle battery bat_down Vbat = 15.91, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.92 vbat2 bat_top 13.92 vin: 16.09 vout: 13.98 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.89 vbat2 bat_top 13.92 vin: 16.13 vout: 13.96 ain: 2.4 aout: -0.09
+142 charging xcycle battery bat_down Vbat = 15.89, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.9 vbat2 bat_top 13.91 vin: 16.16 vout: 13.97 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.95 vbat2 bat_top 13.9 vin: 16.13 vout: 13.88 ain: 2.4 aout: -0.18
+143 charging xcycle battery bat_down Vbat = 15.95, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.93 vbat2 bat_top 13.91 vin: 16.18 vout: 13.84 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.96 vbat2 bat_top 13.91 vin: 16.14 vout: 13.85 ain: 2.4 aout: -0.18
+144 charging xcycle battery bat_down Vbat = 15.96, Vin = 16.14  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.93 vbat2 bat_top 13.92 vin: 16.14 vout: 13.94 ain: 2.4 aout: 0.18
+----vbat1 bat_down 15.94 vbat2 bat_top 13.9 vin: 16.18 vout: 13.99 ain: 2.4 aout: 0.09
+145 charging xcycle battery bat_down Vbat = 15.94, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.98 vbat2 bat_top 13.91 vin: 16.13 vout: 14.0 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.96 vbat2 bat_top 13.92 vin: 16.13 vout: 13.96 ain: 2.4 aout: -0.09
+146 charging xcycle battery bat_down Vbat = 15.96, Vin = 16.13  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.94 vbat2 bat_top 13.92 vin: 16.15 vout: 13.85 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.94 vbat2 bat_top 13.92 vin: 16.19 vout: 13.97 ain: 2.4 aout: -0.09
+147 charging xcycle battery bat_down Vbat = 15.94, Vin = 16.19  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.96 vbat2 bat_top 13.91 vin: 16.21 vout: 13.92 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.99 vbat2 bat_top 13.91 vin: 16.15 vout: 13.8 ain: 2.4 aout: -0.18
+148 charging xcycle battery bat_down Vbat = 15.99, Vin = 16.15  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.99 vbat2 bat_top 13.91 vin: 16.14 vout: 13.92 ain: 2.4 aout: 0.0
+----vbat1 bat_down 15.95 vbat2 bat_top 13.91 vin: 16.2 vout: 13.95 ain: 2.4 aout: 0.46
+149 charging xcycle battery bat_down Vbat = 15.95, Vin = 16.2  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.02 vbat2 bat_top 13.9 vin: 16.19 vout: 13.86 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.02 vbat2 bat_top 13.9 vin: 16.18 vout: 13.85 ain: 2.4 aout: -0.09
+150 charging xcycle battery bat_down Vbat = 16.02, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.02 vbat2 bat_top 13.91 vin: 16.17 vout: 13.98 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.02 vbat2 bat_top 13.91 vin: 16.18 vout: 14.0 ain: 2.4 aout: -0.27
+151 charging xcycle battery bat_down Vbat = 16.02, Vin = 16.18  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.99 vbat2 bat_top 13.92 vin: 16.22 vout: 13.95 ain: 2.4 aout: -0.27
+----vbat1 bat_down 15.99 vbat2 bat_top 13.92 vin: 16.21 vout: 13.8 ain: 2.4 aout: 0.09
+152 charging xcycle battery bat_down Vbat = 15.99, Vin = 16.21  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.02 vbat2 bat_top 13.91 vin: 16.19 vout: 14.0 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.02 vbat2 bat_top 13.9 vin: 16.26 vout: 13.86 ain: 2.4 aout: 0.09
+153 charging xcycle battery bat_down Vbat = 16.02, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.05 vbat2 bat_top 13.9 vin: 16.22 vout: 13.95 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.05 vbat2 bat_top 13.91 vin: 16.21 vout: 13.92 ain: 2.4 aout: -0.09
+154 charging xcycle battery bat_down Vbat = 16.05, Vin = 16.21  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.05 vbat2 bat_top 13.9 vin: 16.26 vout: 13.81 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.02 vbat2 bat_top 13.91 vin: 16.25 vout: 13.94 ain: 2.4 aout: 0.18
+155 charging xcycle battery bat_down Vbat = 16.02, Vin = 16.25  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.06 vbat2 bat_top 13.91 vin: 16.22 vout: 13.8 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.06 vbat2 bat_top 13.9 vin: 16.27 vout: 13.92 ain: 2.4 aout: 0.0
+156 charging xcycle battery bat_down Vbat = 16.06, Vin = 16.27  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.04 vbat2 bat_top 13.91 vin: 16.28 vout: 13.87 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.07 vbat2 bat_top 13.91 vin: 16.23 vout: 13.92 ain: 2.4 aout: -0.18
+157 charging xcycle battery bat_down Vbat = 16.07, Vin = 16.23  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.09 vbat2 bat_top 13.9 vin: 16.27 vout: 13.86 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.04 vbat2 bat_top 13.91 vin: 16.26 vout: 13.89 ain: 2.4 aout: 0.09
+158 charging xcycle battery bat_down Vbat = 16.04, Vin = 16.26  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.08 vbat2 bat_top 13.91 vin: 16.25 vout: 13.81 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.07 vbat2 bat_top 13.9 vin: 16.31 vout: 13.96 ain: 2.4 aout: 0.0
+159 charging xcycle battery bat_down Vbat = 16.07, Vin = 16.31  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.06 vbat2 bat_top 13.91 vin: 16.29 vout: 13.94 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.1 vbat2 bat_top 13.9 vin: 16.28 vout: 13.87 ain: 2.4 aout: -0.18
+160 charging xcycle battery bat_down Vbat = 16.1, Vin = 16.28  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.11 vbat2 bat_top 13.9 vin: 16.27 vout: 13.98 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.1 vbat2 bat_top 13.9 vin: 16.32 vout: 13.92 ain: 2.4 aout: -0.09
+161 charging xcycle battery bat_down Vbat = 16.1, Vin = 16.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.12 vbat2 bat_top 13.9 vin: 16.33 vout: 13.96 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.08 vbat2 bat_top 13.9 vin: 16.34 vout: 13.8 ain: 2.4 aout: 0.0
+162 charging xcycle battery bat_down Vbat = 16.08, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.13 vbat2 bat_top 13.91 vin: 16.28 vout: 13.98 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.11 vbat2 bat_top 13.9 vin: 16.34 vout: 13.83 ain: 2.4 aout: 0.18
+163 charging xcycle battery bat_down Vbat = 16.11, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.14 vbat2 bat_top 13.9 vin: 16.31 vout: 13.96 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.15 vbat2 bat_top 13.9 vin: 16.32 vout: 13.94 ain: 2.4 aout: -0.09
+164 charging xcycle battery bat_down Vbat = 16.15, Vin = 16.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.15 vbat2 bat_top 13.9 vin: 16.34 vout: 13.95 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.12 vbat2 bat_top 13.91 vin: 16.33 vout: 13.98 ain: 2.4 aout: -0.18
+165 charging xcycle battery bat_down Vbat = 16.12, Vin = 16.33  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.16 vbat2 bat_top 13.9 vin: 16.34 vout: 13.93 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.15 vbat2 bat_top 13.91 vin: 16.32 vout: 13.94 ain: 2.4 aout: -0.18
+166 charging xcycle battery bat_down Vbat = 16.15, Vin = 16.32  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.14 vbat2 bat_top 13.91 vin: 16.34 vout: 13.94 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.17 vbat2 bat_top 13.9 vin: 16.38 vout: 13.94 ain: 2.4 aout: 0.0
+167 charging xcycle battery bat_down Vbat = 16.17, Vin = 16.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.14 vbat2 bat_top 13.9 vin: 16.38 vout: 13.91 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.18 vbat2 bat_top 13.9 vin: 16.38 vout: 13.9 ain: 2.4 aout: -0.09
+168 charging xcycle battery bat_down Vbat = 16.18, Vin = 16.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.16 vbat2 bat_top 13.9 vin: 16.38 vout: 13.94 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.18 vbat2 bat_top 13.9 vin: 16.34 vout: 13.99 ain: 2.4 aout: 0.0
+169 charging xcycle battery bat_down Vbat = 16.18, Vin = 16.34  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.17 vbat2 bat_top 13.91 vin: 16.36 vout: 13.9 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.16 vbat2 bat_top 13.9 vin: 16.42 vout: 13.96 ain: 2.4 aout: 0.09
+170 charging xcycle battery bat_down Vbat = 16.16, Vin = 16.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.21 vbat2 bat_top 13.9 vin: 16.38 vout: 13.94 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.18 vbat2 bat_top 13.9 vin: 16.42 vout: 13.79 ain: 2.4 aout: -0.09
+171 charging xcycle battery bat_down Vbat = 16.18, Vin = 16.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.18 vbat2 bat_top 13.9 vin: 16.41 vout: 13.79 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.2 vbat2 bat_top 13.9 vin: 16.37 vout: 13.83 ain: 2.4 aout: 0.09
+172 charging xcycle battery bat_down Vbat = 16.2, Vin = 16.37  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.23 vbat2 bat_top 13.89 vin: 16.42 vout: 13.92 ain: 2.4 aout: 0.27
+----vbat1 bat_down 16.22 vbat2 bat_top 13.9 vin: 16.38 vout: 13.91 ain: 2.4 aout: -0.18
+173 charging xcycle battery bat_down Vbat = 16.22, Vin = 16.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.25 vbat2 bat_top 13.89 vin: 16.42 vout: 13.93 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.22 vbat2 bat_top 13.9 vin: 16.46 vout: 13.85 ain: 2.4 aout: 0.0
+174 charging xcycle battery bat_down Vbat = 16.22, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.26 vbat2 bat_top 13.9 vin: 16.43 vout: 13.85 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.22 vbat2 bat_top 13.89 vin: 16.46 vout: 13.84 ain: 2.4 aout: -0.09
+175 charging xcycle battery bat_down Vbat = 16.22, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.23 vbat2 bat_top 13.9 vin: 16.47 vout: 13.93 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.21 vbat2 bat_top 13.9 vin: 16.44 vout: 13.9 ain: 2.4 aout: -0.18
+176 charging xcycle battery bat_down Vbat = 16.21, Vin = 16.44  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.25 vbat2 bat_top 13.9 vin: 16.41 vout: 13.79 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.22 vbat2 bat_top 13.9 vin: 16.48 vout: 13.95 ain: 2.4 aout: -0.18
+177 charging xcycle battery bat_down Vbat = 16.22, Vin = 16.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.27 vbat2 bat_top 13.9 vin: 16.46 vout: 13.96 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.26 vbat2 bat_top 13.9 vin: 16.43 vout: 13.94 ain: 2.4 aout: -0.09
+178 charging xcycle battery bat_down Vbat = 16.26, Vin = 16.43  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.27 vbat2 bat_top 13.9 vin: 16.45 vout: 13.89 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.28 vbat2 bat_top 13.89 vin: 16.46 vout: 13.98 ain: 2.4 aout: -0.09
+179 charging xcycle battery bat_down Vbat = 16.28, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.25 vbat2 bat_top 13.9 vin: 16.5 vout: 13.96 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.3 vbat2 bat_top 13.9 vin: 16.46 vout: 13.95 ain: 2.4 aout: 0.18
+180 charging xcycle battery bat_down Vbat = 16.3, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.28 vbat2 bat_top 13.89 vin: 16.51 vout: 13.94 ain: 2.4 aout: 0.27
+----vbat1 bat_down 16.3 vbat2 bat_top 13.89 vin: 16.48 vout: 13.97 ain: 2.4 aout: 0.09
+181 charging xcycle battery bat_down Vbat = 16.3, Vin = 16.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.27 vbat2 bat_top 13.9 vin: 16.48 vout: 13.81 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.26 vbat2 bat_top 13.9 vin: 16.49 vout: 13.98 ain: 2.4 aout: 0.18
+182 charging xcycle battery bat_down Vbat = 16.26, Vin = 16.49  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.26 vbat2 bat_top 13.9 vin: 16.53 vout: 13.9 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.29 vbat2 bat_top 13.9 vin: 16.48 vout: 13.92 ain: 2.4 aout: 0.18
+183 charging xcycle battery bat_down Vbat = 16.29, Vin = 16.48  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.29 vbat2 bat_top 13.9 vin: 16.5 vout: 13.89 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.3 vbat2 bat_top 13.9 vin: 16.46 vout: 13.95 ain: 2.4 aout: -0.37
+184 charging xcycle battery bat_down Vbat = 16.3, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.3 vbat2 bat_top 13.89 vin: 16.54 vout: 13.83 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.29 vbat2 bat_top 13.9 vin: 16.53 vout: 13.9 ain: 2.4 aout: -0.09
+185 charging xcycle battery bat_down Vbat = 16.29, Vin = 16.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.33 vbat2 bat_top 13.9 vin: 16.5 vout: 13.94 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.3 vbat2 bat_top 13.89 vin: 16.54 vout: 13.8 ain: 2.4 aout: 0.18
+186 charging xcycle battery bat_down Vbat = 16.3, Vin = 16.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.3 vbat2 bat_top 13.89 vin: 16.56 vout: 13.79 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.34 vbat2 bat_top 13.88 vin: 16.53 vout: 13.8 ain: 2.4 aout: -0.18
+187 charging xcycle battery bat_down Vbat = 16.34, Vin = 16.53  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.33 vbat2 bat_top 13.9 vin: 16.51 vout: 13.86 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.34 vbat2 bat_top 13.89 vin: 16.55 vout: 13.98 ain: 2.4 aout: -0.09
+188 charging xcycle battery bat_down Vbat = 16.34, Vin = 16.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.32 vbat2 bat_top 13.9 vin: 16.51 vout: 13.98 ain: 2.4 aout: -0.37
+----vbat1 bat_down 16.3 vbat2 bat_top 13.9 vin: 16.54 vout: 13.93 ain: 2.4 aout: -0.18
+189 charging xcycle battery bat_down Vbat = 16.3, Vin = 16.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.36 vbat2 bat_top 13.89 vin: 16.55 vout: 13.79 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.36 vbat2 bat_top 13.88 vin: 16.54 vout: 13.98 ain: 2.4 aout: -0.09
+190 charging xcycle battery bat_down Vbat = 16.36, Vin = 16.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.33 vbat2 bat_top 13.89 vin: 16.58 vout: 13.94 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.33 vbat2 bat_top 13.9 vin: 16.56 vout: 13.86 ain: 2.4 aout: 0.09
+191 charging xcycle battery bat_down Vbat = 16.33, Vin = 16.56  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.35 vbat2 bat_top 13.9 vin: 16.54 vout: 13.91 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.32 vbat2 bat_top 13.9 vin: 16.57 vout: 13.94 ain: 2.4 aout: -0.09
+192 charging xcycle battery bat_down Vbat = 16.32, Vin = 16.57  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.38 vbat2 bat_top 13.89 vin: 16.58 vout: 13.8 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.34 vbat2 bat_top 13.9 vin: 16.55 vout: 13.87 ain: 2.4 aout: -0.18
+193 charging xcycle battery bat_down Vbat = 16.34, Vin = 16.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.39 vbat2 bat_top 13.89 vin: 16.54 vout: 13.92 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.34 vbat2 bat_top 13.9 vin: 16.58 vout: 13.91 ain: 2.4 aout: 0.09
+194 charging xcycle battery bat_down Vbat = 16.34, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.38 vbat2 bat_top 13.88 vin: 16.58 vout: 13.94 ain: 2.4 aout: 0.27
+----vbat1 bat_down 16.39 vbat2 bat_top 13.89 vin: 16.55 vout: 13.85 ain: 2.4 aout: -0.09
+195 charging xcycle battery bat_down Vbat = 16.39, Vin = 16.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.35 vbat2 bat_top 13.89 vin: 16.61 vout: 13.92 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.39 vbat2 bat_top 13.89 vin: 16.56 vout: 13.86 ain: 2.4 aout: -0.18
+196 charging xcycle battery bat_down Vbat = 16.39, Vin = 16.56  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.39 vbat2 bat_top 13.88 vin: 16.61 vout: 13.92 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.4 vbat2 bat_top 13.88 vin: 16.58 vout: 13.9 ain: 2.4 aout: -0.27
+197 charging xcycle battery bat_down Vbat = 16.4, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.37 vbat2 bat_top 13.9 vin: 16.61 vout: 13.98 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.38 vbat2 bat_top 13.88 vin: 16.62 vout: 13.97 ain: 2.4 aout: 0.18
+198 charging xcycle battery bat_down Vbat = 16.38, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.38 vbat2 bat_top 13.89 vin: 16.62 vout: 13.92 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.39 vbat2 bat_top 13.9 vin: 16.55 vout: 13.87 ain: 2.4 aout: -0.18
+199 charging xcycle battery bat_down Vbat = 16.39, Vin = 16.55  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.38 vbat2 bat_top 13.9 vin: 16.59 vout: 13.88 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.37 vbat2 bat_top 13.89 vin: 16.62 vout: 13.92 ain: 2.4 aout: 0.18
+200 charging xcycle battery bat_down Vbat = 16.37, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.59 vout: 13.78 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.58 vout: 13.91 ain: 2.4 aout: 0.0
+201 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.4 vbat2 bat_top 13.9 vin: 16.6 vout: 13.82 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.42 vbat2 bat_top 13.88 vin: 16.64 vout: 13.92 ain: 2.4 aout: -0.09
+202 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.64  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.58 vout: 13.92 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.43 vbat2 bat_top 13.89 vin: 16.58 vout: 13.94 ain: 2.4 aout: -0.18
+203 charging xcycle battery bat_down Vbat = 16.43, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.41 vbat2 bat_top 13.88 vin: 16.66 vout: 13.88 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.58 vout: 13.9 ain: 2.4 aout: 0.0
+204 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.58 vout: 13.9 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.42 vbat2 bat_top 13.9 vin: 16.6 vout: 13.97 ain: 2.4 aout: 0.18
+205 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.6  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 13.88 vin: 16.67 vout: 13.77 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.43 vbat2 bat_top 13.89 vin: 16.61 vout: 13.9 ain: 2.4 aout: -0.09
+206 charging xcycle battery bat_down Vbat = 16.43, Vin = 16.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.61 vout: 13.92 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.43 vbat2 bat_top 13.88 vin: 16.66 vout: 13.87 ain: 2.4 aout: 0.27
+207 charging xcycle battery bat_down Vbat = 16.43, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.88 vin: 16.63 vout: 13.92 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.62 vout: 13.93 ain: 2.4 aout: -0.09
+208 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.45 vbat2 bat_top 13.89 vin: 16.63 vout: 13.89 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.67 vout: 13.94 ain: 2.4 aout: -0.18
+209 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.43 vbat2 bat_top 13.89 vin: 16.66 vout: 13.85 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.42 vbat2 bat_top 13.89 vin: 16.67 vout: 13.93 ain: 2.4 aout: 0.09
+210 charging xcycle battery bat_down Vbat = 16.42, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.64 vout: 13.82 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.44 vbat2 bat_top 13.89 vin: 16.68 vout: 13.97 ain: 2.4 aout: -0.09
+211 charging xcycle battery bat_down Vbat = 16.44, Vin = 16.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.63 vout: 13.93 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.65 vout: 13.8 ain: 2.4 aout: 0.09
+212 charging xcycle battery bat_down Vbat = 16.46, Vin = 16.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.63 vout: 13.94 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.49 vbat2 bat_top 13.87 vin: 16.69 vout: 13.93 ain: 2.4 aout: 0.18
+213 charging xcycle battery bat_down Vbat = 16.49, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.88 vin: 16.7 vout: 13.93 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.5 vbat2 bat_top 13.87 vin: 16.69 vout: 13.77 ain: 2.4 aout: -0.09
+214 charging xcycle battery bat_down Vbat = 16.5, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.49 vbat2 bat_top 13.89 vin: 16.65 vout: 13.96 ain: 2.4 aout: 0.27
+----vbat1 bat_down 16.45 vbat2 bat_top 13.88 vin: 16.72 vout: 13.79 ain: 2.4 aout: -0.18
+215 charging xcycle battery bat_down Vbat = 16.45, Vin = 16.72  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.69 vout: 13.88 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.69 vout: 13.9 ain: 2.4 aout: -0.09
+216 charging xcycle battery bat_down Vbat = 16.46, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.89 vin: 16.7 vout: 13.88 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.5 vbat2 bat_top 13.89 vin: 16.67 vout: 13.91 ain: 2.4 aout: -0.18
+217 charging xcycle battery bat_down Vbat = 16.5, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.46 vbat2 bat_top 13.88 vin: 16.72 vout: 13.91 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.48 vbat2 bat_top 13.88 vin: 16.71 vout: 13.95 ain: 2.4 aout: -0.18
+218 charging xcycle battery bat_down Vbat = 16.48, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.47 vbat2 bat_top 13.89 vin: 16.71 vout: 13.96 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.51 vbat2 bat_top 13.87 vin: 16.73 vout: 13.96 ain: 2.4 aout: -0.18
+219 charging xcycle battery bat_down Vbat = 16.51, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.53 vbat2 bat_top 13.87 vin: 16.72 vout: 13.78 ain: 2.8 aout: 0.0
+----vbat1 bat_down 16.5 vbat2 bat_top 13.89 vin: 16.69 vout: 13.93 ain: 2.4 aout: -0.18
+220 charging xcycle battery bat_down Vbat = 16.5, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.48 vbat2 bat_top 13.88 vin: 16.74 vout: 13.9 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.53 vbat2 bat_top 13.88 vin: 16.68 vout: 13.8 ain: 2.4 aout: -0.09
+221 charging xcycle battery bat_down Vbat = 16.53, Vin = 16.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.5 vbat2 bat_top 13.87 vin: 16.75 vout: 13.95 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.49 vbat2 bat_top 13.88 vin: 16.71 vout: 13.87 ain: 2.4 aout: -0.09
+222 charging xcycle battery bat_down Vbat = 16.49, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.54 vbat2 bat_top 13.87 vin: 16.72 vout: 13.9 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.54 vbat2 bat_top 13.87 vin: 16.71 vout: 13.93 ain: 2.4 aout: 0.37
+223 charging xcycle battery bat_down Vbat = 16.54, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.51 vbat2 bat_top 13.87 vin: 16.76 vout: 13.88 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.53 vbat2 bat_top 13.87 vin: 16.76 vout: 13.93 ain: 2.4 aout: 0.0
+224 charging xcycle battery bat_down Vbat = 16.53, Vin = 16.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.5 vbat2 bat_top 13.88 vin: 16.75 vout: 13.9 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.51 vbat2 bat_top 13.87 vin: 16.77 vout: 13.96 ain: 2.4 aout: -0.18
+225 charging xcycle battery bat_down Vbat = 16.51, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.51 vbat2 bat_top 13.88 vin: 16.77 vout: 13.84 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.55 vbat2 bat_top 13.88 vin: 16.71 vout: 13.93 ain: 2.4 aout: -0.18
+226 charging xcycle battery bat_down Vbat = 16.55, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.57 vbat2 bat_top 13.87 vin: 16.74 vout: 13.92 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.51 vbat2 bat_top 13.87 vin: 16.77 vout: 13.91 ain: 2.4 aout: -0.27
+227 charging xcycle battery bat_down Vbat = 16.51, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.51 vbat2 bat_top 13.87 vin: 16.78 vout: 13.88 ain: 2.8 aout: -0.09
+----vbat1 bat_down 16.53 vbat2 bat_top 13.87 vin: 16.78 vout: 13.94 ain: 2.4 aout: 0.09
+228 charging xcycle battery bat_down Vbat = 16.53, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.54 vbat2 bat_top 13.87 vin: 16.78 vout: 13.81 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.53 vbat2 bat_top 13.88 vin: 16.76 vout: 13.9 ain: 2.8 aout: -0.09
+229 charging xcycle battery bat_down Vbat = 16.53, Vin = 16.76  Ain 2.8
+PWM regulation is:  100
+----vbat1 bat_down 16.58 vbat2 bat_top 13.87 vin: 16.74 vout: 13.94 ain: 2.4 aout: 0.0
+----vbat1 bat_down 16.54 vbat2 bat_top 13.87 vin: 16.79 vout: 13.94 ain: 2.4 aout: -0.18
+230 charging xcycle battery bat_down Vbat = 16.54, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.55 vbat2 bat_top 13.88 vin: 16.77 vout: 13.96 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.54 vbat2 bat_top 13.87 vin: 16.79 vout: 13.92 ain: 2.4 aout: 0.09
+231 charging xcycle battery bat_down Vbat = 16.54, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.54 vbat2 bat_top 13.88 vin: 16.78 vout: 13.92 ain: 2.4 aout: 0.18
+----vbat1 bat_down 16.56 vbat2 bat_top 13.88 vin: 16.76 vout: 13.78 ain: 2.4 aout: -0.27
+232 charging xcycle battery bat_down Vbat = 16.56, Vin = 16.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.54 vbat2 bat_top 13.88 vin: 16.79 vout: 13.95 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.58 vbat2 bat_top 13.87 vin: 16.74 vout: 13.95 ain: 2.4 aout: -0.09
+233 charging xcycle battery bat_down Vbat = 16.58, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.59 vbat2 bat_top 13.86 vin: 16.78 vout: 13.88 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.59 vbat2 bat_top 13.86 vin: 16.77 vout: 13.82 ain: 2.4 aout: -0.18
+234 charging xcycle battery bat_down Vbat = 16.59, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.56 vbat2 bat_top 13.88 vin: 16.77 vout: 13.86 ain: 2.4 aout: 0.27
+----vbat1 bat_down 16.6 vbat2 bat_top 13.86 vin: 16.78 vout: 13.87 ain: 2.4 aout: -0.09
+235 charging xcycle battery bat_down Vbat = 16.6, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100 101 102 103 104 105 106 107 108 109 110 111 112 113 114 115 116 117 118 119 120 121 122 123 124 125 126 127 128 129 130 131 132 133 134 135 136 137 138 139 140 141 142 143 144 145 146 147 148 149 150 151 152 153 154 155 156 157 158 159 160 161 162 163 164 165 166 167 168 169 170 171 172 173 174 175 176 177 178 179 180 181 182 183 184 185 186 187 188 189 190 191 192 193 194 195 196 197 198 199 200 201 202 203 204 205 206 207 208 209 210 211 212 213 214 215 216 217 218 219 220 221 222 223 224 225 226 227 228 229 230 231 232 233 234 235 236
+13.74 13.78 13.98 14.06 14.09 14.13 14.14 14.2 14.18 14.18 14.23 14.22 14.26 14.28 14.26 14.31 14.31 14.33 14.34 14.32 14.35 14.39 14.38 14.37 14.39 14.44 14.41 14.46 14.43 14.54 14.51 14.49 14.51 14.57 14.6 14.62 14.63 14.66 14.64 14.7 14.73 14.71 14.73 14.74 14.78 14.77 14.81 14.81 14.8 14.85 14.88 14.85 14.86 14.86 14.9 14.92 14.94 14.95 14.93 14.93 14.98 14.99 15.0 15.02 15.04 15.06 15.04 15.07 15.05 15.09 15.14 15.1 15.13 15.16 15.15 15.18 15.2 15.2 15.24 15.25 15.26 15.27 15.26 15.3 15.28 15.3 15.34 15.31 15.31 15.37 15.35 15.36 15.38 15.42 15.42 15.44 15.46 15.43 15.48 15.5 15.49 15.49 15.5 15.5 15.53 15.51 15.52 15.55 15.54 15.58 15.58 15.62 15.63 15.64 15.65 15.63 15.64 15.67 15.7 15.69 15.72 15.72 15.73 15.72 15.76 15.77 15.78 15.75 15.75 15.77 15.82 15.82 15.8 15.85 15.82 15.86 15.87 15.87 15.86 15.91 15.9 15.91 15.89 15.95 15.96 15.94 15.96 15.94 15.99 15.95 16.02 16.02 15.99 16.02 16.05 16.02 16.06 16.07 16.04 16.07 16.1 16.1 16.08 16.11 16.15 16.12 16.15 16.17 16.18 16.18 16.16 16.18 16.2 16.22 16.22 16.22 16.21 16.22 16.26 16.28 16.3 16.3 16.26 16.29 16.3 16.29 16.3 16.34 16.34 16.3 16.36 16.33 16.32 16.34 16.34 16.39 16.39 16.4 16.38 16.39 16.37 16.42 16.42 16.43 16.42 16.42 16.43 16.43 16.42 16.42 16.42 16.44 16.46 16.49 16.5 16.45 16.46 16.5 16.48 16.51 16.5 16.53 16.49 16.54 16.53 16.51 16.55 16.51 16.53 16.53 16.54 16.54 16.56 16.58 16.59 16.6
+----vbat1 bat_down 16.58 vbat2 bat_top 13.88 vin: 16.78 vout: 15.82 ain: 6.0 aout: 0.09
+----vbat1 bat_down 15.78 vbat2 bat_top 13.64 vin: 19.04 vout: 15.74 ain: 2.8 aout: 0.09
+----vbat1 bat_down 15.4 vbat2 bat_top 13.64 vin: 19.04 vout: 15.68 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.62 vbat2 bat_top 14.18 vin: 14.42 vout: 15.68 ain: 2.0 aout: 0.09
+----vbat1 bat_down 15.59 vbat2 bat_top 14.2 vin: 14.44 vout: 15.59 ain: 2.0 aout: -0.09
+----vbat1 bat_down 15.56 vbat2 bat_top 14.23 vin: 14.46 vout: 15.6 ain: 2.0 aout: 0.09
+1 charging xcycle battery bat_top Vbat = 14.23, Vin = 14.46  Ain 2.0
+PWM regulation is:  100
+----vbat1 bat_down 15.02 vbat2 bat_top 14.7 vin: 14.9 vout: 15.06 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.02 vbat2 bat_top 14.68 vin: 14.94 vout: 14.91 ain: 2.4 aout: -0.18
+2 charging xcycle battery bat_top Vbat = 14.68, Vin = 14.94  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.88 vbat2 bat_top 14.9 vin: 15.1 vout: 14.91 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.88 vbat2 bat_top 14.9 vin: 15.1 vout: 14.92 ain: 2.4 aout: 0.09
+3 charging xcycle battery bat_top Vbat = 14.9, Vin = 15.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.78 vbat2 bat_top 15.06 vin: 15.28 vout: 14.84 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.79 vbat2 bat_top 15.05 vin: 15.24 vout: 14.82 ain: 2.4 aout: -0.09
+4 charging xcycle battery bat_top Vbat = 15.05, Vin = 15.24  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.72 vbat2 bat_top 15.21 vin: 15.41 vout: 14.81 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.72 vbat2 bat_top 15.22 vin: 15.42 vout: 14.8 ain: 2.4 aout: 0.0
+5 charging xcycle battery bat_top Vbat = 15.22, Vin = 15.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.66 vbat2 bat_top 15.43 vin: 15.62 vout: 14.66 ain: 2.4 aout: 0.27
+----vbat1 bat_down 14.66 vbat2 bat_top 15.44 vin: 15.64 vout: 14.74 ain: 2.4 aout: -0.18
+6 charging xcycle battery bat_top Vbat = 15.44, Vin = 15.64  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.6 vbat2 bat_top 15.66 vin: 15.83 vout: 14.66 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.59 vbat2 bat_top 15.66 vin: 15.86 vout: 14.63 ain: 2.4 aout: 0.18
+7 charging xcycle battery bat_top Vbat = 15.66, Vin = 15.86  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.56 vbat2 bat_top 15.82 vin: 16.05 vout: 14.61 ain: 2.4 aout: 0.37
+----vbat1 bat_down 14.56 vbat2 bat_top 15.82 vin: 16.01 vout: 14.64 ain: 2.4 aout: -0.09
+8 charging xcycle battery bat_top Vbat = 15.82, Vin = 16.01  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.51 vbat2 bat_top 15.97 vin: 16.19 vout: 14.55 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.52 vbat2 bat_top 15.98 vin: 16.17 vout: 14.56 ain: 2.4 aout: -0.09
+9 charging xcycle battery bat_top Vbat = 15.98, Vin = 16.17  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.5 vbat2 bat_top 16.05 vin: 16.28 vout: 14.47 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.5 vbat2 bat_top 16.07 vin: 16.27 vout: 14.39 ain: 2.4 aout: 0.18
+10 charging xcycle battery bat_top Vbat = 16.07, Vin = 16.27  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.46 vbat2 bat_top 16.14 vin: 16.37 vout: 14.36 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.46 vbat2 bat_top 16.14 vin: 16.38 vout: 14.49 ain: 2.4 aout: 0.0
+11 charging xcycle battery bat_top Vbat = 16.14, Vin = 16.38  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.44 vbat2 bat_top 16.22 vin: 16.4 vout: 14.52 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.44 vbat2 bat_top 16.2 vin: 16.42 vout: 14.49 ain: 2.4 aout: 0.0
+12 charging xcycle battery bat_top Vbat = 16.2, Vin = 16.42  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.42 vbat2 bat_top 16.23 vin: 16.46 vout: 14.36 ain: 2.4 aout: -0.27
+----vbat1 bat_down 14.42 vbat2 bat_top 16.23 vin: 16.46 vout: 14.48 ain: 2.4 aout: 0.09
+13 charging xcycle battery bat_top Vbat = 16.23, Vin = 16.46  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.39 vbat2 bat_top 16.27 vin: 16.5 vout: 14.39 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.39 vbat2 bat_top 16.28 vin: 16.51 vout: 14.44 ain: 2.4 aout: -0.27
+14 charging xcycle battery bat_top Vbat = 16.28, Vin = 16.51  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.38 vbat2 bat_top 16.29 vin: 16.53 vout: 14.36 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.37 vbat2 bat_top 16.31 vin: 16.51 vout: 14.38 ain: 2.4 aout: -0.18
+15 charging xcycle battery bat_top Vbat = 16.31, Vin = 16.51  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.36 vbat2 bat_top 16.33 vin: 16.54 vout: 14.4 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.36 vbat2 bat_top 16.31 vin: 16.54 vout: 14.28 ain: 2.4 aout: -0.09
+16 charging xcycle battery bat_top Vbat = 16.31, Vin = 16.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.34 vbat2 bat_top 16.32 vin: 16.56 vout: 14.39 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.34 vbat2 bat_top 16.36 vin: 16.54 vout: 14.34 ain: 2.4 aout: -0.27
+17 charging xcycle battery bat_top Vbat = 16.36, Vin = 16.54  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.34 vbat2 bat_top 16.34 vin: 16.58 vout: 14.4 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.33 vbat2 bat_top 16.37 vin: 16.58 vout: 14.33 ain: 2.4 aout: -0.18
+18 charging xcycle battery bat_top Vbat = 16.37, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.33 vbat2 bat_top 16.36 vin: 16.58 vout: 14.34 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.31 vbat2 bat_top 16.39 vin: 16.58 vout: 14.32 ain: 2.4 aout: 0.18
+19 charging xcycle battery bat_top Vbat = 16.39, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.3 vbat2 bat_top 16.41 vin: 16.59 vout: 14.38 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.31 vbat2 bat_top 16.4 vin: 16.58 vout: 14.34 ain: 2.4 aout: 0.09
+20 charging xcycle battery bat_top Vbat = 16.4, Vin = 16.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.3 vbat2 bat_top 16.4 vin: 16.62 vout: 14.38 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.3 vbat2 bat_top 16.4 vin: 16.61 vout: 14.26 ain: 2.4 aout: 0.0
+21 charging xcycle battery bat_top Vbat = 16.4, Vin = 16.61  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.28 vbat2 bat_top 16.43 vin: 16.64 vout: 14.36 ain: 2.4 aout: -0.18
+----vbat1 bat_down 14.3 vbat2 bat_top 16.41 vin: 16.62 vout: 14.36 ain: 2.4 aout: -0.18
+22 charging xcycle battery bat_top Vbat = 16.41, Vin = 16.62  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.28 vbat2 bat_top 16.44 vin: 16.62 vout: 14.26 ain: 2.4 aout: -0.37
+----vbat1 bat_down 14.27 vbat2 bat_top 16.42 vin: 16.66 vout: 14.36 ain: 2.4 aout: 0.18
+23 charging xcycle battery bat_top Vbat = 16.42, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.26 vbat2 bat_top 16.43 vin: 16.67 vout: 14.33 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.26 vbat2 bat_top 16.45 vin: 16.66 vout: 14.3 ain: 2.4 aout: 0.09
+24 charging xcycle battery bat_top Vbat = 16.45, Vin = 16.66  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.26 vbat2 bat_top 16.44 vin: 16.66 vout: 14.26 ain: 2.4 aout: -0.27
+----vbat1 bat_down 14.26 vbat2 bat_top 16.44 vin: 16.65 vout: 14.26 ain: 2.4 aout: 0.0
+25 charging xcycle battery bat_top Vbat = 16.44, Vin = 16.65  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.25 vbat2 bat_top 16.46 vin: 16.69 vout: 14.3 ain: 2.4 aout: -0.37
+----vbat1 bat_down 14.24 vbat2 bat_top 16.46 vin: 16.69 vout: 14.27 ain: 2.4 aout: 0.09
+26 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.69  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.24 vbat2 bat_top 16.48 vin: 16.67 vout: 14.27 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.24 vbat2 bat_top 16.46 vin: 16.7 vout: 14.16 ain: 2.4 aout: -0.27
+27 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.22 vbat2 bat_top 16.48 vin: 16.69 vout: 14.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.24 vbat2 bat_top 16.46 vin: 16.7 vout: 14.29 ain: 2.4 aout: -0.09
+28 charging xcycle battery bat_top Vbat = 16.46, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.23 vbat2 bat_top 16.5 vin: 16.67 vout: 14.26 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.23 vbat2 bat_top 16.49 vin: 16.67 vout: 14.27 ain: 2.4 aout: -0.18
+29 charging xcycle battery bat_top Vbat = 16.49, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.22 vbat2 bat_top 16.5 vin: 16.7 vout: 14.2 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.23 vbat2 bat_top 16.48 vin: 16.7 vout: 14.17 ain: 2.4 aout: -0.18
+30 charging xcycle battery bat_top Vbat = 16.48, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.21 vbat2 bat_top 16.5 vin: 16.7 vout: 14.14 ain: 2.4 aout: 0.27
+----vbat1 bat_down 14.21 vbat2 bat_top 16.5 vin: 16.72 vout: 14.24 ain: 2.4 aout: 0.0
+31 charging xcycle battery bat_top Vbat = 16.5, Vin = 16.72  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.2 vbat2 bat_top 16.51 vin: 16.71 vout: 14.24 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.22 vbat2 bat_top 16.5 vin: 16.68 vout: 14.25 ain: 2.4 aout: -0.09
+32 charging xcycle battery bat_top Vbat = 16.5, Vin = 16.68  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.2 vbat2 bat_top 16.5 vin: 16.74 vout: 14.26 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.2 vbat2 bat_top 16.52 vin: 16.73 vout: 14.26 ain: 2.4 aout: -0.09
+33 charging xcycle battery bat_top Vbat = 16.52, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.2 vbat2 bat_top 16.52 vin: 16.7 vout: 14.22 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.19 vbat2 bat_top 16.52 vin: 16.72 vout: 14.22 ain: 2.4 aout: 0.09
+34 charging xcycle battery bat_top Vbat = 16.52, Vin = 16.72  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.18 vbat2 bat_top 16.54 vin: 16.71 vout: 14.28 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.2 vbat2 bat_top 16.5 vin: 16.74 vout: 14.23 ain: 2.4 aout: 0.0
+35 charging xcycle battery bat_top Vbat = 16.5, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.19 vbat2 bat_top 16.51 vin: 16.71 vout: 14.06 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.18 vbat2 bat_top 16.51 vin: 16.75 vout: 14.21 ain: 2.4 aout: 0.18
+36 charging xcycle battery bat_top Vbat = 16.51, Vin = 16.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.18 vbat2 bat_top 16.54 vin: 16.71 vout: 14.25 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.18 vbat2 bat_top 16.53 vin: 16.73 vout: 14.26 ain: 2.4 aout: 0.09
+37 charging xcycle battery bat_top Vbat = 16.53, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.18 vbat2 bat_top 16.52 vin: 16.75 vout: 14.23 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.18 vbat2 bat_top 16.53 vin: 16.72 vout: 14.26 ain: 2.4 aout: -0.18
+38 charging xcycle battery bat_top Vbat = 16.53, Vin = 16.72  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.18 vbat2 bat_top 16.54 vin: 16.73 vout: 14.08 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.18 vbat2 bat_top 16.54 vin: 16.74 vout: 14.06 ain: 2.4 aout: 0.27
+39 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.17 vbat2 bat_top 16.56 vin: 16.73 vout: 14.05 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.17 vbat2 bat_top 16.54 vin: 16.78 vout: 14.22 ain: 2.4 aout: -0.09
+40 charging xcycle battery bat_top Vbat = 16.54, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.16 vbat2 bat_top 16.56 vin: 16.74 vout: 14.05 ain: 2.4 aout: -0.27
+----vbat1 bat_down 14.15 vbat2 bat_top 16.55 vin: 16.78 vout: 14.14 ain: 2.4 aout: -0.09
+41 charging xcycle battery bat_top Vbat = 16.55, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.15 vbat2 bat_top 16.54 vin: 16.78 vout: 14.08 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.15 vbat2 bat_top 16.57 vin: 16.77 vout: 14.17 ain: 2.4 aout: 0.09
+42 charging xcycle battery bat_top Vbat = 16.57, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.15 vbat2 bat_top 16.56 vin: 16.74 vout: 14.18 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.14 vbat2 bat_top 16.56 vin: 16.78 vout: 14.2 ain: 2.4 aout: -0.09
+43 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.14 vbat2 bat_top 16.56 vin: 16.79 vout: 14.14 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.15 vbat2 bat_top 16.55 vin: 16.76 vout: 14.23 ain: 2.4 aout: -0.27
+44 charging xcycle battery bat_top Vbat = 16.55, Vin = 16.76  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.14 vbat2 bat_top 16.56 vin: 16.8 vout: 14.21 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.15 vbat2 bat_top 16.56 vin: 16.77 vout: 14.17 ain: 2.4 aout: -0.09
+45 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.14 vbat2 bat_top 16.56 vin: 16.78 vout: 14.08 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.14 vbat2 bat_top 16.58 vin: 16.75 vout: 14.19 ain: 2.4 aout: 0.18
+46 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.75  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.13 vbat2 bat_top 16.57 vin: 16.81 vout: 14.18 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.14 vbat2 bat_top 16.56 vin: 16.79 vout: 14.18 ain: 2.4 aout: 0.18
+47 charging xcycle battery bat_top Vbat = 16.56, Vin = 16.79  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.14 vbat2 bat_top 16.58 vin: 16.76 vout: 14.15 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.14 vbat2 bat_top 16.58 vin: 16.77 vout: 14.16 ain: 2.4 aout: -0.09
+48 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.77  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.14 vbat2 bat_top 16.58 vin: 16.77 vout: 14.09 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.12 vbat2 bat_top 16.58 vin: 16.82 vout: 14.21 ain: 2.4 aout: 0.09
+49 charging xcycle battery bat_top Vbat = 16.58, Vin = 16.82  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.12 vbat2 bat_top 16.6 vin: 16.78 vout: 14.16 ain: 2.4 aout: 0.18
+----vbat1 bat_down 14.13 vbat2 bat_top 16.59 vin: 16.78 vout: 14.2 ain: 2.4 aout: -0.09
+50 charging xcycle battery bat_top Vbat = 16.59, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 14.13 vbat2 bat_top 16.58 vin: 16.8 vout: 14.14 ain: 2.4 aout: -0.09
+----vbat1 bat_down 14.12 vbat2 bat_top 16.6 vin: 16.81 vout: 14.18 ain: 2.4 aout: -0.09
+51 charging xcycle battery bat_top Vbat = 16.6, Vin = 16.81  Ain 2.4
+PWM regulation is:  100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52
+14.18 14.23 14.68 14.9 15.05 15.22 15.44 15.66 15.82 15.98 16.07 16.14 16.2 16.23 16.28 16.31 16.31 16.36 16.37 16.39 16.4 16.4 16.41 16.42 16.45 16.44 16.46 16.46 16.46 16.49 16.48 16.5 16.5 16.52 16.52 16.5 16.51 16.53 16.53 16.54 16.54 16.55 16.57 16.56 16.55 16.56 16.58 16.56 16.58 16.58 16.59 16.6
+----vbat1 bat_down 14.12 vbat2 bat_top 16.61 vin: 16.78 vout: 16.0 ain: -1.6 aout: -0.09
+----vbat1 bat_down 13.88 vbat2 bat_top 15.96 vin: 19.04 vout: 15.89 ain: 2.8 aout: 0.09
+----vbat1 bat_down 13.89 vbat2 bat_top 15.48 vin: 19.04 vout: 15.77 ain: 2.4 aout: 0.09
+----vbat1 bat_down 14.64 vbat2 bat_top 15.69 vin: 14.82 vout: 15.72 ain: 2.4 aout: -0.37
+----vbat1 bat_down 14.63 vbat2 bat_top 15.67 vin: 14.85 vout: 15.67 ain: 2.4 aout: 0.0
+----vbat1 bat_down 14.67 vbat2 bat_top 15.65 vin: 14.84 vout: 15.65 ain: 2.4 aout: 0.27
+1 charging xcycle battery bat_down Vbat = 14.67, Vin = 14.84  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.38 vbat2 bat_top 15.14 vin: 15.61 vout: 15.1 ain: 2.4 aout: -0.09
+----vbat1 bat_down 15.42 vbat2 bat_top 15.14 vin: 15.58 vout: 15.15 ain: 2.4 aout: 0.09
+2 charging xcycle battery bat_down Vbat = 15.42, Vin = 15.58  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 15.88 vbat2 bat_top 14.98 vin: 16.08 vout: 15.04 ain: 2.4 aout: -0.18
+----vbat1 bat_down 15.89 vbat2 bat_top 14.97 vin: 16.1 vout: 14.92 ain: 2.4 aout: 0.0
+3 charging xcycle battery bat_down Vbat = 15.89, Vin = 16.1  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.26 vbat2 bat_top 14.85 vin: 16.5 vout: 14.9 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.26 vbat2 bat_top 14.85 vin: 16.51 vout: 14.87 ain: 2.4 aout: -0.27
+4 charging xcycle battery bat_down Vbat = 16.26, Vin = 16.51  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 14.75 vin: 16.58 vout: 14.79 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.37 vbat2 bat_top 14.75 vin: 16.63 vout: 14.8 ain: 2.4 aout: -0.09
+5 charging xcycle battery bat_down Vbat = 16.37, Vin = 16.63  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.42 vbat2 bat_top 14.66 vin: 16.69 vout: 14.71 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.47 vbat2 bat_top 14.66 vin: 16.67 vout: 14.72 ain: 2.4 aout: -0.09
+6 charging xcycle battery bat_down Vbat = 16.47, Vin = 16.67  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.49 vbat2 bat_top 14.58 vin: 16.73 vout: 14.56 ain: 2.8 aout: 0.09
+----vbat1 bat_down 16.49 vbat2 bat_top 14.58 vin: 16.73 vout: 14.61 ain: 2.4 aout: -0.18
+7 charging xcycle battery bat_down Vbat = 16.49, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.5 vbat2 bat_top 14.54 vin: 16.74 vout: 14.59 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.5 vbat2 bat_top 14.54 vin: 16.7 vout: 14.55 ain: 2.4 aout: 0.37
+8 charging xcycle battery bat_down Vbat = 16.5, Vin = 16.7  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.52 vbat2 bat_top 14.5 vin: 16.71 vout: 14.46 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.5 vbat2 bat_top 14.5 vin: 16.73 vout: 14.58 ain: 2.4 aout: -0.18
+9 charging xcycle battery bat_down Vbat = 16.5, Vin = 16.73  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.54 vbat2 bat_top 14.46 vin: 16.72 vout: 14.54 ain: 2.4 aout: -0.27
+----vbat1 bat_down 16.55 vbat2 bat_top 14.46 vin: 16.71 vout: 14.39 ain: 2.4 aout: 0.09
+10 charging xcycle battery bat_down Vbat = 16.55, Vin = 16.71  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.55 vbat2 bat_top 14.43 vin: 16.73 vout: 14.39 ain: 2.8 aout: -0.18
+----vbat1 bat_down 16.53 vbat2 bat_top 14.42 vin: 16.78 vout: 14.47 ain: 2.4 aout: 0.18
+11 charging xcycle battery bat_down Vbat = 16.53, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.58 vbat2 bat_top 14.39 vin: 16.74 vout: 14.44 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.58 vbat2 bat_top 14.39 vin: 16.78 vout: 14.48 ain: 2.4 aout: 0.09
+12 charging xcycle battery bat_down Vbat = 16.58, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.57 vbat2 bat_top 14.38 vin: 16.75 vout: 14.42 ain: 2.4 aout: -0.18
+----vbat1 bat_down 16.58 vbat2 bat_top 14.38 vin: 16.74 vout: 14.4 ain: 2.4 aout: 0.0
+13 charging xcycle battery bat_down Vbat = 16.58, Vin = 16.74  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.59 vbat2 bat_top 14.34 vin: 16.79 vout: 14.4 ain: 2.4 aout: -0.09
+----vbat1 bat_down 16.59 vbat2 bat_top 14.34 vin: 16.8 vout: 14.39 ain: 2.4 aout: 0.09
+14 charging xcycle battery bat_down Vbat = 16.59, Vin = 16.8  Ain 2.4
+PWM regulation is:  100
+----vbat1 bat_down 16.6 vbat2 bat_top 14.32 vin: 16.81 vout: 14.4 ain: 2.4 aout: 0.09
+----vbat1 bat_down 16.6 vbat2 bat_top 14.32 vin: 16.78 vout: 14.24 ain: 2.4 aout: -0.09
+15 charging xcycle battery bat_down Vbat = 16.6, Vin = 16.78  Ain 2.4
+PWM regulation is:  100
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+14.64 14.67 15.42 15.89 16.26 16.37 16.47 16.49 16.5 16.5 16.55 16.53 16.58 16.58 16.59 16.6
+----vbat1 bat_down 16.58 vbat2 bat_top 14.3 vin: 16.82 vout: 15.82 ain: 2.4 aout: 0.09
+----vbat1 bat_down 15.79 vbat2 bat_top 14.07 vin: 19.04 vout: 15.75 ain: 2.8 aout: -0.27
+ cycle = 5 reached num_period = 5 charging / discharging period 
