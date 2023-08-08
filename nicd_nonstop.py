@@ -4,7 +4,7 @@ from ina219 import INA219
 import time
 import datetime
 import logging
-logging.basicConfig(format='%(asctime)s - %(message)s',filename='/home/sklep/digivolt/logs/log_nicd_tester.log')
+logging.basicConfig(format='%(asctime)s - %(message)s',filename='/home/sklep/digivoltjuta/logs/log_nicd_tester.log')
 from board import SCL, SDA
 import busio
 from oled_text import OledText
@@ -154,7 +154,7 @@ def charging(battery, pinrelebat, pinrelebat2, maxvbat):
     plt.xlabel(f"time period {waiting} sec")
     plt.ylabel('voltage')
     plt.title(f"charging battery {battery} took {xcycle} period")
-    plt.savefig(f"/home/sklep/digivolt/graphs/charge_{battery}_{datum}.png")
+    plt.savefig(f"/home/sklep/digivoltjuta/graphs/charge_{battery}_{datum}.png")
     plt.clf()
     print (*x)
     print (*y)
@@ -183,13 +183,13 @@ try:
 # -------------- editing fields -----------------------
                 # bat_down battery
                 battery = "bat_down"
-                maxvbat = 16.8
+                maxvbat = 16.2
                 pinrelebat = pinrele3
                 pinrelebat2 = pinrele2
             else:
                 # bat_top battery
                 battery = "bat_top"
-                maxvbat = 16.8
+                maxvbat = 16.2
                 pinrelebat = pinrele2
                 pinrelebat2 = pinrele3
 # -------------- editing fields -----------------------
