@@ -19,7 +19,7 @@ ina3221 = INA3221(i2c_bus)
 
 import matplotlib.pyplot as plt
 #editable  valus -- battery setting is below while
-num_period = 3		#how many times charge and discharge
+num_period = 4		#how many times charge and discharge
 waiting = 60			# delay interval for next measurement
 
 import RPi.GPIO as GPIO
@@ -170,7 +170,7 @@ def charging(battery, pinrelebat, pinrelebat2, maxvbat):
 try:
     cycle = 1
     while cycle < num_period:
-        battery = "bat_down"
+        battery = "bat_top"
         read_ina()
         ina = read_ina()
         print(f"{cycle} CYCLE begining vin {ina['vin']} vbat1 {ina['vbat1']} vbat2 {ina['vbat2']}")
