@@ -110,8 +110,8 @@ else:
     # print(f"{dt} vout on {vout_on} real {vout} baterka  {vbattop}")
 
 #---------------- main -------------------------
-maxv = 12
-minv = 10
+maxv = 14
+minv = 11
 
 ################# vin on ##############################################
 
