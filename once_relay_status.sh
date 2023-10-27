@@ -2,25 +2,25 @@
 import RPi.GPIO as GPIO
 import time
 
-in1 = 13
-in2 = 20
+batdown = 13
+battop = 20
 in3 = 16
-in4 = 21
+vin = 21
 
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(in1, GPIO.OUT)
-GPIO.setup(in2, GPIO.OUT)
+GPIO.setup(batdown, GPIO.OUT)
+GPIO.setup(battop, GPIO.OUT)
 GPIO.setup(in3, GPIO.OUT)
-GPIO.setup(in4, GPIO.OUT)
+GPIO.setup(vin, GPIO.OUT)
 
 
-status = GPIO.input(in1)
+status = GPIO.input(batdown)
 if status:
 	rbatdown = 0
 else:
 	rbatdown = 1
 
-status = GPIO.input(in2)
+status = GPIO.input(battop)
 if status:
 	rbattop = 0
 else:
@@ -32,7 +32,7 @@ if status:
 else:
 	rout = 1
 
-status = GPIO.input(in4)
+status = GPIO.input(vin)
 if status:
 	rin = 0
 else:
@@ -40,14 +40,14 @@ else:
 
 print(f" rbatdown je {rbatdown}, rbattop je {rbattop}, rout je {rout}, rin je {rin} ")
 print(f" 1 is off, 0 is on")
-#GPIO.output(in1, GPIO.LOW)
-#GPIO.output(in2, GPIO.LOW)
+#GPIO.output(batdown, GPIO.LOW)
+#GPIO.output(battop, GPIO.LOW)
 #GPIO.output(in3, GPIO.LOW)
-#GPIO.output(in4, GPIO.LOW)
+#GPIO.output(vin, GPIO.LOW)
 #time.sleep(2)
-#GPIO.output(in1, GPIO.HIGH)
-#GPIO.output(in2, GPIO.HIGH)
+#GPIO.output(batdown, GPIO.HIGH)
+#GPIO.output(battop, GPIO.HIGH)
 #GPIO.output(in3, GPIO.HIGH)
-#GPIO.output(in4, GPIO.HIGH)
+#GPIO.output(vin, GPIO.HIGH)
 
 GPIO.cleanup()
