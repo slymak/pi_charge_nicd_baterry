@@ -23,24 +23,18 @@ from ina219 import INA219
 
 # PIN settings
 import RPi.GPIO as GPIO
-pinrelevout = 16           #vout
+pinrelebatbottom = 16           #batbottom
 pinrelebattop = 20           #battop 13
 pinrelebatdown = 13           #battdown  20
 pinrelevin = 21           #vin 230v
 
-############ using values from wetter.py
-# batf = open("/home/sklep/digivoltjuta/vbattop_value","r")
-# vbattop_value = float(batf.read())
-# batf.close()
-
 #reley
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BCM)
-GPIO.setup(pinrelevout, GPIO.OUT)
+GPIO.setup(pinrelebatbottom, GPIO.OUT)
 GPIO.setup(pinrelebatdown, GPIO.OUT)
 GPIO.setup(pinrelebattop, GPIO.OUT)
 GPIO.setup(pinrelevin, GPIO.OUT)
-
 
 # def read_ina():
 ina3221.enable_channel(1)
@@ -65,12 +59,12 @@ vbatdownoled = "vbatdown ",vbatdown
 oled.text(vbatdownoled,2)
 vbattopoled = "vbattop ",vbattop
 oled.text(vbattopoled,3)
-vout = float("{:.2f}".format(ina2.voltage()))
-voutoled = 'vout ',vout
-oled.text(voutoled, 4)
+batbottom = float("{:.2f}".format(ina2.voltage()))
+batbottomoled = 'bottom ',batbottom
+oled.text(batbottomoled, 4)
 aout = float("{:.2f}".format(ina2.current()))
 oled.text(dt, 5)
-print(f"vbatdown {vbatdown} vbattop {vbattop} vin: {vin} vout: {vout} ain: {ain} aout: {aout}")
+print(f"vbatdown {vbatdown} vbattop {vbattop} vin: {vin} batbottom: {batbottom} ain: {ain} aout: {aout}")
 
 
 statusvin = GPIO.input(pinrelevin)
@@ -100,30 +94,30 @@ else:
     battop_on = True
     battop_off = False
 
-statusvout = GPIO.input(pinrelevout)
-if statusvout:
-    vout_on = True
-    vout_off = False
+statusbatbottom = GPIO.input(pinrelebatbottom)
+if statusbatbottom:
+    batbottom_on = True
+    batbottom_off = False
 else:
-    vout_on = True
-    vout_off = False
-    # print(f"{dt} vout on {vout_on} real {vout} baterka  {vbattop}")
+    batbottom_on = True
+    batbottom_off = False
+    # print(f"{dt} batbottom on {batbottom_on} real {batbottom} baterka  {vbattop}")
 
 #---------------- main -------------------------
-maxv = 14.9
+maxv = 14.5
 minv = 11
 
 ################# vin on ##############################################
 
 if vin_on == True and vbatdown > maxv:
      GPIO.output(pinrelevin, GPIO.HIGH)
-     print(f"{dt} VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
-     logging.warning(f" VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
+     print(f"{dt} VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
+     logging.warning(f" VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
 
 # ################# off vin ###############################################
 
 
 if vin_on == False and vbatdown < minv:
      GPIO.output(pinrelevin, GPIO.LOW)
-     print(f"{dt} ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
-     logging.warning(f" ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
+     print(f"{dt} ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
+     logging.warning(f" ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
