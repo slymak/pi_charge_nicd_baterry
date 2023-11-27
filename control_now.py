@@ -24,8 +24,8 @@ from ina219 import INA219
 # PIN settings
 import RPi.GPIO as GPIO
 pinrelevout = 16           #vout
-pinrelebatdown = 13           #batdown h4 bulb 4A
-pinrelebattop = 20           #not use
+pinrelebattop = 20           #battop 13
+pinrelebatdown = 13           #battdown  20
 pinrelevin = 21           #vin 230v
 
 ############ using values from wetter.py
@@ -86,7 +86,7 @@ statusbatdown = GPIO.input(pinrelebatdown)
 if statusbatdown:
     batdown_on = False
     batdown_off = True
-    # print(f"{dt}   batdown on {batdown_on} _off {batdown_off} ")
+    print(f"{dt}   batdown on {batdown_on} _off {batdown_off} ")
 else:
     batdown_on = True
     batdown_off = False
@@ -95,7 +95,7 @@ statusbattop = GPIO.input(pinrelebattop)
 if statusbattop:
     battop_on = False
     battop_off = True
-    # print(f"{dt}   battop on {battop_on} _off {battop_off} ")
+    print(f"{dt}   battop on {battop_on} _off {battop_off} ")
 else:
     battop_on = True
     battop_off = False
@@ -110,12 +110,12 @@ else:
     # print(f"{dt} vout on {vout_on} real {vout} baterka  {vbattop}")
 
 #---------------- main -------------------------
-maxv = 14
+maxv = 14.9
 minv = 11
 
 ################# vin on ##############################################
 
-if vin_on == True and vbattop > maxv:
+if vin_on == True and vbatdown > maxv:
      GPIO.output(pinrelevin, GPIO.HIGH)
      print(f"{dt} VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
      logging.warning(f" VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
@@ -123,7 +123,7 @@ if vin_on == True and vbattop > maxv:
 # ################# off vin ###############################################
 
 
-if vin_on == False and vbattop < minv:
+if vin_on == False and vbatdown < minv:
      GPIO.output(pinrelevin, GPIO.LOW)
      print(f"{dt} ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")
      logging.warning(f" ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} vout: {vout}")

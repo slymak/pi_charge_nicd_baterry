@@ -2,8 +2,8 @@
 import RPi.GPIO as GPIO
 import time
 
-batdown = 13
-battop = 20
+battop = 13
+batdown = 20
 in3 = 16
 vin = 21
 
