@@ -59,12 +59,12 @@ vbatdownoled = "vbatdown ",vbatdown
 oled.text(vbatdownoled,2)
 vbattopoled = "vbattop ",vbattop
 oled.text(vbattopoled,3)
-batbottom = float("{:.2f}".format(ina2.voltage()))
-batbottomoled = 'bottom ',batbottom
+vbatbottom = float("{:.2f}".format(ina2.voltage()))
+batbottomoled = 'bottom ',vbatbottom
 oled.text(batbottomoled, 4)
 aout = float("{:.2f}".format(ina2.current()))
 oled.text(dt, 5)
-print(f"vbatdown {vbatdown} vbattop {vbattop} vin: {vin} batbottom: {batbottom} ain: {ain} aout: {aout}")
+print(f"vbatdown {vbatdown} vbattop {vbattop} vin: {vin} vbatbottom: {vbatbottom} ain: {ain} aout: {aout}")
 
 
 statusvin = GPIO.input(pinrelevin)
@@ -101,23 +101,55 @@ if statusbatbottom:
 else:
     batbottom_on = True
     batbottom_off = False
-    # print(f"{dt} batbottom on {batbottom_on} real {batbottom} baterka  {vbattop}")
+    # print(f"{dt} vbatbottom on {batbottom_on} real {batbottom} baterka  {vbattop}")
 
 #---------------- main -------------------------
-maxv = 14.5
-minv = 11
+maxvdown = 14.5
+minvdown = 11
 
-################# vin on ##############################################
+maxvtop = 14.8
+minvtop = 11
 
-if vin_on == True and vbatdown > maxv:
+maxvbottom = 12
+minvbottom = 4
+
+################# reley operation ##############################################
+# switch on top
+if battop_off == True and vbattop < minvtop:
+     GPIO.output(pinrelebattop, GPIO.LOW)
+     print(f"{dt} ZAPINAM 1 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" ZAPINAM 1 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+# switch off bottom
+if battop_on == True and vbattop > maxvtop:
+     GPIO.output(pinrelebattop, GPIO.HIGH)
+     print(f"{dt} VYPINAM 1 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" VYPINAM 1 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+
+# switch on down
+if batdown_off == True and vbatdown < minvdown:
+     GPIO.output(pinrelebatdown, GPIO.LOW)
+     print(f"{dt} ZAPINAM 2 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" ZAPINAM 2 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+# switch off down
+if batdown_on == True and vbatdown > maxvdown:
+     GPIO.output(pinrelebatdown, GPIO.HIGH)
+     print(f"{dt} VYPINAM 2 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" VYPINAM 2 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+
+# switch on bottom
+if batbottom_off == True and vbatbottom < minvbottom:
+     GPIO.output(pinrelebatbottom, GPIO.LOW)
+     print(f"{dt} ZAPINAM 3 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" ZAPINAM 3 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+# switch off bottom
+if batbottom_on == True and vbatbottom > maxvbottom:
+     GPIO.output(pinrelebatbottom, GPIO.HIGH)
+     print(f"{dt} VYPINAM 3 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" VYPINAM 3 vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+
+
+# swith off power in
+if vin_on == True and (vbattop > maxvtop or vbatdown > maxvdown or vbatbottom > maxvbottom):
      GPIO.output(pinrelevin, GPIO.HIGH)
-     print(f"{dt} VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
-     logging.warning(f" VYPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
-
-# ################# off vin ###############################################
-
-
-if vin_on == False and vbatdown < minv:
-     GPIO.output(pinrelevin, GPIO.LOW)
-     print(f"{dt} ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
-     logging.warning(f" ZAPINAM vin {vin}, maxv {maxv}, vbatdown {vbatdown} vbattop  {vbattop} batbottom: {batbottom}")
+     print(f"{dt} VYPINAM vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
+     logging.warning(f" VYPINAM vin {vin},vbattop {vbattop}, maxvdown {maxvdown}, vbatbottom: {vbatbottom}")
